@@ -18,9 +18,9 @@ public class Productos
     public int Stock { get => this.stock; set => this.stock = value; }
     public DateTime FechaVencimiento { get => this.fechaVencimiento; set => this.fechaVencimiento = value; }
     public double PrecioUnitario { get => this.precioUnitario; set => this.precioUnitario = value; }
-    public Categorias Categoria { get => this.categoria; set => this.categoria = value; }
-    public Estados Estado { get => this.estado; set => this.estado = value; }
-    public Proveedores Proveedor { get => this.proveedor; set => this.proveedor = value; }
+    public Categorias? Categoria { get => this.categoria; set => this.categoria = value; }
+    public Estados? Estado { get => this.estado; set => this.estado = value; }
+    public Proveedores? Proveedor { get => this.proveedor; set => this.proveedor = value; }
 }
 
 
@@ -39,6 +39,7 @@ public class Estantes
     public Productos? Producto { get => this.producto; set => this.producto = value; }
     public Bodegas? Bodega { get => this.bodega; set => this.bodega = value; }
     public Categorias? Categoria { get => this.categoria; set => this.categoria = value; }
+    public int Cantidad_productos { get => cantidad_productos; set => cantidad_productos = value; }}
 }
 
 public class Bodegas 
@@ -46,14 +47,14 @@ public class Bodegas
     public Bodegas() { }
 
     private int id_bodega = 0;
-	private string fecha = "";
+	private DateTime fecha_llegada = null;
 	private int cantidad = 0;
 	private int valor_total = 0;
 
-    public string Id_bodega { get => this.id_bodega; set => this.id_bodega = value; }
-    public string Fecha { get => this.fecha; set => this.fecha = value; }
-    public string Cantidad { get => this.cantidad; set => this.cantidad = value; }
-    public string Valor_total { get => this.valor_total; set => this.valor_total = value; }
+    public int Id_bodega { get => this.id_bodega; set => this.id_bodega = value; }
+    public DateTime Fecha_llegada { get => this.fecha_llegada; set => this.fecha_llegada = value; }
+    public int Cantidad { get => this.cantidad; set => this.cantidad = value; }
+    public int Valor_total { get => this.valor_total; set => this.valor_total = value; }
 
 }
 
@@ -104,7 +105,7 @@ public class Estados
     private string nombre = "";
 
     public string Nombre { get => this.nombre; set => this.nombre = value; }
-    public string Id_Estado { get => this.id_Estado; set => this.id_Estado = value; }
+    public int Id_Estado { get => this.id_Estado; set => this.id_Estado = value; }
 }
 
 public class Proveedores
@@ -117,7 +118,7 @@ public class Proveedores
     private string telefono = "",
 
     public int Id { get => this.id; set => this.id = value; }
-    public int Nombre { get => this.nombre; set => this.nombre = value; }
-    public int Direccion { get => this.direcion; set => this.direccion = value; }
-    public int Telefono { get => this.telefono; set => this.telefono = value; }
+    public string Nombre { get => this.nombre; set => this.nombre = value; }
+    public string Direccion { get => this.direcion; set => this.direccion = value; }
+    public string Telefono { get => this.telefono; set => this.telefono = value; }
 }
