@@ -21,6 +21,7 @@ public class Productos
     public Categorias? Categoria { get => this.categoria; set => this.categoria = value; }
     public Estados? Estado { get => this.estado; set => this.estado = value; }
     public Proveedores? Proveedor { get => this.proveedor; set => this.proveedor = value; }
+
 }
 
 
@@ -40,6 +41,8 @@ public class Estantes
     public Bodegas? Bodega { get => this.bodega; set => this.bodega = value; }
     public Categorias? Categoria { get => this.categoria; set => this.categoria = value; }
     public int Cantidad_productos { get => cantidad_productos; set => cantidad_productos = value; }
+
+    public void calcularPrecioEstante() { }
 }
 
 public class Bodegas
@@ -55,6 +58,7 @@ public class Bodegas
     public DateTime Fecha_llegada { get => this.fecha_llegada; set => this.fecha_llegada = value; }
     public int Cantidad { get => this.cantidad; set => this.cantidad = value; }
     public int Valor_total { get => this.valor_total; set => this.valor_total = value; }
+    public void calcularPrecioBodega() { }
 
 }
 
@@ -72,6 +76,7 @@ public class Sucursales
     public Bodegas? Bodega { get => this.bodega; set => this.bodega = value; }
     public string Nombre { get => this.Nombre; set => this.Nombre = value; }
     public string Direccion { get => this.direccion; set => this.direccion = value; }
+    public void calcularPrecioSucursal() { }
 }
 
 // Creamos la clase Categorías
