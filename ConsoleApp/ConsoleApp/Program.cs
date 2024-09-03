@@ -2,12 +2,12 @@
 
 public class Productos
 {
-    public Productos(){ }
+    public Productos() { }
 
     private int id_Producto = 0;
     private string nombre = "";
     private int stock = 0;
-    private DateTime? fechaVencimiento = null;
+    private DateTime fechaVencimiento;
     private double precioUnitario = 0.0;
     private Categorias? categoria = null;
     private Estados? estado = null;
@@ -28,7 +28,7 @@ public class Estantes
 {
     public Estantes() { }
 
-    private int id = 0,
+    private int id = 0;
     private Productos? producto = null;
     private Bodegas? bodega = null;
     private Categorias? categoria = null;
@@ -39,17 +39,17 @@ public class Estantes
     public Productos? Producto { get => this.producto; set => this.producto = value; }
     public Bodegas? Bodega { get => this.bodega; set => this.bodega = value; }
     public Categorias? Categoria { get => this.categoria; set => this.categoria = value; }
-    public int Cantidad_productos { get => cantidad_productos; set => cantidad_productos = value; }}
+    public int Cantidad_productos { get => cantidad_productos; set => cantidad_productos = value; }
 }
 
-public class Bodegas 
+public class Bodegas
 {
     public Bodegas() { }
 
     private int id_bodega = 0;
-	private DateTime fecha_llegada = null;
-	private int cantidad = 0;
-	private int valor_total = 0;
+    private DateTime fecha_llegada;
+    private int cantidad = 0;
+    private int valor_total = 0;
 
     public int Id_bodega { get => this.id_bodega; set => this.id_bodega = value; }
     public DateTime Fecha_llegada { get => this.fecha_llegada; set => this.fecha_llegada = value; }
@@ -63,15 +63,15 @@ public class Sucursales
     public Sucursales() { }
 
     private int id_sucursal = 0;
-	private Bodegas? bodega = null;
-	private string nombre = "";
-	private string direccion = "";
+    private Bodegas? bodega = null;
+    private string nombre = "";
+    private string direccion = "";
 
 
-	public int Id_sucursal { get => this.id_sucursal; set => this.id_sucursal = value; }
-	public Bodegas? Bodega { get => this.bodega; set => this.bodega = value; }
-	public string Nombre { get => this.Nombre; set => this.Nombre = value; }
-	public string Direccion { get => this.direccion; set => this.direccion = value; }
+    public int Id_sucursal { get => this.id_sucursal; set => this.id_sucursal = value; }
+    public Bodegas? Bodega { get => this.bodega; set => this.bodega = value; }
+    public string Nombre { get => this.Nombre; set => this.Nombre = value; }
+    public string Direccion { get => this.direccion; set => this.direccion = value; }
 }
 
 // Creamos la clase Categorías
@@ -112,13 +112,13 @@ public class Proveedores
 {
     public Proveedores() { }
 
-    private int id = 0,
-    private string nombre = "",
-    private string direccion = "",
-    private string telefono = "",
+    private int id = 0;
+    private string nombre = "";
+    private string direccion = "";
+    private string telefono = "";
 
     public int Id { get => this.id; set => this.id = value; }
     public string Nombre { get => this.nombre; set => this.nombre = value; }
-    public string Direccion { get => this.direcion; set => this.direccion = value; }
+    public string Direccion { get => this.direccion; set => this.direccion = value; }
     public string Telefono { get => this.telefono; set => this.telefono = value; }
 }
