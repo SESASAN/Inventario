@@ -4,7 +4,7 @@ Integrantes
 
 - Nathalie Gabriela Miranda Rejón
 
-- Juan José Median Sepulveda
+- Juan José Medina Sepulveda
 
 - Sebastían Jesús Pérez Araujo
 
