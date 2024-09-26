@@ -11,6 +11,38 @@
       "RelativeMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|solutionrelative:mts_pruebas_unitarias\\nucleo\\entidadeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_repositorios\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_repositorios\\implementaciones\\sucursalesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\sucursalesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_repositorios\\implementaciones\\proveedoresrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\proveedoresrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_repositorios\\implementaciones\\productosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\productosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_repositorios\\implementaciones\\estantesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\estantesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_repositorios\\implementaciones\\estadosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\estadosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_repositorios\\implementaciones\\categoriasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\categoriasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_repositorios\\implementaciones\\bodegasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\bodegasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{482A5973-AD27-4B69-8C7D-7EB8A669729B}|lib_entidades\\lib_entidades.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_entidades\\bodegas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{482A5973-AD27-4B69-8C7D-7EB8A669729B}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\bodegas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,11 +54,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SucursalesRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\SucursalesRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\SucursalesRepositorio.cs",
+              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\SucursalesRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\SucursalesRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:17:17.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProveedoresRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\ProveedoresRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\ProveedoresRepositorio.cs",
+              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\ProveedoresRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\ProveedoresRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:17:10.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
+              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:16:59.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Conexion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Conexion.cs",
+              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Conexion.cs",
+              "RelativeToolTip": "lib_repositorios\\Conexion.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwD8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:09:58.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -36,7 +116,7 @@
               "RelativeDocumentMoniker": "mts_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
               "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\mts_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
               "RelativeToolTip": "mts_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAASwBMAAABrAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T15:58:00.16Z",
               "EditorCaption": ""
@@ -56,7 +136,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "EstantesRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\EstantesRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\EstantesRepositorio.cs",
+              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\EstantesRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\EstantesRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:16:27.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EstadosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\EstadosRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\EstadosRepositorio.cs",
+              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\EstadosRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\EstadosRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:16:17.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoriasRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\CategoriasRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\CategoriasRepositorio.cs",
+              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\CategoriasRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\CategoriasRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:15:37.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BodegasRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\BodegasRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\BodegasRepositorio.cs",
+              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\Implementaciones\\BodegasRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\BodegasRepositorio.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:15:21.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Bodegas.cs",
               "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_entidades\\Bodegas.cs",
               "RelativeDocumentMoniker": "lib_entidades\\Bodegas.cs",
@@ -64,8 +200,7 @@
               "RelativeToolTip": "lib_entidades\\Bodegas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T15:53:10.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T15:53:10.098Z"
             }
           ]
         }

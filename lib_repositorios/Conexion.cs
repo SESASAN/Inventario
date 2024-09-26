@@ -6,6 +6,7 @@ namespace lib_repositorios
 {
     public class Conexion : DbContext
     {
+        private int tamaño = 20;
         public string? StringConnection { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -29,7 +30,9 @@ namespace lib_repositorios
 
         public virtual List<T> Listar<T>() where T : class, new()
         {
-            return this.Set<T>().ToList();
+            return this.Set<T>()
+                .Take(tamaño)
+                .ToList();
         }
 
         public virtual List<T> Buscar<T>(Expression<Func<T, bool>> condiciones) where T : class, new()
@@ -58,7 +61,7 @@ namespace lib_repositorios
             this.Set<T>().Remove(entidad);
         }
 
-        public virtual void Separadar<T>(T entidad) where T : class, new()
+        public virtual void Separar<T>(T entidad) where T : class, new()
         {
             this.Entry(entidad).State = EntityState.Detached;
         }
