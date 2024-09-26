@@ -1,9 +1,0 @@
-D:\Talleres\Uni\Sem4\Programación\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\Talleres\Uni\Sem4\Programación\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfoInputs.cache
-D:\Talleres\Uni\Sem4\Programación\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfo.cs
-D:\Talleres\Uni\Sem4\Programación\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
-C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfoInputs.cache
-C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfo.cs
-C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
-C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json
