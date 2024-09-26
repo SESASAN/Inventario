@@ -1,0 +1,31 @@
+C:\Users\campe\source\repos\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.AssemblyReference.cache
+C:\Users\campe\source\repos\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\campe\source\repos\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfoInputs.cache
+C:\Users\campe\source\repos\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfo.cs
+C:\Users\campe\source\repos\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.CoreCompileInputs.cache
+C:\Users\campe\source\repos\Inventario\lib_repositorios\bin\Debug\net8.0\lib_repositorios.deps.json
+C:\Users\campe\source\repos\Inventario\lib_repositorios\bin\Debug\net8.0\lib_repositorios.dll
+C:\Users\campe\source\repos\Inventario\lib_repositorios\bin\Debug\net8.0\lib_repositorios.pdb
+C:\Users\campe\source\repos\Inventario\lib_repositorios\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\campe\source\repos\Inventario\lib_repositorios\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\campe\source\repos\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repo.695687AF.Up2Date
+C:\Users\campe\source\repos\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.dll
+C:\Users\campe\source\repos\Inventario\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
+C:\Users\campe\source\repos\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
+C:\Users\campe\source\repos\Inventario\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\bin\Debug\net8.0\lib_repositorios.deps.json
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\bin\Debug\net8.0\lib_repositorios.dll
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\bin\Debug\net8.0\lib_repositorios.pdb
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.AssemblyReference.cache
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfoInputs.cache
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfo.cs
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.CoreCompileInputs.cache
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.sourcelink.json
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repo.695687AF.Up2Date
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.dll
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
+C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll

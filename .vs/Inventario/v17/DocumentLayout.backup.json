@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\mts_pruebas_unitarias\\nucleo\\configuracionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|solutionrelative:mts_pruebas_unitarias\\nucleo\\configuracionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\mts_pruebas_unitarias\\nucleo\\entidadeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|solutionrelative:mts_pruebas_unitarias\\nucleo\\entidadeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{482A5973-AD27-4B69-8C7D-7EB8A669729B}|lib_entidades\\lib_entidades.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_entidades\\bodegas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{482A5973-AD27-4B69-8C7D-7EB8A669729B}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\bodegas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfiguracionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\mts_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
+              "RelativeDocumentMoniker": "mts_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
+              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\mts_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs*",
+              "RelativeToolTip": "mts_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwBMAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T15:58:00.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntidadesHelper.cs",
+              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
+              "RelativeDocumentMoniker": "mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
+              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
+              "RelativeToolTip": "mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T15:57:13.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bodegas.cs",
+              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_entidades\\Bodegas.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Bodegas.cs",
+              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_entidades\\Bodegas.cs",
+              "RelativeToolTip": "lib_entidades\\Bodegas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T15:53:10.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
