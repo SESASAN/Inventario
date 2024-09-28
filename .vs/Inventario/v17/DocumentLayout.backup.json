@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\mts_pruebas_unitarias\\nucleo\\configuracionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|solutionrelative:mts_pruebas_unitarias\\nucleo\\configuracionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\mts_pruebas_unitarias\\nucleo\\entidadeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\mts_pruebas_unitarias\\nucleo\\entidadeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|solutionrelative:mts_pruebas_unitarias\\nucleo\\entidadeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{482A5973-AD27-4B69-8C7D-7EB8A669729B}|lib_entidades\\lib_entidades.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_entidades\\bodegas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{482A5973-AD27-4B69-8C7D-7EB8A669729B}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\bodegas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{482A5973-AD27-4B69-8C7D-7EB8A669729B}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_entidades\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{482A5973-AD27-4B69-8C7D-7EB8A669729B}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_repositorios\\creacion base de datos sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\creacion base de datos sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\mts_pruebas_unitarias\\repositorios\\productosunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|solutionrelative:mts_pruebas_unitarias\\repositorios\\productosunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_repositorios\\creacion base de datos sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\creacion base de datos sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +30,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConfiguracionHelper.cs",
-              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\mts_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
-              "RelativeDocumentMoniker": "mts_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
-              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\mts_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
-              "RelativeToolTip": "mts_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAASwBMAAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T15:58:00.16Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EntidadesHelper.cs",
-              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
-              "RelativeDocumentMoniker": "mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
-              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
-              "RelativeToolTip": "mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\Productos.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Productos.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\Productos.cs",
+              "RelativeToolTip": "lib_entidades\\Productos.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T15:57:13.735Z",
+              "WhenOpened": "2024-09-28T19:01:56.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductosUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\mts_pruebas_unitarias\\Repositorios\\ProductosUnitTest.cs",
+              "RelativeDocumentMoniker": "mts_pruebas_unitarias\\Repositorios\\ProductosUnitTest.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\mts_pruebas_unitarias\\Repositorios\\ProductosUnitTest.cs",
+              "RelativeToolTip": "mts_pruebas_unitarias\\Repositorios\\ProductosUnitTest.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T18:59:34.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Bodegas.cs",
-              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_entidades\\Bodegas.cs",
-              "RelativeDocumentMoniker": "lib_entidades\\Bodegas.cs",
-              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_entidades\\Bodegas.cs",
-              "RelativeToolTip": "lib_entidades\\Bodegas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CREACION BASE DE DATOS SQL.sql ",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\CREACION BASE DE DATOS SQL.sql",
+              "RelativeDocumentMoniker": "lib_repositorios\\CREACION BASE DE DATOS SQL.sql",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\CREACION BASE DE DATOS SQL.sql",
+              "RelativeToolTip": "lib_repositorios\\CREACION BASE DE DATOS SQL.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-28T18:38:09.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntidadesHelper.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
+              "RelativeDocumentMoniker": "mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
+              "RelativeToolTip": "mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswEwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T15:53:10.098Z",
+              "WhenOpened": "2024-09-28T17:42:57.276Z",
               "EditorCaption": ""
             }
           ]

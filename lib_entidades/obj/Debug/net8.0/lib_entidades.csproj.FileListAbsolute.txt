@@ -21,3 +21,15 @@ C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_entidades\
 C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
 C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
 C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\bin\Debug\net8.0\lib_entidades.deps.json
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfoInputs.cache
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfo.cs
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.sourcelink.json
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.dll
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll

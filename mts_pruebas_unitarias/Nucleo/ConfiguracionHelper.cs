@@ -17,7 +17,7 @@ namespace mst_unittests.Nucleo
         public static void Cargar()
         {
             datos = new Dictionary<string, string>();
-            string path = @"C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\secrets.json";
+            string path = @"C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\secrets.json";
             StreamReader jsonStream = File.OpenText(path);
             var json = jsonStream.ReadToEnd();
             var temp = JsonConvert.DeserializeObject<Dictionary<string, string>>(json)!;

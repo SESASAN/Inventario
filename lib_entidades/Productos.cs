@@ -11,10 +11,10 @@ namespace lib_entidades
         public int Stock { get; set; }
         public DateTime Fecha_llegada { get; set; }
         public DateTime Fecha_vencimiento { get; set; }
-        public double Precio_unitario { get; set; }
-        public Categorias? Categoria { get; set; }
-        public Estados? Estado { get; set; }
-        public Proveedores? Proveedor { get; set; }
+        public decimal Precio_unitario { get; set; }
+        public int Categoria { get; set; }
+        public int Estado { get; set; }
+        public int Proveedor { get; set; }
 
         [NotMapped] public Categorias? _Categoria { get; set; }
         [NotMapped] public Estados? _Estado { get; set; }
