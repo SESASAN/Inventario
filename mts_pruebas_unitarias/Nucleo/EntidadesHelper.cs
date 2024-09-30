@@ -37,7 +37,7 @@ namespace mst_pruebas_unitarias.Nucleo
             return new Bodegas()
             {
                 Id = 2,
-                Cantidad = 1200,
+                Cantidad_estante = 1200,
                 Valor_bodega = 12000000.45m,
                 Sucursal = 1,
             };
@@ -56,10 +56,10 @@ namespace mst_pruebas_unitarias.Nucleo
             return new Estantes()
             {
                 Id = 2,
-                Producto = 1,
                 Cantidad_producto = 4,
                 Bodega = 1,
                 Categoria = 1,
+                Valor = 1009.56m,
             };
         }
         public static Productos ObtenerProductos ()
@@ -68,13 +68,24 @@ namespace mst_pruebas_unitarias.Nucleo
             {
                 Id = 2,
                 Nombre = "Pan Integral",
+                Descripcion = "7mil panes",
                 Stock = 500,
-                Fecha_llegada = DateTime.Now,
-                Fecha_vencimiento = DateTime.Now,
                 Precio_unitario = 4800.23m,
+                Estante = 1,
                 Categoria = 1,
+            };
+        }
+        public static Lotes ObtenerLotes()
+        {
+            return new Lotes()
+            {
+                Id = 2,
+                Producto = 1,
+                Fecha_llegada = DateTime.Today,
+                Fecha_vencimiento = DateTime.Now,
+                Cantidad = 500,
                 Estado = 1,
-                Proveedor = 4,
+                Proveedor = 1,
             };
         }
     }

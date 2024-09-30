@@ -8,18 +8,18 @@ using mst_unittests.Nucleo;
 namespace mts_pruebas_unitarias.Repositorios
 {
     [TestClass]
-    public class BodegasUnitTest
+    public class LotesUnitTest
     {
-        private IBodegasRepositorio? iRepositorio = null;
+        private ILotesRepositorio? iRepositorio = null;
         private Conexion? conexion = null;
-        private Bodegas? entidad = null;
-        private List<Bodegas>? lista = null;
+        private Lotes? entidad = null;
+        private List<Lotes>? lista = null;
 
-        public BodegasUnitTest()
+        public LotesUnitTest()
         {
             conexion = new Conexion();
             conexion!.StringConnection = "server=Inventario_db.mssql.somee.com;packet size=4096;database=Inventario_db;user id=TequeñosItm_SQLLogin_1;pwd=e5cqe5m6zo;data source=Inventario_db.mssql.somee.com;persist security info=False; initial catalog=Inventario_db;TrustServerCertificate=True;";
-            iRepositorio = new BodegasRepositorio(conexion);
+            iRepositorio = new LotesRepositorio(conexion);
         }
 
         [TestMethod]
@@ -46,14 +46,14 @@ namespace mts_pruebas_unitarias.Repositorios
 
         public void Guardar()
         {
-            entidad = EntidadesHelper.ObtenerBodegas();
+            entidad = EntidadesHelper.ObtenerLotes();
             entidad = iRepositorio!.Guardar(entidad!);
             Assert.IsTrue(entidad.Id != 0);
         }
 
         public void Modificar()
         {
-            entidad!.Cantidad_estante = 7000;
+            entidad!.Estado = 2;
             entidad = iRepositorio!.Modificar(entidad!);
 
             lista = iRepositorio!.Buscar(x => x.Id == entidad.Id);

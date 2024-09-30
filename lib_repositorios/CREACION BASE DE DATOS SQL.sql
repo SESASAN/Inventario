@@ -22,8 +22,8 @@ GO
 
 CREATE TABLE [Bodegas](
 	[Id] INT NOT NULL,
-	[Cantidad_estante] INT DEFAULT 0,
-	[Valor_bodega] DECIMAL(10, 3),
+	[Cantidad_estante] INT DEFAULT 0 NOT NULL,
+	[Valor_bodega] DECIMAL(10, 3) NOT NULL,
 	[Sucursal] INT NOT NULL,
 	CONSTRAINT [PK_Bodegas] PRIMARY KEY CLUSTERED ([Id]),
 	CONSTRAINT [FK_Bodegas_Sucursales] FOREIGN KEY ([Sucursal]) REFERENCES [Sucursales] ([Id]) ON DELETE NO ACTION ON UPDATE NO ACTION
