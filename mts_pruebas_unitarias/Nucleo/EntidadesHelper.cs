@@ -9,8 +9,8 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Sucursales()
             {
-                Id = 10,
-                Nombre = "ZA Principal",
+                Id = 2,
+                Nombre = "ZA Secundaria",
                 Direccion = "Calle 46 #45-67",
             };
         }
@@ -18,7 +18,7 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Proveedores()
             {
-                Id = 11,
+                Id = 5,
                 Nombre = "Edgar Miranda",
                 Direccion = "Calle 26 #75-76",
                 Telefono = "3127673596",
@@ -28,17 +28,17 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Estados()
             {
-                Id= 12,
-                Nombre="Próximo a vencer"
+                Id= 4,
+                Nombre="Test Estado"
             };
         }
         public static Bodegas ObtenerBodegas()
         {
             return new Bodegas()
             {
-                Id = 50,
+                Id = 2,
                 Cantidad = 1200,
-                Valor_bodega = 1200.45m,
+                Valor_bodega = 12000000.45m,
                 Sucursal = 1,
             };
         }
@@ -46,7 +46,7 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Categorias()
             {
-                Id = 15,
+                Id = 5,
                 Nombre = "Carnes",
                 Grupo = 2,
             };
@@ -55,10 +55,10 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Estantes()
             {
-                Id = 30,
-                Producto = 3,
+                Id = 2,
+                Producto = 1,
                 Cantidad_producto = 4,
-                Bodega = 3,
+                Bodega = 1,
                 Categoria = 1,
             };
         }
@@ -66,13 +66,13 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Productos()
             {
-                Id = 56,
+                Id = 2,
                 Nombre = "Pan Integral",
                 Stock = 500,
                 Fecha_llegada = DateTime.Now,
                 Fecha_vencimiento = DateTime.Now,
                 Precio_unitario = 4800.23m,
-                Categoria = 4,
+                Categoria = 1,
                 Estado = 1,
                 Proveedor = 4,
             };

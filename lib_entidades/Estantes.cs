@@ -6,13 +6,11 @@ namespace lib_entidades
     public class Estantes
     {
         [Key] public int Id { get; set; }
-        public int Producto { get; set; }
         public int Cantidad_producto { get; set; }
         public int Bodega { get; set; }
         public int Categoria { get; set; }
-        
+        public decimal Valor { get; set; }
 
-        [NotMapped] public Productos? _Producto { get; set; }
         [NotMapped] public Bodegas? _Bodega { get; set; }
         [NotMapped] public Categorias? _Categoria { get; set; }
     }

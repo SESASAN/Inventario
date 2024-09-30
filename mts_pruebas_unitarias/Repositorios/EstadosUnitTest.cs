@@ -18,7 +18,7 @@ namespace mts_pruebas_unitarias.Repositorios
         public EstadosUnitTest()
         {
             conexion = new Conexion();
-            conexion!.StringConnection = ConfiguracionHelper.ObtenerValor("ConectionString");
+            conexion!.StringConnection = "server=Inventario_db.mssql.somee.com;packet size=4096;database=Inventario_db;user id=TequeñosItm_SQLLogin_1;pwd=e5cqe5m6zo;data source=Inventario_db.mssql.somee.com;persist security info=False; initial catalog=Inventario_db;TrustServerCertificate=True;";
             iRepositorio = new EstadosRepositorio(conexion);
         }
 
