@@ -38,7 +38,7 @@ namespace mst_pruebas_unitarias.Nucleo
             {
                 Id = 2,
                 Cantidad_estante = 1200,
-                Valor_bodega = 12000000.45m,
+                Valor_bodega = 120000.45m,
                 Sucursal = 1,
             };
         }
@@ -48,7 +48,7 @@ namespace mst_pruebas_unitarias.Nucleo
             {
                 Id = 5,
                 Nombre = "Carnes",
-                Grupo = 2,
+                Grupo = 1,
             };
         }
         public static Estantes ObtenerEstantes()
