@@ -33,7 +33,6 @@ GO
 CREATE TABLE [Categorias](
 	[Id] INT NOT NULL,
 	[Nombre] NVARCHAR(100) NOT NULL,
-	[Grupo] INT NOT NULL,
 	CONSTRAINT [PK_Categorias] PRIMARY KEY CLUSTERED ([Id])
 );
 GO
@@ -65,7 +64,8 @@ CREATE TABLE [Productos](
 	[Nombre] NVARCHAR(60) NOT NULL,
 	[Descripcion] NVARCHAR(150),
 	[Stock] INT DEFAULT 0,
-	[Precio_unitario] DECIMAL(10,2) NOT NULL,
+	[Precio_venta] DECIMAL(10,2) NOT NULL,
+	[Iva] DECIMAL(2,2) NOT NULL,
 	[Categoria] INT NOT NULL,
 	[Estante] INT NOT NULL,
 	CONSTRAINT [PK_Productos] PRIMARY KEY CLUSTERED ([Id]),
@@ -80,6 +80,7 @@ CREATE TABLE [Lotes] (
 	[Fecha_llegada] DATETIME NOT NULL,
 	[Fecha_vencimiento] DATETIME NOT NULL,
 	[Cantidad] INT DEFAULT 0 NOT NULL,
+	[Precio_unitario] DECIMAL(10,2) NOT NULL,
 	[Estado]  INT NOT NULL,
 	[Proveedor]  INT NOT NULL,
 	CONSTRAINT [PK_Lotes] PRIMARY KEY CLUSTERED ([Id]),
@@ -103,14 +104,14 @@ VALUES (1,'Nuevo'), (2,'Próximo a vencer'), (3,'Vencido')
 Insert INTO [Bodegas] ([Id], [Cantidad_estante], [Valor_bodega], [Sucursal])
 VALUES (1,200,1500000.00,1)
 
-Insert INTO [Categorias] ([Id], [Nombre],[Grupo])
-VALUES (1,'Lácteos',0), (2,'Lácteos',1)
+Insert INTO [Categorias] ([Id], [Nombre])
+VALUES (1,'Lácteos')
 
 Insert INTO [Estantes] ([Id], [Cantidad_producto], [Bodega],[Categoria],[Valor])
-VALUES (1,20,1,2,1500000.00)
+VALUES (1,20,1,1,1500000.00)
 
-INSERT INTO [Productos] ([Id], [Nombre], [Descripcion], [Stock], [Precio_unitario], [Categoria], [Estante])
-VALUES (1, 'Leche','1 Litro',1,6990,1,1)
+INSERT INTO [Productos] ([Id], [Nombre], [Descripcion], [Stock], [Precio_venta],[Iva], [Categoria], [Estante])
+VALUES (1, 'Leche','1 Litro',1,6990,0.19,1,1)
 
-INSERT INTO [Lotes] ([Id],[Producto], [Fecha_llegada], [Fecha_vencimiento], [Cantidad], [Estado], [Proveedor])
-VALUES (1,1,'08/23/2024','09/16/2024',8,3,1)
+INSERT INTO [Lotes] ([Id],[Producto], [Fecha_llegada], [Fecha_vencimiento], [Cantidad],[Precio_unitario], [Estado], [Proveedor])
+VALUES (1,1,'08/23/2024','09/16/2024',8,5662,3,1)

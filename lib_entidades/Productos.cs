@@ -9,15 +9,16 @@ namespace lib_entidades
         public string? Nombre { get; set; }
         public string? Descripcion { get; set; }
         public int Stock { get; set; }
-        public decimal Precio_unitario { get; set; }
+        public decimal Precio_venta { get; set; }
+        public decimal Iva { get; set; }
         public int Categoria { get; set; }
         public int Estante { get; set; }
 
         [NotMapped] public Categorias? _Categoria { get; set; }
         [NotMapped] public Estantes? _Estante { get; set; }
 
-        public void FiltrarPorCategoria() { }
-        public void CalcularEstado() { }
 
+        public void CalcularPrecioVenta() { }
+        public void ActualizarStock() { }
     }
 }

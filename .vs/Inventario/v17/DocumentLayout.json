@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\mts_pruebas_unitarias\\nucleo\\entidadeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|solutionrelative:mts_pruebas_unitarias\\nucleo\\entidadeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_repositorios\\creacion base de datos sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\creacion base de datos sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\campe\\onedrive\\escritorio\\clase programaci\u00F3n\\inventario\\lib_repositorios\\creacion base de datos sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{B26744F8-87D8-43FA-AC80-BF5FE0A4D1D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\creacion base de datos sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,20 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CREACION BASE DE DATOS SQL.sql ",
-              "DocumentMoniker": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\CREACION BASE DE DATOS SQL.sql",
-              "RelativeDocumentMoniker": "lib_repositorios\\CREACION BASE DE DATOS SQL.sql",
-              "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\lib_repositorios\\CREACION BASE DE DATOS SQL.sql",
-              "RelativeToolTip": "lib_repositorios\\CREACION BASE DE DATOS SQL.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-01T03:35:37.675Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -60,9 +40,9 @@
               "RelativeDocumentMoniker": "mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
               "ToolTip": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
               "RelativeToolTip": "mts_pruebas_unitarias\\Nucleo\\EntidadesHelper.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:13:27.523Z",
+              "WhenOpened": "2024-10-03T00:33:28.442Z",
               "EditorCaption": ""
             }
           ]
