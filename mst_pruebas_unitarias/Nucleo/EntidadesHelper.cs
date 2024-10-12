@@ -84,11 +84,7 @@ namespace mst_pruebas_unitarias.Nucleo
                 Fecha_llegada = DateTime.Today,
                 Fecha_vencimiento = DateTime.Now,                
                 Cantidad = 500,
-<<<<<<< HEAD:mts_pruebas_unitarias/Nucleo/EntidadesHelper.cs
                 Precio_unitario = 12000m,
-=======
-                Precio_unitario = 5000,
->>>>>>> 0762e5b229f9c4be20f7a8c44e0892c893b309d8:mst_pruebas_unitarias/Nucleo/EntidadesHelper.cs
                 Estado = 1,
                 Proveedor = 1,
             };

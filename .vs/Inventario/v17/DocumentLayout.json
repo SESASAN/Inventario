@@ -1,57 +1,24 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\sucursalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\sucursalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\lotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\lotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\estantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\estantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\bodegascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\bodegascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\mts_pruebas_unitarias\\repositorios\\bodegasunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{293EF3A2-016E-45A0-A1D4-2406A7926913}|mts_pruebas_unitarias\\mts_pruebas_unitarias.csproj|solutionrelative:mts_pruebas_unitarias\\repositorios\\bodegasunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EF8433-013C-4878-8673-273066A6DDE0}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_aplicaciones\\implementaciones\\sucursalesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EF8433-013C-4878-8673-273066A6DDE0}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\sucursalesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30EF8433-013C-4878-8673-273066A6DDE0}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_aplicaciones\\implementaciones\\proveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30EF8433-013C-4878-8673-273066A6DDE0}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\proveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
-=======
-  "WorkspaceRootPath": "C:\\Users\\campe\\OneDrive\\Escritorio\\CLASE PROGRAMACI\u00D3N\\Inventario\\",
-  "Documents": [],
->>>>>>> 0762e5b229f9c4be20f7a8c44e0892c893b309d8
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -63,6 +30,14 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
@@ -70,156 +45,56 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SucursalesController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\SucursalesController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\SucursalesController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\SucursalesController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\SucursalesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:48:48.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProveedoresController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\ProveedoresController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ProveedoresController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\ProveedoresController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\ProveedoresController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:48:25.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:47:52.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LotesController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\LotesController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\LotesController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\LotesController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\LotesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:47:03.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EstantesController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\EstantesController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\EstantesController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\EstantesController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\EstantesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:45:58.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "EstadosController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\EstadosController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\EstadosController.cs",
               "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\EstadosController.cs",
               "RelativeToolTip": "asp_servicios\\Controllers\\EstadosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:45:24.323Z",
+              "WhenOpened": "2024-10-12T17:47:25.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EstantesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\EstantesController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\EstantesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\EstantesController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\EstantesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:44:22.456Z",
+              "WhenOpened": "2024-10-12T17:47:21.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BodegasUnitTest.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\mts_pruebas_unitarias\\Repositorios\\BodegasUnitTest.cs",
-              "RelativeDocumentMoniker": "mts_pruebas_unitarias\\Repositorios\\BodegasUnitTest.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\mts_pruebas_unitarias\\Repositorios\\BodegasUnitTest.cs",
-              "RelativeToolTip": "mts_pruebas_unitarias\\Repositorios\\BodegasUnitTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAQAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProveedoresController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\ProveedoresController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ProveedoresController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\ProveedoresController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\ProveedoresController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:42:30.853Z",
+              "WhenOpened": "2024-10-12T17:47:17.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BodegasController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\BodegasController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\BodegasController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\BodegasController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\BodegasController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:40:44.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SucursalesAplicacion.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\Implementaciones\\SucursalesAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\Implementaciones\\SucursalesAplicacion.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\Implementaciones\\SucursalesAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\Implementaciones\\SucursalesAplicacion.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:36:11.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "ProveedoresAplicacion.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\Implementaciones\\ProveedoresAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\Implementaciones\\ProveedoresAplicacion.cs",
               "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\Implementaciones\\ProveedoresAplicacion.cs",
               "RelativeToolTip": "lib_aplicaciones\\Implementaciones\\ProveedoresAplicacion.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T16:34:57.264Z",
               "EditorCaption": ""
-=======
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
->>>>>>> 0762e5b229f9c4be20f7a8c44e0892c893b309d8
             }
           ]
         }
