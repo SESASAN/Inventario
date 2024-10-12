@@ -1,4 +1,4 @@
-﻿using lib_entidades;
+﻿using lib_entidades.Modelos;
 using System.Linq.Expressions;
 
 namespace lib_repositorios.Interfaces

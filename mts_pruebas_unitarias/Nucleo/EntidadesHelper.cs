@@ -1,4 +1,4 @@
-﻿using lib_entidades;
+﻿using lib_entidades.Modelos;
 using System.Net.NetworkInformation;
 
 namespace mst_pruebas_unitarias.Nucleo
@@ -46,9 +46,8 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Categorias()
             {
-                Id = 5,
+                Id = 2,
                 Nombre = "Carnes",
-                Grupo = 2,
             };
         }
         public static Estantes ObtenerEstantes()
@@ -70,7 +69,8 @@ namespace mst_pruebas_unitarias.Nucleo
                 Nombre = "Pan Integral",
                 Descripcion = "7mil panes",
                 Stock = 500,
-                Precio_unitario = 4800.23m,
+                Precio_venta = 4800.23m,
+                Iva = 0.19m,
                 Estante = 1,
                 Categoria = 1,
             };
@@ -82,8 +82,9 @@ namespace mst_pruebas_unitarias.Nucleo
                 Id = 2,
                 Producto = 1,
                 Fecha_llegada = DateTime.Today,
-                Fecha_vencimiento = DateTime.Now,
+                Fecha_vencimiento = DateTime.Now,                
                 Cantidad = 500,
+                Precio_unitario = 12000m,
                 Estado = 1,
                 Proveedor = 1,
             };

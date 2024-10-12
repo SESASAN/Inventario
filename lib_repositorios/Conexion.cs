@@ -1,4 +1,4 @@
-﻿using lib_entidades;
+﻿using lib_entidades.Modelos;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
