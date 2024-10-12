@@ -17,8 +17,8 @@ namespace lib_entidades.Modelos
         [NotMapped] public Categorias? _Categoria { get; set; }
         [NotMapped] public Estantes? _Estante { get; set; }
 
-        public void FiltrarPorCategoria() { }
-        public void CalcularEstado() { }
 
+        public void CalcularPrecioVenta() { }
+        public void ActualizarStock() { }
     }
 }

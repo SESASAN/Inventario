@@ -18,6 +18,5 @@ namespace lib_entidades.Modelos
         [NotMapped] public Proveedores? _Proveedor { get; set; }
         [NotMapped] public Estados? _Estado { get; set; }
 
-
     }
 }

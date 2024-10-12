@@ -12,7 +12,7 @@ namespace lib_entidades.Modelos
 
         [NotMapped] public Sucursales? _Sucursal { get; set; }
 
-        public void ObtenerValorBodega() { }
-        public void CalcularProcutoMasVendido() { }
+        public void CalcularValorBodega() { }
+        public void CalcularProcutoMayorCantidad() { }
     }
 }
