@@ -6,7 +6,7 @@ namespace lib_repositorios.Implementaciones
 {
     public class EstadosRepositorio : IEstadosRepositorio
     {
-        private Conexion? conexion;
+        private Conexion? conexion = null;
 
         public EstadosRepositorio(Conexion conexion)
         {
@@ -31,6 +31,14 @@ namespace lib_repositorios.Implementaciones
         public Estados Guardar(Estados entidad)
         {
             conexion!.Guardar(entidad);
+            conexion!.GuardarCambios();
+            conexion!.Separar(entidad);
+            return entidad;
+        }
+
+        public Estados Buscar(Estados entidad)
+        {
+            conexion!.Buscar<Estados>(x => x.Id != entidad!.Id);
             conexion!.GuardarCambios();
             conexion!.Separar(entidad);
             return entidad;

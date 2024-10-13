@@ -6,7 +6,7 @@ namespace lib_repositorios.Implementaciones
 {
     public class CategoriasRepositorio : ICategoriasRepositorio
     {
-        private Conexion? conexion;
+        private Conexion? conexion = null;
 
         public CategoriasRepositorio(Conexion conexion)
         {
@@ -31,6 +31,14 @@ namespace lib_repositorios.Implementaciones
         public Categorias Guardar(Categorias entidad)
         {
             conexion!.Guardar(entidad);
+            conexion!.GuardarCambios();
+            conexion!.Separar(entidad);
+            return entidad;
+        }
+
+        public Categorias Buscar(Categorias entidad)
+        {
+            conexion!.Buscar<Categorias>(x => x.Id != entidad!.Id);
             conexion!.GuardarCambios();
             conexion!.Separar(entidad);
             return entidad;

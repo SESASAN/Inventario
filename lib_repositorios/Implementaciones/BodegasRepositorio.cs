@@ -6,7 +6,7 @@ namespace lib_repositorios.Implementaciones
 {
     public class BodegasRepositorio : IBodegasRepositorio
     {
-        private Conexion? conexion;
+        private Conexion? conexion = null;
 
         public BodegasRepositorio(Conexion conexion)
         {
@@ -33,6 +33,13 @@ namespace lib_repositorios.Implementaciones
             conexion!.Guardar(entidad);
             conexion!.GuardarCambios();
             conexion!.Separar(entidad);
+            return entidad;
+        }
+
+        public Bodegas Buscar(Bodegas entidad)
+        {
+            conexion!.Buscar<Bodegas>(x => x.Id == entidad!.Id);
+
             return entidad;
         }
 

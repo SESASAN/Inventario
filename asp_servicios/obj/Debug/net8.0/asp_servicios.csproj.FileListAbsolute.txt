@@ -70,3 +70,11 @@ C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4
 C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\asp_servicios\obj\Debug\net8.0\asp_servicios.pdb
 C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\asp_servicios\obj\Debug\net8.0\asp_servicios.genruntimeconfig.cache
 C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\asp_servicios\obj\Debug\net8.0\ref\asp_servicios.dll
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\asp_servicios\obj\Debug\net8.0\asp_servicios.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\asp_servicios\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\asp_servicios\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\asp_servicios\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\asp_servicios\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\asp_servicios\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\asp_servicios\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\USUARIO\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SEMESTRE 4\PROGRAMACIÓN\NUESTRO PROYECTO\Inventario\asp_servicios\bin\Debug\net8.0\lib_utilidades.pdb

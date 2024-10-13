@@ -6,7 +6,7 @@ namespace lib_repositorios.Implementaciones
 {
     public class ProductosRepositorio : IProductosRepositorio
     {
-        private Conexion? conexion;
+        private Conexion? conexion = null;
 
         public ProductosRepositorio(Conexion conexion)
         {
@@ -31,6 +31,14 @@ namespace lib_repositorios.Implementaciones
         public Productos Guardar(Productos entidad)
         {
             conexion!.Guardar(entidad);
+            conexion!.GuardarCambios();
+            conexion!.Separar(entidad);
+            return entidad;
+        }
+
+        public Productos Buscar(Productos entidad)
+        {
+            conexion!.Buscar<Productos>(x => x.Id != entidad!.Id);
             conexion!.GuardarCambios();
             conexion!.Separar(entidad);
             return entidad;

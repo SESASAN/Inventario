@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\estantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\estantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_utilidades\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30EF8433-013C-4878-8673-273066A6DDE0}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_aplicaciones\\implementaciones\\proveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EF8433-013C-4878-8673-273066A6DDE0}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\proveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_utilidades\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_utilidades\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\bodegascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\bodegascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,54 +58,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EstadosController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\EstadosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\EstadosController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\EstadosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\EstadosController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Program.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Program.cs",
+              "RelativeToolTip": "asp_servicios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T17:47:25.963Z",
+              "WhenOpened": "2024-10-13T04:38:23.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Startup.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Startup.cs",
+              "RelativeToolTip": "asp_servicios\\Startup.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:31:12.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EstantesController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\EstantesController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\EstantesController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\EstantesController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\EstantesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T17:47:21.489Z",
+              "WhenOpened": "2024-10-13T04:23:49.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProveedoresController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\ProveedoresController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ProveedoresController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\ProveedoresController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\ProveedoresController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "JsonConversor.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\JsonConversor.cs",
+              "RelativeDocumentMoniker": "lib_utilidades\\JsonConversor.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\JsonConversor.cs",
+              "RelativeToolTip": "lib_utilidades\\JsonConversor.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA0wBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T17:47:17.927Z",
+              "WhenOpened": "2024-10-13T04:07:49.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProveedoresAplicacion.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\Implementaciones\\ProveedoresAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\Implementaciones\\ProveedoresAplicacion.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\Implementaciones\\ProveedoresAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\Implementaciones\\ProveedoresAplicacion.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAgAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "EncriptarConversor.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\EncriptarConversor.cs",
+              "RelativeDocumentMoniker": "lib_utilidades\\EncriptarConversor.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\EncriptarConversor.cs",
+              "RelativeToolTip": "lib_utilidades\\EncriptarConversor.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:34:57.264Z",
+              "WhenOpened": "2024-10-13T04:07:40.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatosGenerales.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\DatosGenerales.cs",
+              "RelativeDocumentMoniker": "lib_utilidades\\DatosGenerales.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\DatosGenerales.cs",
+              "RelativeToolTip": "lib_utilidades\\DatosGenerales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T03:58:37.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BodegasController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\BodegasController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\BodegasController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\BodegasController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\BodegasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T03:53:23.523Z",
               "EditorCaption": ""
             }
           ]

@@ -6,7 +6,7 @@ namespace lib_repositorios.Implementaciones
 {
     public class SucursalesRepositorio : ISucursalesRepositorio
     {
-        private Conexion? conexion;
+        private Conexion? conexion = null;
 
         public SucursalesRepositorio(Conexion conexion)
         {
@@ -31,6 +31,14 @@ namespace lib_repositorios.Implementaciones
         public Sucursales Guardar(Sucursales entidad)
         {
             conexion!.Guardar(entidad);
+            conexion!.GuardarCambios();
+            conexion!.Separar(entidad);
+            return entidad;
+        }
+
+        public Sucursales Buscar(Sucursales entidad)
+        {
+            conexion!.Buscar<Sucursales>(x => x.Id != entidad!.Id);
             conexion!.GuardarCambios();
             conexion!.Separar(entidad);
             return entidad;

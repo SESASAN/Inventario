@@ -1,8 +1,7 @@
-using lib_aplicaciones.Implementaciones;
+using asp_servicios.Nucleo;
 using lib_aplicaciones.Interfaces;
 using lib_entidades.Modelos;
-using lib_repositorios;
-using lib_repositorios.Implementaciones;
+using lib_utilidades;
 using Microsoft.AspNetCore.Mvc;
 namespace asp_servicios.Controllers
 {
@@ -10,19 +9,146 @@ namespace asp_servicios.Controllers
     [Route("[controller]/[action]")]
     public class BodegasController : ControllerBase
     {
-        private IBodegasAplicacion? IAplicacion = null;
-        public BodegasController()
+        private IBodegasAplicacion? iAplicacion = null;
+        private TokenController? tokenController = null;
+        public BodegasController(IBodegasAplicacion? iAplicacion,
+        TokenController tokenController)
         {
-            var conexion = new Conexion();
-            conexion.StringConnection = "server=Inventario_db.mssql.somee.com;packet size=4096;database=Inventario_db;user id=TequeñosItm_SQLLogin_1;pwd=e5cqe5m6zo;data source=Inventario_db.mssql.somee.com;persist security info=False; initial catalog=Inventario_db;TrustServerCertificate=True;";
-            IAplicacion = new BodegasAplicacion(
-            new BodegasRepositorio(conexion));
+            this.iAplicacion = iAplicacion;
+            this.tokenController = tokenController;
         }
-        [HttpGet]
-        public IEnumerable<Bodegas> Get()
+
+        private Dictionary<string, object> ObtenerDatos()
         {
-            var lista = IAplicacion!.Listar();
-            return lista.ToArray();
+            var respuesta = new Dictionary<string, object>();
+            try
+            {
+                var datos = new StreamReader(Request.Body).ReadToEnd().ToString();
+                if (string.IsNullOrEmpty(datos))
+                    datos = "{}";
+                return JsonConversor.ConvertirAObjeto(datos);
+            }
+            catch (Exception ex)
+            {
+                respuesta["Error"] = ex.Message.ToString();
+                return respuesta;
+            }
+        }
+        [HttpPost]
+        public string Listar()
+        {
+            var respuesta = new Dictionary<string, object>();
+            try
+            {
+                var datos = ObtenerDatos();
+                if (!tokenController!.Validate(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
+                respuesta["Entidades"] = this.iAplicacion!.Listar();
+                respuesta["Respuesta"] = "OK";
+                respuesta["Fecha"] = DateTime.Now.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+            catch (Exception ex)
+            {
+                respuesta["Error"] = ex.Message.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+        }
+        [HttpPost]
+        public string Guardar()
+        {
+            var respuesta = new Dictionary<string, object>();
+            try
+            {
+                var datos = ObtenerDatos();
+                if (!tokenController!.Validate(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
+
+                var entidad = JsonConversor.ConvertirAObjeto<Bodegas>(
+                    JsonConversor.ConvertirAString(datos["Entidad"]));
+
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
+                entidad = this.iAplicacion!.Guardar(entidad);
+
+                respuesta["Entidad"] = entidad;
+                respuesta["Respuesta"] = "OK";
+                respuesta["Fecha"] = DateTime.Now.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+            catch (Exception ex)
+            {
+                respuesta["Error"] = ex.Message.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+        }
+
+        [HttpPost]
+        public string Modificar()
+        {
+            var respuesta = new Dictionary<string, object>();
+            try
+            {
+                var datos = ObtenerDatos();
+                if (!tokenController!.Validate(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
+
+                var entidad = JsonConversor.ConvertirAObjeto<Bodegas>(
+                    JsonConversor.ConvertirAString(datos["Entidad"]));
+
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
+                entidad = this.iAplicacion!.Modificar(entidad);
+
+                respuesta["Entidad"] = entidad;
+                respuesta["Respuesta"] = "OK";
+                respuesta["Fecha"] = DateTime.Now.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+            catch (Exception ex)
+            {
+                respuesta["Error"] = ex.Message.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+        }
+
+        [HttpPost]
+        public string Borrar()
+        {
+            var respuesta = new Dictionary<string, object>();
+            try
+            {
+                var datos = ObtenerDatos();
+                if (!tokenController!.Validate(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
+
+                var entidad = JsonConversor.ConvertirAObjeto<Bodegas>(
+                    JsonConversor.ConvertirAString(datos["Entidad"]));
+
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
+                entidad = this.iAplicacion!.Borrar(entidad);
+
+                respuesta["Entidad"] = entidad;
+                respuesta["Respuesta"] = "OK";
+                respuesta["Fecha"] = DateTime.Now.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+            catch (Exception ex)
+            {
+                respuesta["Error"] = ex.Message.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
         }
     }
 }

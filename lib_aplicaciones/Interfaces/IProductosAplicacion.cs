@@ -3,8 +3,8 @@ namespace lib_aplicaciones.Interfaces
 {
     public interface IProductosAplicacion
     {
+        void Configurar(string string_conexion);
         List<Productos> Listar();
-        List<Productos> Buscar(Productos entidad, string tipo);
         Productos Guardar(Productos entidad);
         Productos Modificar(Productos entidad);
         Productos Borrar(Productos entidad);

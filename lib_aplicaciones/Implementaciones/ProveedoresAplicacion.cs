@@ -11,6 +11,11 @@ namespace lib_aplicaciones.Implementaciones
         {
             this.iRepositorio = iRepositorio;
         }
+        public void Configurar(string string_conexion)
+        {
+            this.iRepositorio!.Configurar(string_conexion);
+        }
+
         public Proveedores Borrar(Proveedores entidad)
         {
             if (entidad == null)

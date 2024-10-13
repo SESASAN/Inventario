@@ -6,7 +6,7 @@ namespace lib_repositorios.Implementaciones
 {
     public class LotesRepositorio : ILotesRepositorio
     {
-        private Conexion? conexion;
+        private Conexion? conexion = null;
 
         public LotesRepositorio(Conexion conexion)
         {
@@ -31,6 +31,14 @@ namespace lib_repositorios.Implementaciones
         public Lotes Guardar(Lotes entidad)
         {
             conexion!.Guardar(entidad);
+            conexion!.GuardarCambios();
+            conexion!.Separar(entidad);
+            return entidad;
+        }
+
+        public Lotes Buscar(Lotes entidad)
+        {
+            conexion!.Buscar<Lotes>(x => x.Id != entidad!.Id);
             conexion!.GuardarCambios();
             conexion!.Separar(entidad);
             return entidad;

@@ -6,7 +6,7 @@ namespace lib_repositorios.Implementaciones
 {
     public class ProveedoresRepositorio : IProveedoresRepositorio
     {
-        private Conexion? conexion;
+        private Conexion? conexion = null;
 
         public ProveedoresRepositorio(Conexion conexion)
         {
@@ -35,6 +35,15 @@ namespace lib_repositorios.Implementaciones
             conexion!.Separar(entidad);
             return entidad;
         }
+
+        public Proveedores Buscar(Proveedores entidad)
+        {
+            conexion!.Buscar<Proveedores>(x => x.Id != entidad!.Id);
+            conexion!.GuardarCambios();
+            conexion!.Separar(entidad);
+            return entidad;
+        }
+
 
         public Proveedores Modificar(Proveedores entidad)
         {
