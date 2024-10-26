@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj": {}
+    "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj": {
+    "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj",
         "projectName": "asp_servicios",
-        "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,17 +33,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj"
+              "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj"
               },
-              "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj"
+              "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj"
               },
-              "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
+              "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
               },
-              "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
+              "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
               }
             }
           }
@@ -65,7 +65,7 @@
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.8.1, )"
+              "version": "[6.9.0, )"
             }
           },
           "imports": [
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj": {
+    "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj",
         "projectName": "lib_aplicaciones",
-        "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -120,11 +120,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj"
+              "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj"
               },
-              "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
+              "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
               }
             }
           }
@@ -163,14 +163,14 @@
         }
       }
     },
-    "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+    "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj",
         "projectName": "lib_entidades",
-        "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -228,14 +228,14 @@
         }
       }
     },
-    "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
+    "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
         "projectName": "lib_repositorios",
-        "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -257,8 +257,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj"
+              "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj"
               }
             }
           }
@@ -303,14 +303,14 @@
         }
       }
     },
-    "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
+    "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
         "projectName": "lib_utilidades",
-        "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UPguLkZr0EY=",
+  "dgSpecHash": "9y0X5poc9EA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

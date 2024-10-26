@@ -1,0 +1,13 @@
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\bin\Release\net8.0\lib_utilidades.deps.json
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\bin\Release\net8.0\lib_utilidades.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\bin\Release\net8.0\lib_utilidades.pdb
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\obj\Release\net8.0\lib_utilidades.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\obj\Release\net8.0\lib_utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\obj\Release\net8.0\lib_utilidades.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\obj\Release\net8.0\lib_utilidades.AssemblyInfo.cs
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\obj\Release\net8.0\lib_utilidades.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\obj\Release\net8.0\lib_utilidades.sourcelink.json
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\obj\Release\net8.0\lib_utilidades.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\obj\Release\net8.0\refint\lib_utilidades.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\obj\Release\net8.0\lib_utilidades.pdb
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_utilidades\obj\Release\net8.0\ref\lib_utilidades.dll

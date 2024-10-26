@@ -914,15 +914,15 @@
           "build/net6.0/MSTest.TestFramework.targets": {}
         }
       },
-      "Newtonsoft.Json/13.0.1": {
+      "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -1396,6 +1396,19 @@
         },
         "runtime": {
           "bin/placeholder/lib_repositorios.dll": {}
+        }
+      },
+      "lib_utilidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/lib_utilidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lib_utilidades.dll": {}
         }
       }
     }
@@ -2773,14 +2786,15 @@
         "mstest.testframework.nuspec"
       ]
     },
-    "Newtonsoft.Json/13.0.1": {
-      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
-      "path": "newtonsoft.json/13.0.1",
+      "path": "newtonsoft.json/13.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
+        "README.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -2789,13 +2803,15 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
@@ -3708,6 +3724,11 @@
       "type": "project",
       "path": "../lib_repositorios/lib_repositorios.csproj",
       "msbuildProject": "../lib_repositorios/lib_repositorios.csproj"
+    },
+    "lib_utilidades/1.0.0": {
+      "type": "project",
+      "path": "../lib_utilidades/lib_utilidades.csproj",
+      "msbuildProject": "../lib_utilidades/lib_utilidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3717,7 +3738,8 @@
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "coverlet.collector >= 6.0.0",
       "lib_entidades >= 1.0.0",
-      "lib_repositorios >= 1.0.0"
+      "lib_repositorios >= 1.0.0",
+      "lib_utilidades >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3727,11 +3749,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\mst_pruebas_unitarias\\mst_pruebas_unitarias.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\mst_pruebas_unitarias\\mst_pruebas_unitarias.csproj",
       "projectName": "mst_pruebas_unitarias",
-      "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\mst_pruebas_unitarias\\mst_pruebas_unitarias.csproj",
+      "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\mst_pruebas_unitarias\\mst_pruebas_unitarias.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\mst_pruebas_unitarias\\obj\\",
+      "outputPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\mst_pruebas_unitarias\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3753,11 +3775,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj"
+            "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj"
             },
-            "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
+            "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
+            },
+            "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
             }
           }
         }

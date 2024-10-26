@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\lib_entidades\lib_entidades.csproj" />
+    <ProjectReference Include="..\lib_repositorios\lib_repositorios.csproj" />
+    <ProjectReference Include="..\lib_utilidades\lib_utilidades.csproj" />
+  </ItemGroup>
+
+</Project>

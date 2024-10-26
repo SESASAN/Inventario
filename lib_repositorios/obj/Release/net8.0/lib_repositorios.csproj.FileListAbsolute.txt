@@ -1,0 +1,16 @@
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\bin\Release\net8.0\lib_repositorios.deps.json
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\bin\Release\net8.0\lib_repositorios.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\bin\Release\net8.0\lib_repositorios.pdb
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\bin\Release\net8.0\lib_entidades.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\bin\Release\net8.0\lib_entidades.pdb
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\obj\Release\net8.0\lib_repositorios.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\obj\Release\net8.0\lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\obj\Release\net8.0\lib_repositorios.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\obj\Release\net8.0\lib_repositorios.AssemblyInfo.cs
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\obj\Release\net8.0\lib_repositorios.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\obj\Release\net8.0\lib_repositorios.sourcelink.json
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\obj\Release\net8.0\lib_repo.695687AF.Up2Date
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\obj\Release\net8.0\lib_repositorios.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\obj\Release\net8.0\refint\lib_repositorios.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\obj\Release\net8.0\lib_repositorios.pdb
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_repositorios\obj\Release\net8.0\ref\lib_repositorios.dll

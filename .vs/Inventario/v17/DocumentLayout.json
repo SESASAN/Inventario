@@ -1,33 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E00FBC1F-A627-4F4F-8F05-A7640F197014}|wpf_presentacion\\wpf_presentacion.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\wpf_presentacion\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00FBC1F-A627-4F4F-8F05-A7640F197014}|wpf_presentacion\\wpf_presentacion.csproj|solutionrelative:wpf_presentacion\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00FBC1F-A627-4F4F-8F05-A7640F197014}|wpf_presentacion\\wpf_presentacion.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\wpf_presentacion\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00FBC1F-A627-4F4F-8F05-A7640F197014}|wpf_presentacion\\wpf_presentacion.csproj|solutionrelative:wpf_presentacion\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00FBC1F-A627-4F4F-8F05-A7640F197014}|wpf_presentacion\\wpf_presentacion.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\wpf_presentacion\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00FBC1F-A627-4F4F-8F05-A7640F197014}|wpf_presentacion\\wpf_presentacion.csproj|solutionrelative:wpf_presentacion\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00FBC1F-A627-4F4F-8F05-A7640F197014}|wpf_presentacion\\wpf_presentacion.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\wpf_presentacion\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E00FBC1F-A627-4F4F-8F05-A7640F197014}|wpf_presentacion\\wpf_presentacion.csproj|solutionrelative:wpf_presentacion\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CC44F6-4E8B-4814-B2D9-35E11437D5AC}|mst_pruebas_unitarias\\mst_pruebas_unitarias.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\mst_pruebas_unitarias\\nucleo\\configuracionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CC44F6-4E8B-4814-B2D9-35E11437D5AC}|mst_pruebas_unitarias\\mst_pruebas_unitarias.csproj|solutionrelative:mst_pruebas_unitarias\\nucleo\\configuracionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\asp_servicios\\asp_servicios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\asp_servicios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_utilidades\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_utilidades\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\lib_utilidades\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\lib_utilidades\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\onedrive - instituto tecnologico metropolitano - itm\\semestre 4\\programaci\u00F3n\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\bodegascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\lib_utilidades\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\lib_utilidades\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34668C3-FA04-4A4C-8EDC-DFEF9C978159}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\source\\nuestro proyecto\\inventario\\asp_servicios\\controllers\\bodegascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFED947B-DD1E-4795-9AE1-750BCE7E2824}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\bodegascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,94 +86,178 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Program.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Program.cs",
-              "RelativeToolTip": "asp_servicios\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:38:23.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Startup.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Startup.cs",
-              "RelativeToolTip": "asp_servicios\\Startup.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\wpf_presentacion\\Nucleo\\Configuracion.cs",
+              "RelativeDocumentMoniker": "wpf_presentacion\\Nucleo\\Configuracion.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\wpf_presentacion\\Nucleo\\Configuracion.cs",
+              "RelativeToolTip": "wpf_presentacion\\Nucleo\\Configuracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:31:12.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\TokenController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\TokenController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\TokenController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:23:49.569Z",
+              "WhenOpened": "2024-10-26T20:32:15.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JsonConversor.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\JsonConversor.cs",
-              "RelativeDocumentMoniker": "lib_utilidades\\JsonConversor.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\JsonConversor.cs",
-              "RelativeToolTip": "lib_utilidades\\JsonConversor.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA0wBIAAAAIAAAAAAAAAA==",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\wpf_presentacion\\App.xaml.cs",
+              "RelativeDocumentMoniker": "wpf_presentacion\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\wpf_presentacion\\App.xaml.cs",
+              "RelativeToolTip": "wpf_presentacion\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:07:49.15Z",
+              "WhenOpened": "2024-10-26T20:30:04.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EncriptarConversor.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\EncriptarConversor.cs",
-              "RelativeDocumentMoniker": "lib_utilidades\\EncriptarConversor.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\EncriptarConversor.cs",
-              "RelativeToolTip": "lib_utilidades\\EncriptarConversor.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\wpf_presentacion\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "wpf_presentacion\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\wpf_presentacion\\MainWindow.xaml",
+              "RelativeToolTip": "wpf_presentacion\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-26T20:29:47.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\wpf_presentacion\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "wpf_presentacion\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\wpf_presentacion\\MainWindow.xaml.cs",
+              "RelativeToolTip": "wpf_presentacion\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:07:40.68Z",
+              "WhenOpened": "2024-10-26T20:29:47.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DatosGenerales.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\DatosGenerales.cs",
-              "RelativeDocumentMoniker": "lib_utilidades\\DatosGenerales.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\DatosGenerales.cs",
-              "RelativeToolTip": "lib_utilidades\\DatosGenerales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABaAAAAAAAAAA==",
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Nucleo\\Configuracion.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Nucleo\\Configuracion.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Nucleo\\Configuracion.cs",
+              "RelativeToolTip": "asp_servicios\\Nucleo\\Configuracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T03:58:37.056Z",
+              "WhenOpened": "2024-10-26T20:15:27.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "asp_servicios.csproj",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj",
+              "RelativeDocumentMoniker": "asp_servicios\\asp_servicios.csproj",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj",
+              "RelativeToolTip": "asp_servicios\\asp_servicios.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-26T18:04:53.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfiguracionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\mst_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
+              "RelativeDocumentMoniker": "mst_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\mst_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
+              "RelativeToolTip": "mst_pruebas_unitarias\\Nucleo\\ConfiguracionHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:59:17.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Program.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Program.cs",
+              "RelativeToolTip": "asp_servicios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:38:23.075Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Startup.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Startup.cs",
+              "RelativeToolTip": "asp_servicios\\Startup.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:31:12.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:23:49.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JsonConversor.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\JsonConversor.cs",
+              "RelativeDocumentMoniker": "lib_utilidades\\JsonConversor.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\JsonConversor.cs",
+              "RelativeToolTip": "lib_utilidades\\JsonConversor.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:07:49.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EncriptarConversor.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\EncriptarConversor.cs",
+              "RelativeDocumentMoniker": "lib_utilidades\\EncriptarConversor.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\EncriptarConversor.cs",
+              "RelativeToolTip": "lib_utilidades\\EncriptarConversor.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:07:40.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatosGenerales.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\DatosGenerales.cs",
+              "RelativeDocumentMoniker": "lib_utilidades\\DatosGenerales.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\DatosGenerales.cs",
+              "RelativeToolTip": "lib_utilidades\\DatosGenerales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T03:58:37.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "BodegasController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\BodegasController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\BodegasController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\BodegasController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACI\u00D3N\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\BodegasController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\Controllers\\BodegasController.cs",
               "RelativeToolTip": "asp_servicios\\Controllers\\BodegasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T03:53:23.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T03:53:23.523Z"
             }
           ]
         }

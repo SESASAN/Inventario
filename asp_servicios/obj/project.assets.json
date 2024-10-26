@@ -598,19 +598,22 @@
           }
         }
       },
-      "Swashbuckle.AspNetCore/6.8.1": {
+      "Swashbuckle.AspNetCore/6.9.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
-          "Swashbuckle.AspNetCore.Swagger": "6.8.1",
-          "Swashbuckle.AspNetCore.SwaggerGen": "6.8.1",
-          "Swashbuckle.AspNetCore.SwaggerUI": "6.8.1"
+          "Swashbuckle.AspNetCore.Swagger": "6.9.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.9.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.9.0"
         },
         "build": {
           "build/Swashbuckle.AspNetCore.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Swashbuckle.AspNetCore.props": {}
         }
       },
-      "Swashbuckle.AspNetCore.Swagger/6.8.1": {
+      "Swashbuckle.AspNetCore.Swagger/6.9.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.6.14"
@@ -629,10 +632,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Swashbuckle.AspNetCore.SwaggerGen/6.8.1": {
+      "Swashbuckle.AspNetCore.SwaggerGen/6.9.0": {
         "type": "package",
         "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "6.8.1"
+          "Swashbuckle.AspNetCore.Swagger": "6.9.0"
         },
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
@@ -645,7 +648,7 @@
           }
         }
       },
-      "Swashbuckle.AspNetCore.SwaggerUI/6.8.1": {
+      "Swashbuckle.AspNetCore.SwaggerUI/6.9.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
@@ -2257,22 +2260,23 @@
         "packageIcon.png"
       ]
     },
-    "Swashbuckle.AspNetCore/6.8.1": {
-      "sha512": "JN6ccH37QKtNOwBrvSxc+jBYIB+cw6RlZie2IKoJhjjf6HzBH+2kPJCpxmJ5EHIqmxvq6aQG+0A8XklGx9rAxA==",
+    "Swashbuckle.AspNetCore/6.9.0": {
+      "sha512": "lvI+XHF21tkwXd2nDCLGJsdhdUYsY3Ax2fWUlvw81Oa6EedtnIAf5tThy8ZnPcz/9/TwsLgjgtX9ifOCIjbEPA==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore/6.8.1",
+      "path": "swashbuckle.aspnetcore/6.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/Swashbuckle.AspNetCore.props",
-        "swashbuckle.aspnetcore.6.8.1.nupkg.sha512",
+        "buildMultiTargeting/Swashbuckle.AspNetCore.props",
+        "swashbuckle.aspnetcore.6.9.0.nupkg.sha512",
         "swashbuckle.aspnetcore.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.Swagger/6.8.1": {
-      "sha512": "eOkdM4bsWBU5Ty3kWbyq5O9L+05kZT0vOdGh4a92vIb/LLQGQTPLRHXuJdnUBNIPNC8XfKWfSbtRfqzI6nnbqw==",
+    "Swashbuckle.AspNetCore.Swagger/6.9.0": {
+      "sha512": "P316kpxx5DnDvJwNWW8iTAXkh9DVenAxFGe9v4OUS0gil+vitH7F1feXhCtVeHN/616EFNTMh4pV2lcr9kkw/w==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swagger/6.8.1",
+      "path": "swashbuckle.aspnetcore.swagger/6.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2295,14 +2299,14 @@
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
         "package-readme.md",
-        "swashbuckle.aspnetcore.swagger.6.8.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.6.9.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swagger.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.SwaggerGen/6.8.1": {
-      "sha512": "TjBPxsN0HeJzxEXZYeDXBNNMSyhg+TYXtkbwX+Cn8GH/y5ZeoB/chw0p71kRo5tR2sNshbKwL24T6f9pTF9PHg==",
+    "Swashbuckle.AspNetCore.SwaggerGen/6.9.0": {
+      "sha512": "FjeMR3fBzwVc5plfYjoHw9ptf8SOWMupvO9X35J5EgzT3L9dRqSxa+cBKzL8PwCyemY0xNrggQSB5+MFWx1axg==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggergen/6.8.1",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2325,14 +2329,14 @@
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
         "package-readme.md",
-        "swashbuckle.aspnetcore.swaggergen.6.8.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.6.9.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggergen.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.SwaggerUI/6.8.1": {
-      "sha512": "lpEszYJ7vZaTTE5Dp8MrsbSHrgDfjhDMjzW1qOA1Xs1Dnj3ZRBJAcPZUTsa5Bva+nLaw91JJ8OI8FkSg8hhIyA==",
+    "Swashbuckle.AspNetCore.SwaggerUI/6.9.0": {
+      "sha512": "0OxlWBFLl2gUESZX/K7QCTz9KctKy0VxHTvLIBcyWGD4z/fv5MCMW02qzYGcReLJr4yBnNDRzApKtLh6oBpe9A==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggerui/6.8.1",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2355,7 +2359,7 @@
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
         "package-readme.md",
-        "swashbuckle.aspnetcore.swaggerui.6.8.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.6.9.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
@@ -3245,7 +3249,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Swashbuckle.AspNetCore >= 6.8.1",
+      "Swashbuckle.AspNetCore >= 6.9.0",
       "lib_aplicaciones >= 1.0.0",
       "lib_entidades >= 1.0.0",
       "lib_repositorios >= 1.0.0",
@@ -3259,11 +3263,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj",
       "projectName": "asp_servicios",
-      "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj",
+      "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\asp_servicios.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\obj\\",
+      "outputPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\asp_servicios\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3285,17 +3289,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj"
+            "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj"
             },
-            "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj"
+            "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_entidades\\lib_entidades.csproj"
             },
-            "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
+            "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
             },
-            "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\SEMESTRE 4\\PROGRAMACIÓN\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
+            "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
             }
           }
         }
@@ -3317,7 +3321,7 @@
         "dependencies": {
           "Swashbuckle.AspNetCore": {
             "target": "Package",
-            "version": "[6.8.1, )"
+            "version": "[6.9.0, )"
           }
         },
         "imports": [
