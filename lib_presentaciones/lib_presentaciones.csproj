@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\lib_comunicaciones\lib_comunicaciones.csproj" />
+    <ProjectReference Include="..\lib_entidades\lib_entidades.csproj" />
+  </ItemGroup>
+
 </Project>

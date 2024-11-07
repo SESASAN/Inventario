@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XbiUxZYJ6IM=",
+  "dgSpecHash": "G8YVYiFsqeQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\JJMS\\Documents\\Inventario\\lib_presentaciones\\lib_presentaciones.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\JJMS\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
