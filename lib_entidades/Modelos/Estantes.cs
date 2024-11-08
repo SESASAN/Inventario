@@ -13,5 +13,13 @@ namespace lib_entidades.Modelos
 
         [NotMapped] public Bodegas? _Bodega { get; set; }
         [NotMapped] public Categorias? _Categoria { get; set; }
+
+        public bool Validar()
+        {
+            if (Cantidad_producto <= 0 ||
+                Valor <= 0)
+                return false;
+            return true;
+        }
     }
 }

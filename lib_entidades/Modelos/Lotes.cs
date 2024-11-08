@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Drawing;
 
 namespace lib_entidades.Modelos
 {
@@ -17,6 +18,16 @@ namespace lib_entidades.Modelos
         [NotMapped] public Productos? _Producto { get; set; }
         [NotMapped] public Proveedores? _Proveedor { get; set; }
         [NotMapped] public Estados? _Estado { get; set; }
+
+        public bool Validar()
+        {
+            if (Fecha_llegada == null ||
+                Fecha_vencimiento == null ||
+                Cantidad <= 0 ||
+                Precio_unitario <= 0)
+                return false;
+            return true;
+        }
 
     }
 }

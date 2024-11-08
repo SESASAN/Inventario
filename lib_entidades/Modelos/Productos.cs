@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Drawing;
 
 namespace lib_entidades.Modelos
 {
@@ -20,5 +21,16 @@ namespace lib_entidades.Modelos
 
         public void CalcularPrecioVenta() { }
         public void ActualizarStock() { }
+
+        public bool Validar()
+        {
+            if (string.IsNullOrEmpty(Nombre) ||
+                string.IsNullOrEmpty(Descripcion) ||
+                Stock <= 0 ||
+                Precio_venta <= 0 || 
+                Iva <= 0)
+                return false;
+            return true;
+        }
     }
 }

@@ -9,5 +9,14 @@ namespace lib_entidades.Modelos
         public string? Nombre { get; set; }
         public string? Direccion { get; set; }
         public string? Telefono { get; set; }
+
+        public bool Validar()
+        {
+            if (string.IsNullOrEmpty(Nombre) ||
+                string.IsNullOrEmpty(Direccion) ||
+                string.IsNullOrEmpty(Telefono))
+                return false;
+            return true;
+        }
     }
 }
