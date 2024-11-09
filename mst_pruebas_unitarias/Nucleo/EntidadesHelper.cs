@@ -9,7 +9,6 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Sucursales()
             {
-                Id = 2,
                 Nombre = "ZA Secundaria",
                 Direccion = "Calle 46 #45-67",
             };
@@ -18,7 +17,6 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Proveedores()
             {
-                Id = 5,
                 Nombre = "Edgar Miranda",
                 Direccion = "Calle 26 #75-76",
                 Telefono = "3127673596",
@@ -28,7 +26,6 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Estados()
             {
-                Id= 4,
                 Nombre="Test Estado"
             };
         }
@@ -36,7 +33,6 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Bodegas()
             {
-                Id = 2,
                 Cantidad_estante = 1200,
                 Valor_bodega = 120000.45m,
                 Sucursal = 1,
@@ -46,7 +42,6 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Categorias()
             {
-                Id = 2,
                 Nombre = "Carnes",
             };
         }
@@ -54,7 +49,6 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Estantes()
             {
-                Id = 2,
                 Cantidad_producto = 4,
                 Bodega = 1,
                 Categoria = 1,
@@ -65,7 +59,6 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Productos()
             {
-                Id = 2,
                 Nombre = "Pan Integral",
                 Descripcion = "7mil panes",
                 Stock = 500,
@@ -79,7 +72,6 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Lotes()
             {
-                Id = 2,
                 Producto = 1,
                 Fecha_llegada = DateTime.Today,
                 Fecha_vencimiento = DateTime.Now,                
@@ -89,5 +81,31 @@ namespace mst_pruebas_unitarias.Nucleo
                 Proveedor = 1,
             };
         }
+
+        public static Roles ObtenerRoles()
+        {
+            return new Roles()
+            {
+                Nombre = "RolPrueba",
+                Permiso = false,
+            };
+        }
+        public static Usuarios ObtenerUsuarios()
+        {
+            return new Usuarios()
+            {
+                Nombre = "UsuarioPrueba",
+                Clave = "f12321321",
+                Rol = 2,
+            };
+        }
+        public static Acciones ObtenerAcciones()
+        {
+            return new Acciones()
+            {
+                Nombre = "AccionPrueba",
+            };
+        }
+
     }
 }

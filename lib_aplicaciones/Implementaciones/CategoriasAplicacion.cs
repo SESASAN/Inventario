@@ -21,7 +21,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0)
-                throw new Exception("lbNoSeGuardo");
+                throw new Exception("lbNoSeEliminó");
             entidad = iRepositorio!.Borrar(entidad);
             return entidad;
         }
@@ -29,8 +29,8 @@ namespace lib_aplicaciones.Implementaciones
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad.Id == 0)
-                throw new Exception("lbYaSeGuardo");
+            if (entidad.Id != 0)
+                throw new Exception("lbNoSeGuardo");
             entidad = iRepositorio!.Guardar(entidad);
             return entidad;
         }

@@ -6,14 +6,14 @@ GO
 
 CREATE TABLE [Estados]
 (
-	[Id] INT NOT NULL,
+	[Id] INT IDENTITY(1,1),
 	[Nombre] NVARCHAR(50) NOT NULL,
 	CONSTRAINT [PK_Estados] PRIMARY KEY CLUSTERED ([Id])
 );
 GO
 
 CREATE TABLE [Sucursales](
-	[Id] INT NOT NULL,
+	[Id] INT IDENTITY(1,1),
 	[Nombre] NVARCHAR(100) NOT NULL,
 	[Direccion] NVARCHAR(100) NOT NULL,
 	CONSTRAINT [PK_Sucursales] PRIMARY KEY CLUSTERED ([Id])
@@ -21,7 +21,7 @@ CREATE TABLE [Sucursales](
 GO
 
 CREATE TABLE [Bodegas](
-	[Id] INT NOT NULL,
+	[Id] INT IDENTITY(1,1),
 	[Cantidad_estante] INT DEFAULT 0 NOT NULL,
 	[Valor_bodega] DECIMAL(20, 2) NOT NULL,
 	[Sucursal] INT NOT NULL,
@@ -31,14 +31,14 @@ CREATE TABLE [Bodegas](
 GO
 
 CREATE TABLE [Categorias](
-	[Id] INT NOT NULL,
+	[Id] INT IDENTITY(1,1),
 	[Nombre] NVARCHAR(100) NOT NULL,
 	CONSTRAINT [PK_Categorias] PRIMARY KEY CLUSTERED ([Id])
 );
 GO
 
 CREATE TABLE [Proveedores](
-	[Id] INT NOT NULL,
+	[Id] INT IDENTITY(1,1),
 	[Nombre] NVARCHAR(100) NOT NULL,
 	[Direccion] NVARCHAR(100) NOT NULL,
 	[Telefono] NVARCHAR(10) NOT NULL,
@@ -47,7 +47,7 @@ CREATE TABLE [Proveedores](
 GO
 
 CREATE TABLE [Estantes](
-	[Id] INT NOT NULL,
+	[Id] INT IDENTITY(1,1),
 	[Cantidad_producto] INT DEFAULT 0,
 	[Bodega]  INT NOT NULL,
 	[Categoria]  INT NOT NULL,
@@ -60,7 +60,7 @@ GO
 
 
 CREATE TABLE [Productos](
-	[Id] INT NOT NULL,
+	[Id] INT IDENTITY(1,1),
 	[Nombre] NVARCHAR(60) NOT NULL,
 	[Descripcion] NVARCHAR(150),
 	[Stock] INT DEFAULT 0,
@@ -75,7 +75,7 @@ CREATE TABLE [Productos](
 GO
 
 CREATE TABLE [Lotes] (
-	[Id] INT NOT NULL,
+	[Id] INT IDENTITY(1,1),
 	[Producto] INT NOT NULL,
 	[Fecha_llegada] DATETIME NOT NULL,
 	[Fecha_vencimiento] DATETIME NOT NULL,
@@ -90,28 +90,74 @@ CREATE TABLE [Lotes] (
 );
 GO
 
+CREATE TABLE [Roles] (
+	[Id] INT IDENTITY(1,1),
+	[Nombre] NVARCHAR(50) NOT NULL,
+	[Permiso] BIT DEFAULT 0,
+	CONSTRAINT [PK_Roles] PRIMARY KEY CLUSTERED ([Id]),
+);
+GO
+
+CREATE TABLE [Usuarios] (
+	[Id] INT IDENTITY(1,1),
+	[Nombre] NVARCHAR(30) NOT NULL,
+	[Clave] NVARCHAR(25)NOT NULL,
+	[Rol] INT NOT NULL,
+	CONSTRAINT [PK_Usuarios] PRIMARY KEY CLUSTERED ([Id]),
+	CONSTRAINT [FK_Usuarios_Roles] FOREIGN KEY ([Rol]) REFERENCES [Roles] ([Id]) ON DELETE NO ACTION ON UPDATE NO ACTION,
+);
+GO
+
+CREATE TABLE [Acciones] (
+	[Id] INT IDENTITY(1,1),
+	[Nombre] NVARCHAR(15) NOT NULL,
+	CONSTRAINT [PK_Acciones] PRIMARY KEY CLUSTERED ([Id]),
+);
+GO
+
+CREATE TABLE [Auditorias] (
+	[Id] INT IDENTITY(1,1),
+	[Usuario] INT NOT NULL,
+	[Fecha] DATETIME DEFAULT GETDATE(),
+	[Accion] INT NOT NULL,
+	[Entidad] NVARCHAR(MAX) NOT NULL,
+	CONSTRAINT [PK_Auditorias] PRIMARY KEY CLUSTERED ([Id]),
+	CONSTRAINT [FK_Auditorias_Acciones] FOREIGN KEY ([Accion]) REFERENCES [Acciones] ([Id]) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT [FK_Auditorias_Usuarios] FOREIGN KEY ([Usuario]) REFERENCES [Usuarios] ([Id]) ON DELETE NO ACTION ON UPDATE NO ACTION,
+);
+GO
+
 -- INSERTAR DATOS DE PRUEBA
 
-Insert INTO [Sucursales] ([Id], [Nombre], [Direccion])
-VALUES (1,'Za Principal','Calle 46 #45-67')
+Insert INTO [Sucursales] ([Nombre], [Direccion])
+VALUES ('Za Principal','Calle 46 #45-67')
 
-Insert INTO [Proveedores] ([Id], [Nombre], [Direccion],[Telefono])
-VALUES (1,'Tiendas D1','Calle 50b #112-46', '3146578903')
+Insert INTO [Proveedores] ([Nombre], [Direccion],[Telefono])
+VALUES ('Tiendas D1','Calle 50b #112-46', '3146578903')
 
-Insert INTO [Estados] ([Id], [Nombre])
-VALUES (1,'Nuevo'), (2,'Próximo a vencer'), (3,'Vencido')
+Insert INTO [Estados] ([Nombre])
+VALUES ('Nuevo'), ('Próximo a vencer'), ('Vencido')
 
-Insert INTO [Bodegas] ([Id], [Cantidad_estante], [Valor_bodega], [Sucursal])
-VALUES (1,200,1500000.00,1)
+Insert INTO [Bodegas] ([Cantidad_estante], [Valor_bodega], [Sucursal])
+VALUES (200,1500000.00,1)
 
-Insert INTO [Categorias] ([Id], [Nombre])
-VALUES (1,'Lácteos')
+Insert INTO [Categorias] ([Nombre])
+VALUES ('Lácteos')
 
-Insert INTO [Estantes] ([Id], [Cantidad_producto], [Bodega],[Categoria],[Valor])
-VALUES (1,20,1,1,1500000.00)
+Insert INTO [Estantes] ([Cantidad_producto], [Bodega],[Categoria],[Valor])
+VALUES (20,1,1,1500000.00)
 
-INSERT INTO [Productos] ([Id], [Nombre], [Descripcion], [Stock], [Precio_venta],[Iva], [Categoria], [Estante])
-VALUES (1, 'Leche','1 Litro',1,6990,0.19,1,1)
+INSERT INTO [Productos] ([Nombre], [Descripcion], [Stock], [Precio_venta],[Iva], [Categoria], [Estante])
+VALUES ('Leche','1 Litro',1,6990,0.19,1,1)
 
-INSERT INTO [Lotes] ([Id],[Producto], [Fecha_llegada], [Fecha_vencimiento], [Cantidad],[Precio_unitario], [Estado], [Proveedor])
-VALUES (1,1,'08/23/2024','09/16/2024',8,5662,3,1)
+INSERT INTO [Lotes] ([Producto], [Fecha_llegada], [Fecha_vencimiento], [Cantidad],[Precio_unitario], [Estado], [Proveedor])
+VALUES (1,'08/23/2024','09/16/2024',8,5662,3,1)
+
+INSERT INTO [Roles] ([Nombre],[Permiso])
+VALUES ('Administrador',1),('Empleado',0)
+
+INSERT INTO [Usuarios] ([Nombre],[Clave],[Rol])
+VALUES ('SeBa$$','Per3z.10/%',1), ('NAaThY.m','MmiR4Nd.a$*',1),('J0aNJJo$3#','*m3D1n4.+',1),('$S4aMu3L.r','$Qu1R@z.+*',1)
+
+INSERT INTO [Acciones] ([Nombre])
+VALUES ('CREAR'),('MODIFICAR'),('ELIMINAR')

@@ -3,7 +3,6 @@ using lib_repositorios;
 using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
 using mst_pruebas_unitarias.Nucleo;
-using mst_unittests.Nucleo;
 
 namespace mst_pruebas_unitarias.Repositorios
 {
