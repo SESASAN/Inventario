@@ -52,3 +52,21 @@ C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_aplicacion
 C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_aplicaciones\obj\Debug\net8.0\refint\lib_aplicaciones.dll
 C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.pdb
 C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_aplicaciones\obj\Debug\net8.0\ref\lib_aplicaciones.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.deps.json
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.pdb
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\bin\Debug\net8.0\lib_repositorios.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\bin\Debug\net8.0\lib_repositorios.pdb
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.csproj.AssemblyReference.cache
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.AssemblyInfoInputs.cache
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.AssemblyInfo.cs
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.csproj.CoreCompileInputs.cache
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.sourcelink.json
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_apli.7723F211.Up2Date
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\refint\lib_aplicaciones.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.pdb
+C:\Users\Sebastián\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\ref\lib_aplicaciones.dll

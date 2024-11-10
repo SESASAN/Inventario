@@ -107,23 +107,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JJMS\\.nuget\\packages\\": {},
+    "C:\\Users\\Sebastián\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JJMS\\Documents\\Inventario\\lib_presentaciones\\lib_presentaciones.csproj",
+      "projectUniqueName": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_presentaciones\\lib_presentaciones.csproj",
       "projectName": "lib_presentaciones",
-      "projectPath": "C:\\Users\\JJMS\\Documents\\Inventario\\lib_presentaciones\\lib_presentaciones.csproj",
-      "packagesPath": "C:\\Users\\JJMS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JJMS\\Documents\\Inventario\\lib_presentaciones\\obj\\",
+      "projectPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_presentaciones\\lib_presentaciones.csproj",
+      "packagesPath": "C:\\Users\\Sebastián\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_presentaciones\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\JJMS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sebastián\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -139,11 +139,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\JJMS\\Documents\\Inventario\\lib_comunicaciones\\lib_comunicaciones.csproj": {
-              "projectPath": "C:\\Users\\JJMS\\Documents\\Inventario\\lib_comunicaciones\\lib_comunicaciones.csproj"
+            "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_comunicaciones\\lib_comunicaciones.csproj": {
+              "projectPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_comunicaciones\\lib_comunicaciones.csproj"
             },
-            "C:\\Users\\JJMS\\Documents\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-              "projectPath": "C:\\Users\\JJMS\\Documents\\Inventario\\lib_entidades\\lib_entidades.csproj"
+            "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+              "projectPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
             }
           }
         }

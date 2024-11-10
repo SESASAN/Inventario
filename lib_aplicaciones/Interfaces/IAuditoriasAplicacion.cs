@@ -6,6 +6,7 @@ namespace lib_aplicaciones.Interfaces
         void Configurar(string string_conexion);
         List<Auditorias> Listar();
         Auditorias Guardar(Auditorias entidad);
+        List<Auditorias> Buscar(Auditorias entidad, string tipo);
     }
 }
 

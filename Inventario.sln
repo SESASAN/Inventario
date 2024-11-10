@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_presentacion", "wpf_pre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib_comunicaciones", "lib_comunicaciones\lib_comunicaciones.csproj", "{E8B7B014-A1AC-4B27-AE96-4C8A623C8C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_presentaciones", "lib_presentaciones\lib_presentaciones.csproj", "{9F9E3557-A8A5-492C-B351-FF8DF0BBCFE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib_presentaciones", "lib_presentaciones\lib_presentaciones.csproj", "{9F9E3557-A8A5-492C-B351-FF8DF0BBCFE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asp_presentacion", "asp_presentacion\asp_presentacion.csproj", "{78709B19-B8F4-42E5-8B25-C67D4EF0021F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{9F9E3557-A8A5-492C-B351-FF8DF0BBCFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F9E3557-A8A5-492C-B351-FF8DF0BBCFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F9E3557-A8A5-492C-B351-FF8DF0BBCFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78709B19-B8F4-42E5-8B25-C67D4EF0021F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78709B19-B8F4-42E5-8B25-C67D4EF0021F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78709B19-B8F4-42E5-8B25-C67D4EF0021F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78709B19-B8F4-42E5-8B25-C67D4EF0021F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{E00FBC1F-A627-4F4F-8F05-A7640F197014} = {C0F4699E-C18B-416C-AAA0-3E1F2EFFDA3D}
 		{E8B7B014-A1AC-4B27-AE96-4C8A623C8C60} = {C0F4699E-C18B-416C-AAA0-3E1F2EFFDA3D}
 		{9F9E3557-A8A5-492C-B351-FF8DF0BBCFE6} = {C0F4699E-C18B-416C-AAA0-3E1F2EFFDA3D}
+		{78709B19-B8F4-42E5-8B25-C67D4EF0021F} = {C0F4699E-C18B-416C-AAA0-3E1F2EFFDA3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0E15598-D07A-4A8C-BFF4-AEEF98B760ED}

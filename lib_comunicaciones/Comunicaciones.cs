@@ -6,7 +6,7 @@ namespace lib_comunicaciones
     public class Comunicaciones
     {
         public string? Protocolo = "http://",//es el tipo de url que se usa normalmente es http o https pero el S pide certificados y eso
-            Host = "localhost:5056",//nombre del servidor depende de cada servidor
+            Host = "localhost:5283",//nombre del servidor depende de cada servidor
             Servicio = "",// "asp_notas_servicios/",//esto se pone cuando se publica en el IIS pero como no hay IIS se deja vacia
             Nombre = string.Empty,//nombre de la enidad controlador 
             Final = string.Empty,

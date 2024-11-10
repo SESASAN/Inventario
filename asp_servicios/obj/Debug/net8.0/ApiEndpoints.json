@@ -141,6 +141,26 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.BodegasController",
+    "Method": "Buscar",
+    "RelativePath": "Bodegas/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.BodegasController",
     "Method": "Guardar",
     "RelativePath": "Bodegas/Guardar",
     "HttpMethod": "POST",

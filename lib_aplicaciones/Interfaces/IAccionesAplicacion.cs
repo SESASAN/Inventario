@@ -4,6 +4,7 @@ namespace lib_aplicaciones.Interfaces
     public interface IAccionesAplicacion
     {
         void Configurar(string string_conexion);
+        List<Acciones> Buscar(Acciones entidad, string tipo);
         List<Acciones> Listar();
         Acciones Guardar(Acciones entidad);
         Acciones Modificar(Acciones entidad);

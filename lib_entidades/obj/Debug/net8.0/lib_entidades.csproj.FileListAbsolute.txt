@@ -45,3 +45,15 @@ C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8
 C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
 C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
 C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\bin\Debug\net8.0\lib_entidades.deps.json
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfoInputs.cache
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfo.cs
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.csproj.CoreCompileInputs.cache
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.sourcelink.json
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
+C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll

@@ -37,3 +37,16 @@ C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_utilidades
 C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_utilidades\obj\Debug\net8.0\refint\lib_utilidades.dll
 C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_utilidades\obj\Debug\net8.0\lib_utilidades.pdb
 C:\Users\campe\OneDrive\Escritorio\CLASE PROGRAMACIÓN\Inventario\lib_utilidades\obj\Debug\net8.0\ref\lib_utilidades.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\bin\Debug\net8.0\lib_utilidades.deps.json
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\bin\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\obj\Debug\net8.0\lib_utilidades.csproj.AssemblyReference.cache
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\obj\Debug\net8.0\lib_utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\obj\Debug\net8.0\lib_utilidades.AssemblyInfoInputs.cache
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\obj\Debug\net8.0\lib_utilidades.AssemblyInfo.cs
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\obj\Debug\net8.0\lib_utilidades.csproj.CoreCompileInputs.cache
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\obj\Debug\net8.0\lib_utilidades.sourcelink.json
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\obj\Debug\net8.0\lib_utilidades.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\obj\Debug\net8.0\refint\lib_utilidades.dll
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\obj\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Sebastián\Source\Repos\Inventario\lib_utilidades\obj\Debug\net8.0\ref\lib_utilidades.dll
