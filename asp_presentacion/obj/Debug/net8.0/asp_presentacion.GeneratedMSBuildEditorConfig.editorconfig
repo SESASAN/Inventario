@@ -38,12 +38,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Acciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQWNjaW9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Auditorias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQXVkaXRvcmlhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Bodegas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQm9kZWdhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Categorias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQ2F0ZWdvcmlhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Estados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcRXN0YWRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Estantes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcRXN0YW50ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Lotes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcTG90ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Productos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcUHJvZHVjdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Proveedores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcUHJvdmVlZG9yZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Roles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Sucursales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcU3VjdXJzYWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/Ventanas/Usuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Sebastián/Source/Repos/Inventario/asp_presentacion/Pages/_ViewImports.cshtml]

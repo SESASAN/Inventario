@@ -1,0 +1,211 @@
+﻿@page
+@model EstantesModel
+@{
+    ViewData["Titulo"] = "Estantes";
+}
+<center>
+    <div>
+        <form method="POST"
+              enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+
+            <div align="left">
+                <h3>Estantes</h3>
+            </div>
+            <div align="left"
+                 class="bt_panel_buttons">
+                <input type="submit"
+                       value="Refrescar"
+                       asp-page-handler="BtRefrescar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Nuevo"
+                       asp-page-handler="BtNuevo"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Guardar"
+                       asp-page-handler="BtGuardar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Cancelar"
+                       asp-page-handler="BtCancelar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas)" />
+            </div>
+
+            @if (Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas ||
+            Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
+            {
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Id" />
+            }
+            @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
+            {
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Cantidad_producto" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Bodega" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Categoria" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Valor" />
+            }
+
+            @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar)
+            {
+                <div class="containers_vn panel panel-default">
+                    <h3>Estante</h3>
+
+                    <div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Cantidad de Productos
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmNombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Cantidad_producto" />
+                            </div>
+                            <label class="col-lg-4 control-label">
+                                Id de Bodega
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmDescripcion"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Bodega" />
+                            </div>
+                            <label class="col-lg-4 control-label">
+                                Categoría
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmStock"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Categoria" />
+                            </div>
+                            <label class="col-lg-4 control-label">
+                                Valor
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmPrecio de Venta"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Valor" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (ViewData.ContainsKey("Mensaje"))
+            {
+                <input type="hidden"
+                       asp-for="@Model.Accion" />
+                @await Html.PartialAsync(
+                         "../Emergentes/Mensajes.cshtml")
+                ;
+            }
+
+            @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
+            {
+                <div class='popup'>
+                    <div class='pp_del_inner'>
+                        <div style='width:95%'>
+                            <h2 align="left">
+                                Mensaje
+                            </h2>
+
+                            <h4 align="left">
+                                Desea borrar la entidad?
+                            </h4>
+                            <h6 align="left">
+                                @Model.Actual!.Id
+                            </h6>
+                            <br />
+                            <br />
+                            <input type="submit"
+                                   value="Borrar"
+                                   asp-page-handler="BtBorrar"
+                                   class="btn btn-secondary" />
+                            <input type="submit"
+                                   value="Cerrar"
+                                   asp-page-handler="BtCancelar"
+                                   class="btn btn-secondary" />
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas ||
+            Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
+            {
+                @* <input id="flId"
+                       class="cts_forms form-control"
+                       asp-for="@Model.Filtro!.Id"
+                       placeholder="Nombre" />
+                <br /> *@
+
+                <div class="containers_vn panel panel-default">
+                    <table class="tb_data table table-striped table-bordered table-hover">
+                        <tr>
+                            <th>
+                                Id
+                            </th>
+                            <th>
+                                Cantidad de Productos
+                            </th>
+                            <th>
+                                Id de Bodega
+                            </th>
+                            <th>
+                                Id de Categoría
+                            </th>
+                            <th>
+                                Valor
+                            </th>
+                            <th class ="cl_actions">
+                                Acción
+                            </th>
+                        </tr>
+                        @if (Model != null && Model.Lista != null)
+                        {
+                            @foreach (var elemento in Model.Lista)
+                            {
+                                <tr>
+                                    <td>
+                                        @elemento.Id
+                                    </td>
+                                    <td class="cl_hidden">
+                                        @elemento.Cantidad_producto
+                                    </td>
+                                    <td>
+                                        @elemento.Bodega
+                                    </td>
+                                    <td>
+                                        @elemento.Categoria
+                                    </td>
+                                    <td>
+                                        @elemento.Valor
+                                    </td>
+                                    <td>
+                                        <input type="submit"
+                                               value="Modicar"
+                                               asp-page-handler="BtModificar"
+                                               class="btn btn-secondary"
+                                               asp-route-data="@elemento.Id" />
+                                        <input type="submit"
+                                               value="Borrar"
+                                               asp-page-handler="BtBorrarVal"
+                                               class="btn btn-secondary"
+                                               asp-route-data="@elemento.Id" />
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </table>
+                </div>
+            }
+        </form>
+    </div>
+</center>
