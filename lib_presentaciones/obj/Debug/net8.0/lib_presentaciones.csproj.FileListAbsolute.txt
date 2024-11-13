@@ -18,3 +18,23 @@ C:\Users\Sebastián\Source\Repos\Inventario\lib_presentaciones\obj\Debug\net8.0\
 C:\Users\Sebastián\Source\Repos\Inventario\lib_presentaciones\obj\Debug\net8.0\refint\lib_presentaciones.dll
 C:\Users\Sebastián\Source\Repos\Inventario\lib_presentaciones\obj\Debug\net8.0\lib_presentaciones.pdb
 C:\Users\Sebastián\Source\Repos\Inventario\lib_presentaciones\obj\Debug\net8.0\ref\lib_presentaciones.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\bin\Debug\net8.0\lib_presentaciones.deps.json
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\bin\Debug\net8.0\lib_presentaciones.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\bin\Debug\net8.0\lib_presentaciones.pdb
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\bin\Debug\net8.0\lib_comunicaciones.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\bin\Debug\net8.0\lib_comunicaciones.pdb
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\bin\Debug\net8.0\lib_utilidades.pdb
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\obj\Debug\net8.0\lib_presentaciones.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\obj\Debug\net8.0\lib_presentaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\obj\Debug\net8.0\lib_presentaciones.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\obj\Debug\net8.0\lib_presentaciones.AssemblyInfo.cs
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\obj\Debug\net8.0\lib_presentaciones.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\obj\Debug\net8.0\lib_presentaciones.sourcelink.json
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\obj\Debug\net8.0\lib_pres.F3664F89.Up2Date
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\obj\Debug\net8.0\lib_presentaciones.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\obj\Debug\net8.0\refint\lib_presentaciones.dll
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\obj\Debug\net8.0\lib_presentaciones.pdb
+C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\lib_presentaciones\obj\Debug\net8.0\ref\lib_presentaciones.dll
