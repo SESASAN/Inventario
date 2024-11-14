@@ -82,3 +82,45 @@ C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\asp_presentacion\obj\Debug\n
 C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.pdb
 C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.genruntimeconfig.cache
 C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\asp_presentacion\obj\Debug\net8.0\ref\asp_presentacion.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\appsettings.json
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\asp_presentacion.staticwebassets.runtime.json
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\asp_presentacion.exe
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\asp_presentacion.deps.json
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\asp_presentacion.runtimeconfig.json
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\asp_presentacion.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\asp_presentacion.pdb
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\lib_comunicaciones.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\lib_presentaciones.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\lib_comunicaciones.pdb
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\lib_presentaciones.pdb
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\lib_utilidades.pdb
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.csproj.AssemblyReference.cache
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.AssemblyInfoInputs.cache
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.AssemblyInfo.cs
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.csproj.CoreCompileInputs.cache
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.RazorAssemblyInfo.cache
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.RazorAssemblyInfo.cs
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.sourcelink.json
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\staticwebassets\msbuild.asp_presentacion.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\staticwebassets\msbuild.build.asp_presentacion.props
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.asp_presentacion.props
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.asp_presentacion.props
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\scopedcss\bundle\asp_presentacion.styles.css
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\scopedcss\projectbundle\asp_presentacion.bundle.scp.css
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_pres.9948B68B.Up2Date
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\refint\asp_presentacion.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.pdb
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\asp_presentacion.genruntimeconfig.cache
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\ref\asp_presentacion.dll

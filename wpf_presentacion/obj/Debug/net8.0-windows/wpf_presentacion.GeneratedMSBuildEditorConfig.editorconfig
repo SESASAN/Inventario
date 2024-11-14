@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = wpf_presentacion
-build_property.ProjectDir = C:\Users\USUARIO\source\NUESTRO PROYECTO\Inventario\wpf_presentacion\
+build_property.ProjectDir = C:\Users\campe\source\repos\Inventario\wpf_presentacion\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

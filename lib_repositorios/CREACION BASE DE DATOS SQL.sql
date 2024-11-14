@@ -100,8 +100,10 @@ GO
 
 CREATE TABLE [Usuarios] (
 	[Id] INT IDENTITY(1,1),
-	[Nombre] NVARCHAR(30) NOT NULL,
-	[Clave] NVARCHAR(25)NOT NULL,
+	[Nombre] NVARCHAR(40) NOT NULL,
+	[Apellidos] NVARCHAR(40) NOT NULL,
+	[Nombre_Usuario] NVARCHAR(40) NOT NULL,
+	[Clave] NVARCHAR(35)NOT NULL,
 	[Rol] INT NOT NULL,
 	CONSTRAINT [PK_Usuarios] PRIMARY KEY CLUSTERED ([Id]),
 	CONSTRAINT [FK_Usuarios_Roles] FOREIGN KEY ([Rol]) REFERENCES [Roles] ([Id]) ON DELETE NO ACTION ON UPDATE NO ACTION,
@@ -156,8 +158,11 @@ VALUES (1,'08/23/2024','09/16/2024',8,5662,3,1)
 INSERT INTO [Roles] ([Nombre],[Permiso])
 VALUES ('Administrador',1),('Empleado',0)
 
-INSERT INTO [Usuarios] ([Nombre],[Clave],[Rol])
-VALUES ('SeBa$$','Per3z.10/%',1), ('NAaThY.m','MmiR4Nd.a$*',1),('J0aNJJo$3#','*m3D1n4.+',1),('$S4aMu3L.r','$Qu1R@z.+*',1)
+INSERT INTO [Usuarios] ([Nombre],[Apellidos],[Nombre_Usuario],[Clave],[Rol])
+VALUES ('Sebastián','Pérez Araujo','D0qT0HGnFTdXNevW22I2Ng==','xliSERfQYP4SvJ99Zb0P4w==',1),
+('Nathalie','Miranda Rejón','TmYn4VBsB1jABxuVnNA3GA==','JH/NLJunIt6h2dkgYJ6Qhw==',1),
+('Juan','Medina Sepúlveda','kBcG/P/3lXZZvV9emVGqOg==','N7PsvbBBOvnoFf1JluX6EQ==',1),
+('Samuel','Quiroz Rincón','i3VKwxMYsMwK0jIfIp7D7g==','F2Yg/f6DMMp+6i/Zd3DJzg==',1)
 
 INSERT INTO [Acciones] ([Nombre])
 VALUES ('CREAR'),('MODIFICAR'),('ELIMINAR')

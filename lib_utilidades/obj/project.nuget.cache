@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GpZzeeD6UpI=",
+  "dgSpecHash": "9JTyifKxUb0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\source\\NUESTRO PROYECTO\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
+  "projectFilePath": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USUARIO\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\campe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

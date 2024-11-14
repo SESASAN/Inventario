@@ -57,3 +57,4 @@ C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_e
 C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
 C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
 C:\Users\Sebastián\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll
+C:\Users\campe\source\repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.sourcelink.json

@@ -29,6 +29,7 @@ namespace asp_presentacion
             services.AddScoped<IRolesComunicacion, RolesComunicacion>();
             services.AddScoped<ISucursalesComunicacion, SucursalesComunicacion>();
             services.AddScoped<IUsuariosComunicacion, UsuariosComunicacion>();
+            services.AddScoped<ILoginComunicacion, LoginComunicacion>();
 
             // Presentaciones
             services.AddScoped<IBodegasPresentacion, BodegasPresentacion>();
@@ -43,13 +44,26 @@ namespace asp_presentacion
             services.AddScoped<IRolesPresentacion, RolesPresentacion>();
             services.AddScoped<ISucursalesPresentacion, SucursalesPresentacion>();
             services.AddScoped<IUsuariosPresentacion, UsuariosPresentacion>();
+            services.AddScoped<ILoginPresentacion, LoginPresentacion>();
 
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddRazorPages();
+            services.AddMvc().AddRazorPagesOptions(options => options.Conventions.AddPageRoute("/Login", ""));
             services.AddSession(options =>
             {
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
+            });
+            services.AddControllersWithViews();
+
+            // Configura la autenticación de cookies
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.Cookie.HttpOnly = true; // La cookie no es accesible desde JavaScript
+                options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Usa cookies seguras (HTTPS)
+                options.Cookie.SameSite = SameSiteMode.Strict; // Previene el envío de cookies en solicitudes de terceros
+                options.ExpireTimeSpan = TimeSpan.FromDays(1); // Duración de la cookie
+                options.LoginPath = "/Login"; // Ruta de inicio de sesión
             });
         }
 

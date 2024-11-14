@@ -10,17 +10,22 @@ namespace lib_comunicaciones
             Servicio = "",// "asp_notas_servicios/",//esto se pone cuando se publica en el IIS pero como no hay IIS se deja vacia
             Nombre = string.Empty,//nombre de la enidad controlador 
             Final = string.Empty,
-            token = null;
+            token = "";
 
         public Comunicaciones(string nombre)
         {
             Nombre = nombre;
         }
 
+        public Comunicaciones()
+        {
+        }
+
+        // CORREGIR EL "TOKEN/AUTENTICAR1" CUANDO YA ESTEN LAS COOKIES
         public Dictionary<string, object> BuildUrl(Dictionary<string, object> data, string Metodo)
         {
             data["Url"] = Protocolo + Host + "/" + Servicio + Nombre + "/" + Metodo + Final;
-            data["UrlToken"] = Protocolo + Host + "/" + Servicio + "Token/Autenticar" + Final;
+            data["UrlToken"] = Protocolo + Host + "/" + Servicio + "Token/Autenticar1" + Final;
             return data;
         }
 
@@ -29,7 +34,7 @@ namespace lib_comunicaciones
             var respuesta = new Dictionary<string, object>();
             try
             {
-                respuesta = await Authenticate(datos);
+                respuesta = await Authenticate1(datos);
                 if (respuesta == null || respuesta.ContainsKey("Error"))
                     return respuesta!;
                 respuesta.Clear();
@@ -70,7 +75,53 @@ namespace lib_comunicaciones
             }
         }
 
-        private async Task<Dictionary<string, object>> Authenticate(Dictionary<string, object> datos)
+        // CAMBIAR AUTENTICAR, este es el que sirve para el login momentaneamente
+        // EL CAMIBO ES EL BUILDURL O VER SI ESTÁ BIEN PLANETEADO
+        public async Task<Dictionary<string, object>> Authenticate(Dictionary<string, object> datos)
+        {
+            var respuesta = new Dictionary<string, object>();
+            try
+            {
+                datos["UrlToken"] = Protocolo + Host + "/" + Servicio + "Token/Autenticar" + Final;
+                var url = datos["UrlToken"].ToString();
+                var temp = new Dictionary<string, object>();
+                temp["Usuario"] = datos["Usuario"].ToString()!;
+                temp["Clave"] = datos["Clave"].ToString()!;
+                var stringData = JsonConversor.ConvertirAString(temp);
+
+                var httpClient = new HttpClient();
+                httpClient.Timeout = new TimeSpan(0, 1, 0);
+                var mensaje = await httpClient.PostAsync(url, new StringContent(stringData));
+
+                if (!mensaje.IsSuccessStatusCode)
+                {
+                    respuesta.Add("Error", "lbErrorComunicacion");
+                    return respuesta;
+                }
+
+                var resp = await mensaje.Content.ReadAsStringAsync();
+                httpClient.Dispose(); httpClient = null;
+                if (string.IsNullOrEmpty(resp))
+                {
+                    respuesta.Add("Error", "lbErrorAutenticacion");
+                    return respuesta;
+                }
+
+                resp = Replace(resp);
+                respuesta = JsonConversor.ConvertirAObjeto(resp);
+               this.token = respuesta["Token"].ToString();
+
+                return respuesta;
+            }
+            catch (Exception ex)
+            {
+                respuesta["Error"] = ex.ToString();
+                return respuesta;
+            }
+        }
+
+        // AUTENTICAR MOMENTANEO QUE SOLO FUNCIONA CON LAS ENTIDADES
+        private async Task<Dictionary<string, object>> Authenticate1(Dictionary<string, object> datos)
         {
             var respuesta = new Dictionary<string, object>();
             try

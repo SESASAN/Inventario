@@ -77,3 +77,4 @@ C:\Users\Sebastián\Source\Repos\Inventario\lib_repositorios\obj\Debug\net8.0\li
 C:\Users\Sebastián\Source\Repos\Inventario\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
 C:\Users\Sebastián\Source\Repos\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
 C:\Users\Sebastián\Source\Repos\Inventario\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll
+C:\Users\campe\source\repos\Inventario\lib_repositorios\obj\Debug\net8.0\lib_repositorios.sourcelink.json
