@@ -1,46 +1,211 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.color1 {
+    color: #2f2d58;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.color2 {
+    color: #5c3a72;
 }
 
+.color3 {
+    color: #9c4d91;
+}
+
+.color4 {
+    color: #f267b2;
+}
+
+.color5 {
+    color: #ff8ece;
+}
+
+/* Fondo general */
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #5c3a72; /* Fondo morado oscuro */
+    color: #FFFFFF; /* Texto blanco */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* Para mantener el footer al final */
 }
 
-.navbar {
+/* Contenedor principal */
+.wrapper {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+    flex-grow: 1;
 }
+
+/* Barra lateral */
+.sidebar {
+    width: 250px;
+    background-color: #9c4d91; /* Morado medio */
+    height: 100vh;
+    position: fixed;
+    left: -250px; /* Oculto por defecto */
+    top: 0;
+    overflow-y: auto;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+    .sidebar.open {
+        left: 0; /* Muestra la barra lateral */
+    }
+
+    .sidebar .logo {
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 1px solid #5b0f99;
+    }
+
+    .sidebar .navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #5b0f99;
+}
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-left: 20px; /* Añade espacio a la izquierda */
+    }
+
+        .sidebar ul li {
+            padding: 15px 20px;
+        }
+
+            .sidebar ul li a {
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 16px;
+                display: block;
+                transition: all 0.3s ease;
+            }
+
+                .sidebar ul li a:hover {
+                    background-color: #f267b2; /* Morado oscuro */
+                    border-radius: 5px;
+                }
+
+/* Botón para abrir/cerrar la barra lateral */
+.sidebar-toggle {
+    position: absolute; /* Cambia de fixed a absolute para moverlo con la barra */
+    top: 20px;
+    left: 20px; /* Ajusta la posición inicial */
+    background-color: #2f2d58;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1100;
+    transition: left 0.3s ease-in-out; /* Transición suave */
+}
+
+.sidebar.open + .sidebar-toggle {
+    left: 270px; /* Mueve el botón junto con la barra lateral */
+}
+
+
+.sidebar-toggle:hover {
+    background-color: #5b0f99; /* Morado más claro */
+}
+
+/* Contenido principal */
+.content {
+    margin-left: 0; /* No deja espacio para la barra lateral */
+    padding: 20px;
+    width: 100%;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebar.open + .content {
+    margin-left: 0; /* No redimensiona la página principal */
+}
+
+/* Encabezado */
+header {
+    background-color: #2f2d58; /* Color 1 */
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .table th, .table td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #6a0dad; /* Bordes morados */
+    }
+
+    .table th {
+        background-color: #5b0f99; /* Morado medio */
+        color: #ffffff;
+    }
+
+    .table tr:nth-child(even) {
+        background-color: #6a0dad; /* Morado claro */
+    }
+
+/* Botones */
+.btn {
+    background-color: #2f2d58; /* Color 1 */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #5b0f99;
+    }
 
 footer {
-    height: 60px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    /*background-color: #f8f9fa;*/
+    background: linear-gradient(to right, #6a0dad, #800080); /* Gradiente púrpura */
+    color: #f5deb3; /* Color beige claro para todo el texto del footer */
+    padding: 15px 20px;
     text-align: center;
-    padding-top: 20px;
-    /*box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1)*/;
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 2px solid #5b0f99;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/*.cinnamoroll-logo {
-    position: absolute;
-    left: 0;
-    margin-left: 10px;
-}*/
+    footer a {
+        color: #add8e6; /* Azul claro para el hipervínculo */
+        text-decoration: none;
+        font-weight: normal;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: #ffffff; /* Blanco al pasar el mouse */
+        }
