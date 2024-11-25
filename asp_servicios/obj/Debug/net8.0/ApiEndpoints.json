@@ -401,6 +401,26 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.EstantesController",
+    "Method": "Buscar",
+    "RelativePath": "Estantes/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.EstantesController",
     "Method": "Guardar",
     "RelativePath": "Estantes/Guardar",
     "HttpMethod": "POST",
@@ -863,6 +883,26 @@
     "ContainingType": "asp_servicios.Controllers.TokenController",
     "Method": "Autenticar",
     "RelativePath": "Token/Autenticar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TokenController",
+    "Method": "Autenticar1",
+    "RelativePath": "Token/Autenticar1",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

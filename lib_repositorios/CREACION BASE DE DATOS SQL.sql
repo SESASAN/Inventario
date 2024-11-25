@@ -22,6 +22,7 @@ GO
 
 CREATE TABLE [Bodegas](
 	[Id] INT IDENTITY(1,1),
+	[Nombre] NVARCHAR(100) NOT NULL,
 	[Cantidad_estante] INT DEFAULT 0 NOT NULL,
 	[Valor_bodega] DECIMAL(20, 2) NOT NULL,
 	[Sucursal] INT NOT NULL,
@@ -48,6 +49,7 @@ GO
 
 CREATE TABLE [Estantes](
 	[Id] INT IDENTITY(1,1),
+	[Nombre] NVARCHAR(100) NOT NULL,
 	[Cantidad_producto] INT DEFAULT 0,
 	[Bodega]  INT NOT NULL,
 	[Categoria]  INT NOT NULL,
@@ -76,6 +78,7 @@ GO
 
 CREATE TABLE [Lotes] (
 	[Id] INT IDENTITY(1,1),
+	[Nombre] NVARCHAR(100) NOT NULL,
 	[Producto] INT NOT NULL,
 	[Fecha_llegada] DATETIME NOT NULL,
 	[Fecha_vencimiento] DATETIME NOT NULL,
@@ -140,20 +143,20 @@ VALUES ('Tiendas D1','Calle 50b #112-46', '3146578903')
 Insert INTO [Estados] ([Nombre])
 VALUES ('Nuevo'), ('Próximo a vencer'), ('Vencido')
 
-Insert INTO [Bodegas] ([Cantidad_estante], [Valor_bodega], [Sucursal])
-VALUES (200,1500000.00,1)
+Insert INTO [Bodegas] ([Nombre],[Cantidad_estante], [Valor_bodega], [Sucursal])
+VALUES ('Bodega 1',200,1500000.00,1)
 
 Insert INTO [Categorias] ([Nombre])
 VALUES ('Lácteos')
 
-Insert INTO [Estantes] ([Cantidad_producto], [Bodega],[Categoria],[Valor])
-VALUES (20,1,1,1500000.00)
+Insert INTO [Estantes] ([Nombre],[Cantidad_producto], [Bodega],[Categoria],[Valor])
+VALUES ('Estante 1',20,1,1,1500000.00)
 
 INSERT INTO [Productos] ([Nombre], [Descripcion], [Stock], [Precio_venta],[Iva], [Categoria], [Estante])
 VALUES ('Leche','1 Litro',1,6990,0.19,1,1)
 
-INSERT INTO [Lotes] ([Producto], [Fecha_llegada], [Fecha_vencimiento], [Cantidad],[Precio_unitario], [Estado], [Proveedor])
-VALUES (1,'08/23/2024','09/16/2024',8,5662,3,1)
+INSERT INTO [Lotes] ([Nombre],[Producto], [Fecha_llegada], [Fecha_vencimiento], [Cantidad],[Precio_unitario], [Estado], [Proveedor])
+VALUES ('Lote 1',1,'08/23/2024','09/16/2024',8,5662,3,1)
 
 INSERT INTO [Roles] ([Nombre],[Permiso])
 VALUES ('Administrador',1),('Empleado',0)

@@ -6,13 +6,16 @@ namespace lib_entidades.Modelos
     public class Estantes
     {
         [Key] public int Id { get; set; }
+        public string? Nombre { get; set; }
         public int Cantidad_producto { get; set; }
         public int Bodega { get; set; }
         public int Categoria { get; set; }
         public decimal Valor { get; set; }
 
-        [NotMapped] public Bodegas? _Bodega { get; set; }
-        [NotMapped] public Categorias? _Categoria { get; set; }
+        [ForeignKey("Bodega")] public Bodegas? _Bodega { get; set; }
+        [ForeignKey("Categoria")] public Categorias? _Categoria { get; set; }
+        [NotMapped] public virtual ICollection<Productos>? Productos { get; set; }
+        [NotMapped] public virtual ICollection<Lotes>? Lotes { get; set; }
 
         public bool Validar()
         {

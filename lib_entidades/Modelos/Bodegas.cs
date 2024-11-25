@@ -7,11 +7,13 @@ namespace lib_entidades.Modelos
     public class Bodegas
     {
         [Key] public int Id { get; set; }
+        public string? Nombre { get; set; }
         public int Cantidad_estante { get; set; }
         public decimal Valor_bodega { get; set; }
         public int Sucursal { get; set; }
 
-        [NotMapped] public Sucursales? _Sucursal { get; set; }
+        [ForeignKey("Sucursal")] public Sucursales? _Sucursal { get; set; }
+        [NotMapped] public virtual ICollection<Estantes>? Estantes { get; set; }
 
         public void CalcularValorBodega() { }
         public void CalcularProcutoMayorCantidad() { }

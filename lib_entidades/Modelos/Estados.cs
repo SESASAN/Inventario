@@ -8,6 +8,7 @@ namespace lib_entidades.Modelos
         [Key] public int Id { get; set; }
         public string? Nombre { get; set; }
 
+        [NotMapped] public virtual ICollection<Lotes>? Lotes { get; set; }
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Nombre))

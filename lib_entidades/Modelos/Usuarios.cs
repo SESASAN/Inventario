@@ -12,7 +12,7 @@ namespace lib_entidades.Modelos
         public string? Clave { get; set; }
         public int Rol { get; set; }
 
-        [NotMapped] public Roles? _Rol { get; set; }
+        [ForeignKey("Rol")] public Roles? _Rol { get; set; }
 
         public bool Validar()
         {

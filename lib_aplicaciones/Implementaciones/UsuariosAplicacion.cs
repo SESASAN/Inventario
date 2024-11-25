@@ -44,6 +44,7 @@ namespace lib_aplicaciones.Implementaciones
             switch (tipo.ToUpper())
             {
                 case "NOMBRE_USUARIO": condiciones = x => x.Nombre_Usuario!.Contains(entidad.Nombre_Usuario!); break;
+                case "NOMBRE": condiciones = x => x.Nombre!.Contains(entidad.Nombre!); break;
                 default: condiciones = x => x.Id == entidad.Id; break;
             }
             return this.iRepositorio!.Buscar(condiciones);

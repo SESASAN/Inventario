@@ -15,8 +15,10 @@ namespace lib_entidades.Modelos
         public int Categoria { get; set; }
         public int Estante { get; set; }
 
-        [NotMapped] public Categorias? _Categoria { get; set; }
-        [NotMapped] public Estantes? _Estante { get; set; }
+        [ForeignKey("Categoria")] public Categorias? _Categoria { get; set; }
+        [ForeignKey("Estante")] public Estantes? _Estante { get; set; }
+
+        [NotMapped] public virtual ICollection<Lotes>? _Lotes { get; set; }
 
 
         public void CalcularPrecioVenta() { }

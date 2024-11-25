@@ -43,8 +43,10 @@ namespace asp_presentacion.Pages.Ventanas
 
                 //Filtro!.Cantidad_estante = Filtro!.Cantidad_estante ?? 0;
 
+                Filtro!.Nombre = Filtro!.Nombre ?? "";
+
                 Accion = Enumerables.Ventanas.Listas;
-                var task = iPresentacion!.Listar();
+                var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE");
                 task.Wait();
                 Lista = task.Result;
                 Actual = null;

@@ -7,6 +7,7 @@ namespace lib_entidades.Modelos
     public class Lotes
     {
         [Key] public int Id { get; set; }
+        public string? Nombre { get; set; }
         public int Producto { get; set; }
         public DateTime Fecha_llegada { get; set; }
         public DateTime Fecha_vencimiento { get; set; }
@@ -15,9 +16,9 @@ namespace lib_entidades.Modelos
         public int Estado { get; set; }
         public int Proveedor { get; set; }
 
-        [NotMapped] public Productos? _Producto { get; set; }
-        [NotMapped] public Proveedores? _Proveedor { get; set; }
-        [NotMapped] public Estados? _Estado { get; set; }
+        [ForeignKey("Producto")] public Productos? _Producto { get; set; }
+        [ForeignKey("Proveedor")] public Proveedores? _Proveedor { get; set; }
+        [ForeignKey("Estado")] public Estados? _Estado { get; set; }
 
         public bool Validar()
         {

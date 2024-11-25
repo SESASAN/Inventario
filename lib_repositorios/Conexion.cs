@@ -45,6 +45,49 @@ namespace lib_repositorios
             return this.Set<T>().Where(condiciones).ToList();
         }
 
+        public virtual List<Bodegas> Buscar(Expression<Func<Bodegas, bool>> condiciones)
+        {
+            return this.Set<Bodegas>()
+                .Include(x => x._Sucursal)
+                .Where(condiciones)
+                .ToList();
+        }
+        public virtual List<Estantes> Buscar(Expression<Func<Estantes, bool>> condiciones)
+        {
+            return this.Set<Estantes>()
+                .Include(x => x._Bodega)
+                .Include(x => x._Categoria)
+                .Where(condiciones)
+                .ToList();
+        }
+
+        public virtual List<Lotes> Buscar(Expression<Func<Lotes, bool>> condiciones)
+        {
+            return this.Set<Lotes>()
+                .Include(x => x._Producto)
+                .Include(x => x._Proveedor)
+                .Include(x => x._Estado)
+                .Where(condiciones)
+                .ToList();
+        }
+
+        public virtual List<Productos> Buscar(Expression<Func<Productos, bool>> condiciones)
+        {
+            return this.Set<Productos>()
+                .Include(x => x._Categoria)
+                .Include(x => x._Estante)
+                .Where(condiciones)
+                .ToList();
+        }
+        public virtual List<Usuarios> Buscar(Expression<Func<Usuarios, bool>> condiciones)
+        {
+            return this.Set<Usuarios>()
+                .Include(x => x._Rol)
+                .Where(condiciones)
+                .ToList();
+        }
+
+
         public virtual bool Existe<T>(Expression<Func<T, bool>> condiciones) where T : class, new()
         {
             return this.Set<T>().Any(condiciones);

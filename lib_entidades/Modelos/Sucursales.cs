@@ -9,6 +9,8 @@ namespace lib_entidades.Modelos
         public string? Nombre { get; set; }
         public string? Direccion { get; set; }
 
+        [NotMapped] public virtual ICollection<Bodegas>? Bodegas { get; set; }
+
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Nombre) ||

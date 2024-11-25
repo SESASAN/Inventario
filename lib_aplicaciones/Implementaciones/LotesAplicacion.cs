@@ -43,7 +43,7 @@ namespace lib_aplicaciones.Implementaciones
             Expression<Func<Lotes, bool>>? condiciones = null;
             switch (tipo.ToUpper())
             {
-                case "ID": condiciones = x => x.Id!.Equals(entidad.Id!); break;
+                case "NOMBRE": condiciones = x => x.Nombre!.Contains(entidad.Nombre!); break;
                 default: condiciones = x => x.Id == entidad.Id; break;
             }
             return this.iRepositorio!.Buscar(condiciones);

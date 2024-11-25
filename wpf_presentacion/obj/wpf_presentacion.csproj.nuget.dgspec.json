@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj": {}
+    "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+    "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj",
         "projectName": "lib_entidades",
-        "projectPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj",
-        "packagesPath": "C:\\Users\\Sebastián\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_entidades\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sebastián\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
+    "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
         "projectName": "lib_repositorios",
-        "projectPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
-        "packagesPath": "C:\\Users\\Sebastián\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_repositorios\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_repositorios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sebastián\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-                "projectPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
+              "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
               }
             }
           }
@@ -140,24 +140,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
+    "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
         "projectName": "lib_utilidades",
-        "projectPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
-        "packagesPath": "C:\\Users\\Sebastián\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_utilidades\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sebastián\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -211,24 +211,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj": {
+    "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj",
         "projectName": "wpf_presentacion",
-        "projectPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj",
-        "packagesPath": "C:\\Users\\Sebastián\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\wpf_presentacion\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\wpf_presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sebastián\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -244,14 +244,14 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-                "projectPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
+              "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
               },
-              "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
-                "projectPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
+              "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
               },
-              "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
-                "projectPath": "C:\\Users\\Sebastián\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
+              "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
               }
             }
           }
@@ -289,7 +289,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

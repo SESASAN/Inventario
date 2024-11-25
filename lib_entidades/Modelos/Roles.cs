@@ -9,6 +9,7 @@ namespace lib_entidades.Modelos
         public string? Nombre { get; set; }
         public bool Permiso { get; set; }
 
+        [NotMapped] public virtual ICollection<Usuarios>? Usuarios { get; set; }
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Nombre))

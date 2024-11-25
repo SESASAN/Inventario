@@ -10,6 +10,7 @@ namespace lib_entidades.Modelos
         public string? Direccion { get; set; }
         public string? Telefono { get; set; }
 
+        [NotMapped] public virtual ICollection<Lotes>? Lotes { get; set; }
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Nombre) ||

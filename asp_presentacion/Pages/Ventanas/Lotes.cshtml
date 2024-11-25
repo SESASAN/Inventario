@@ -189,7 +189,7 @@
                                 Id
                             </th>
                             <th>
-                                Id de Producto
+                                Producto
                             </th>
                             <th class="cl_hidden">
                                 Fecha de llegada
@@ -207,7 +207,7 @@
                                 Estado
                             </th>
                             <th>
-                                Id de Proveedor
+                                Proveedor
                             </th>
                             <th class="cl_actions">
                                 Acción
@@ -222,7 +222,7 @@
                                         @elemento.Id
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento.Producto
+                                        @elemento._Producto.Nombre
                                     </td>
                                     <td>
                                         @elemento.Fecha_llegada
@@ -237,10 +237,10 @@
                                         @elemento.Precio_unitario
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento.Estado
+                                        @elemento._Estado.Nombre
                                     </td>
                                     <td>
-                                        @elemento.Proveedor
+                                        @elemento._Proveedor.Nombre
                                     </td>
                                     <td>
                                         <input type="submit"
