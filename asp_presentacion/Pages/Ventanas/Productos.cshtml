@@ -107,21 +107,29 @@
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.Iva" />
                             </div>
-                            <label class="col-lg-4 control-label">
-                                Id de Categoría
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmCategoria"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Categoria" />
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">
+                                    Categoria
+                                </label>
+                                <div class="col-lg-6">
+                                    <select id="nmCategoria"
+                                            class="form-control"
+                                            asp-for="@Model.Actual!.Categoria"
+                                            asp-items="@(new SelectList(Model.Categorias, "Id","Nombre"))">
+                                    </select>
+                                </div>
                             </div>
-                            <label class="col-lg-4 control-label">
-                                Id de Estante
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmEstante"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Estante" />
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">
+                                    Estante
+                                </label>
+                                <div class="col-lg-6">
+                                    <select id="nmEstante"
+                                            class="form-control"
+                                            asp-for="@Model.Actual!.Estante"
+                                            asp-items="@(new SelectList(Model.Estantes, "Id","Nombre"))">
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -225,10 +233,10 @@
                                         @elemento.Iva
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento._Categoria.Nombre
+                                        @elemento.Categoria
                                     </td>
                                     <td>
-                                        @elemento._Estante.Nombre
+                                        @elemento.Estante
                                     </td>
                                     <td>
                                         <input type="submit"

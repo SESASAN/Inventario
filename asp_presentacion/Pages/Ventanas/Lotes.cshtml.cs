@@ -9,12 +9,18 @@ namespace asp_presentacion.Pages.Ventanas
     public class LotesModel : PageModel
     {
         private ILotesPresentacion? iPresentacion = null;
+        private IProductosPresentacion? iProductosPresentacion = null;
+        private IEstadosPresentacion? iEstadosPresentacion = null;
+        private IProveedoresPresentacion? iProveedoresPresentacion = null;
 
-        public LotesModel(ILotesPresentacion iPresentacion)
+        public LotesModel(ILotesPresentacion iPresentacion, IProductosPresentacion iProductosPresentacion, IEstadosPresentacion iEstadosPresentacion, IProveedoresPresentacion iProveedoresPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
+                this.iProductosPresentacion=iProductosPresentacion;
+                this.iEstadosPresentacion= iEstadosPresentacion;
+                this.iProveedoresPresentacion= iProveedoresPresentacion;
                 Filtro = new Lotes();
             }
             catch (Exception ex)
@@ -27,6 +33,9 @@ namespace asp_presentacion.Pages.Ventanas
         [BindProperty] public Lotes? Actual { get; set; }
         [BindProperty] public Lotes? Filtro { get; set; }
         [BindProperty] public List<Lotes>? Lista { get; set; }
+        [BindProperty] public List<Productos>? Productos { get; set; }
+        [BindProperty] public List<Estados>? Estados { get; set; }
+        [BindProperty] public List<Proveedores>? Proveedores { get; set; }
 
         public ActionResult OnGet()
         {
@@ -49,6 +58,9 @@ namespace asp_presentacion.Pages.Ventanas
                 Accion = Enumerables.Ventanas.Listas;
                 var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE", HttpContext.Session.GetString("Token")!);
                 task.Wait();
+                CargarComboxPrd();
+                CargarComboxEst();
+                CargarComboxPrv();
                 Lista = task.Result;
                 Actual = null;
             }
@@ -63,6 +75,9 @@ namespace asp_presentacion.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
+                CargarComboxPrd();
+                CargarComboxEst();
+                CargarComboxPrv();
                 Actual = new Lotes()
                 {
                 
@@ -78,6 +93,9 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
+                CargarComboxPrd();
+                CargarComboxEst();
+                CargarComboxPrv();
                 OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
@@ -106,6 +124,7 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
+                OnPostBtRefrescar();
             }
         }
 
@@ -160,6 +179,99 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public void CargarComboxPrd()
+        {
+            try
+            {
+                if (!(Productos == null || Productos!.Count <= 0))
+                    return;
+
+                var task = this.iProductosPresentacion!.Listar(HttpContext.Session.GetString("Token")!);
+                task.Wait();
+                Productos = JsonConversor.ConvertirAObjeto<List<Productos>>(JsonConversor.ConvertirAString(task.Result));
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public string ConvertirTipoPrd(int id)
+        {
+            try
+            {
+                CargarComboxPrd();
+                return Productos!.FirstOrDefault(x => x.Id == id)!.Nombre!;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+                return string.Empty;
+            }
+        }
+
+        public void CargarComboxEst()
+        {
+            try
+            {
+                if (!(Estados == null || Estados!.Count <= 0))
+                    return;
+
+                var task = this.iEstadosPresentacion!.Listar(HttpContext.Session.GetString("Token")!);
+                task.Wait();
+                Estados = JsonConversor.ConvertirAObjeto<List<Estados>>(JsonConversor.ConvertirAString(task.Result));
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public string ConvertirTipoEst(int id)
+        {
+            try
+            {
+                CargarComboxEst();
+                return Estados!.FirstOrDefault(x => x.Id == id)!.Nombre!;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+                return string.Empty;
+            }
+        }
+
+        public void CargarComboxPrv()
+        {
+            try
+            {
+                if (!(Proveedores == null || Proveedores!.Count <= 0))
+                    return;
+
+                var task = this.iProveedoresPresentacion!.Listar(HttpContext.Session.GetString("Token")!);
+                task.Wait();
+                Proveedores = JsonConversor.ConvertirAObjeto<List<Proveedores>>(JsonConversor.ConvertirAString(task.Result));
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public string ConvertirTipoPrv(int id)
+        {
+            try
+            {
+                CargarComboxPrv();
+                return Proveedores!.FirstOrDefault(x => x.Id == id)!.Nombre!;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+                return string.Empty;
             }
         }
     }

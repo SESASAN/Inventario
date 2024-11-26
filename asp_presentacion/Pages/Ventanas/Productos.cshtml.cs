@@ -9,12 +9,16 @@ namespace asp_presentacion.Pages.Ventanas
     public class ProductosModel : PageModel
     {
         private IProductosPresentacion? iPresentacion = null;
+        private ICategoriasPresentacion? iCategoriasPresentacion = null;
+        private IEstantesPresentacion? iEstantesPresentacion = null;
 
-        public ProductosModel(IProductosPresentacion iPresentacion)
+        public ProductosModel(IProductosPresentacion iPresentacion, ICategoriasPresentacion iCategoriasPresentacion, IEstantesPresentacion iEstantesPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
+                this.iCategoriasPresentacion = iCategoriasPresentacion;
+                this.iEstantesPresentacion=iEstantesPresentacion;
                 Filtro = new Productos();
             }
             catch (Exception ex)
@@ -27,6 +31,8 @@ namespace asp_presentacion.Pages.Ventanas
         [BindProperty] public Productos? Actual { get; set; }
         [BindProperty] public Productos? Filtro { get; set; }
         [BindProperty] public List<Productos>? Lista { get; set; }
+        [BindProperty] public List<Categorias>? Categorias { get; set; }
+        [BindProperty] public List<Estantes>? Estantes { get; set; }
 
         public ActionResult OnGet()
         {
@@ -49,6 +55,8 @@ namespace asp_presentacion.Pages.Ventanas
                 Accion = Enumerables.Ventanas.Listas;
                 var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE", HttpContext.Session.GetString("Token")!);
                 task.Wait();
+                CargarComboxCat();
+                CargarComboxEst();
                 Lista = task.Result;
                 Actual = null;
             }
@@ -63,6 +71,8 @@ namespace asp_presentacion.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
+                CargarComboxCat();
+                CargarComboxEst();
                 Actual = new Productos()
                 {
                 
@@ -78,6 +88,8 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
+                CargarComboxCat();
+                CargarComboxEst();
                 OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
@@ -106,6 +118,7 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
+                OnPostBtRefrescar();
             }
         }
 
@@ -160,6 +173,68 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public void CargarComboxCat()
+        {
+            try
+            {
+                if (!(Categorias == null || Categorias!.Count <= 0))
+                    return;
+
+                var task = this.iCategoriasPresentacion!.Listar(HttpContext.Session.GetString("Token")!);
+                task.Wait();
+                Categorias = JsonConversor.ConvertirAObjeto<List<Categorias>>(JsonConversor.ConvertirAString(task.Result));
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public string ConvertirTipoCat(int id)
+        {
+            try
+            {
+                CargarComboxCat();
+                return Categorias!.FirstOrDefault(x => x.Id == id)!.Nombre!;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+                return string.Empty;
+            }
+        }
+
+        public void CargarComboxEst()
+        {
+            try
+            {
+                if (!(Estantes == null || Estantes!.Count <= 0))
+                    return;
+
+                var task = this.iEstantesPresentacion!.Listar(HttpContext.Session.GetString("Token")!);
+                task.Wait();
+                Estantes = JsonConversor.ConvertirAObjeto<List<Estantes>>(JsonConversor.ConvertirAString(task.Result));
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public string ConvertirTipoEst(int id)
+        {
+            try
+            {
+                CargarComboxEst();
+                return Estantes!.FirstOrDefault(x => x.Id == id)!.Nombre!;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+                return string.Empty;
             }
         }
     }

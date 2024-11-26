@@ -2797,23 +2797,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\salak301\\.nuget\\packages\\": {},
+    "C:\\Users\\salak401\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\salak301\\source\\repos\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj",
+      "projectUniqueName": "C:\\Users\\salak401\\Source\\Repos\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj",
       "projectName": "lib_aplicaciones",
-      "projectPath": "C:\\Users\\salak301\\source\\repos\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj",
-      "packagesPath": "C:\\Users\\salak301\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salak301\\Source\\Repos\\Inventario\\lib_aplicaciones\\obj\\",
+      "projectPath": "C:\\Users\\salak401\\Source\\Repos\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj",
+      "packagesPath": "C:\\Users\\salak401\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\salak401\\Source\\Repos\\Inventario\\lib_aplicaciones\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\salak301\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\salak401\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2829,14 +2829,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\salak301\\source\\repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-              "projectPath": "C:\\Users\\salak301\\source\\repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
+            "C:\\Users\\salak401\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+              "projectPath": "C:\\Users\\salak401\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
             },
-            "C:\\Users\\salak301\\source\\repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
-              "projectPath": "C:\\Users\\salak301\\source\\repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
+            "C:\\Users\\salak401\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
+              "projectPath": "C:\\Users\\salak401\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
             },
-            "C:\\Users\\salak301\\source\\repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
-              "projectPath": "C:\\Users\\salak301\\source\\repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
+            "C:\\Users\\salak401\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
+              "projectPath": "C:\\Users\\salak401\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
             }
           }
         }
@@ -2871,7 +2871,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

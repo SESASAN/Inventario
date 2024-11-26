@@ -75,13 +75,17 @@
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.Clave" />
                             </div>
-                            <label class="col-lg-4 control-label">
-                                Id de Rol
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmRol"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Rol" />
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">
+                                    Rol
+                                </label>
+                                <div class="col-lg-6">
+                                    <select id="nmRol"
+                                            class="form-control"
+                                            asp-for="@Model.Actual!.Rol"
+                                            asp-items="@(new SelectList(Model.Roles, "Id","Nombre"))">
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -164,7 +168,7 @@
                                         @elemento.Clave
                                     </td>
                                     <td>
-                                        @elemento._Rol.Nombre
+                                        @elemento.Rol
                                     </td>
                                     <td>
                                         <input type="submit"

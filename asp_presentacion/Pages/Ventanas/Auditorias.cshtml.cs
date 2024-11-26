@@ -103,6 +103,7 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
+                OnPostBtRefrescar();
             }
         }
 

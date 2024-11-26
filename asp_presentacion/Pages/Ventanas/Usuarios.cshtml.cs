@@ -9,24 +9,31 @@ namespace asp_presentacion.Pages.Ventanas
     public class UsuariosModel : PageModel
     {
         private IUsuariosPresentacion? iPresentacion = null;
+        private IRolesPresentacion? iRolesPresentacion = null;
 
-        public UsuariosModel(IUsuariosPresentacion iPresentacion)
+        public UsuariosModel(IUsuariosPresentacion iPresentacion, IRolesPresentacion iRolesPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
+                this.iRolesPresentacion = iRolesPresentacion; ;
                 Filtro = new Usuarios();
             }
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
             }
+
+            
         }
 
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
         [BindProperty] public Usuarios? Actual { get; set; }
         [BindProperty] public Usuarios? Filtro { get; set; }
         [BindProperty] public List<Usuarios>? Lista { get; set; }
+        [BindProperty] public List<Roles>? Roles { get; set; }
+
+
 
         public ActionResult OnGet()
         {
@@ -49,6 +56,7 @@ namespace asp_presentacion.Pages.Ventanas
                 Accion = Enumerables.Ventanas.Listas;
                 var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE", HttpContext.Session.GetString("Token")!);
                 task.Wait();
+                CargarCombox();
                 Lista = task.Result;
                 Actual = null;
             }
@@ -63,6 +71,7 @@ namespace asp_presentacion.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
+                CargarCombox();
                 Actual = new Usuarios()
                 {
                 
@@ -78,6 +87,7 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
+                CargarCombox();
                 OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
@@ -106,6 +116,7 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
+                OnPostBtRefrescar();
             }
         }
 
@@ -143,6 +154,7 @@ namespace asp_presentacion.Pages.Ventanas
             {
                 Accion = Enumerables.Ventanas.Listas;
                 OnPostBtRefrescar();
+                CargarCombox();
             }
             catch (Exception ex)
             {
@@ -160,6 +172,36 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
+            }
+        }
+        public void CargarCombox()
+        {
+            try
+            {
+                if (!(Roles == null || Roles!.Count <= 0))
+                    return;
+
+                var task = this.iRolesPresentacion!.Listar(HttpContext.Session.GetString("Token")!);
+                task.Wait();
+                Roles = JsonConversor.ConvertirAObjeto<List<Roles>>(JsonConversor.ConvertirAString(task.Result));
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public string ConvertirTipo(int id)
+        {
+            try
+            {
+                CargarCombox();
+                return Roles!.FirstOrDefault(x => x.Id == id)!.Nombre!;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+                return string.Empty;
             }
         }
     }

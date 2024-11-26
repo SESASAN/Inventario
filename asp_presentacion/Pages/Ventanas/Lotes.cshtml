@@ -68,13 +68,16 @@
                     <div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Id de Producto
+                                Producto
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmProducto"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Producto" />
+                                <select id="nmProducto"
+                                        class="form-control"
+                                        asp-for="@Model.Actual!.Producto"
+                                        asp-items="@(new SelectList(Model.Productos, "Id","Nombre"))">
+                                </select>
                             </div>
+                        </div>
                             <label class="col-lg-4 control-label">
                                 Fecha de Llegada
                             </label>
@@ -113,25 +116,32 @@
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.Precio_unitario" />
                             </div>
+                        <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Id de Estado
+                                Estado
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmEstado"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Estado" />
-                            </div>
-                            <label class="col-lg-4 control-label">
-                                Id de Proveedor
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmProveedor"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Proveedor" />
+                                <select id="nmEstado"
+                                        class="form-control"
+                                        asp-for="@Model.Actual!.Estado"
+                                        asp-items="@(new SelectList(Model.Estados, "Id","Nombre"))">
+                                </select>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Proveedor
+                            </label>
+                            <div class="col-lg-6">
+                                <select id="nmProveedor"
+                                        class="form-control"
+                                        asp-for="@Model.Actual!.Proveedor"
+                                        asp-items="@(new SelectList(Model.Proveedores, "Id","Nombre"))">
+                                </select>
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                </div>
             }
 
             @if (ViewData.ContainsKey("Mensaje"))
@@ -222,7 +232,7 @@
                                         @elemento.Id
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento._Producto.Nombre
+                                        @elemento.Producto
                                     </td>
                                     <td>
                                         @elemento.Fecha_llegada
@@ -237,10 +247,10 @@
                                         @elemento.Precio_unitario
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento._Estado.Nombre
+                                        @elemento.Estado
                                     </td>
                                     <td>
-                                        @elemento._Proveedor.Nombre
+                                        @elemento.Proveedor
                                     </td>
                                     <td>
                                         <input type="submit"

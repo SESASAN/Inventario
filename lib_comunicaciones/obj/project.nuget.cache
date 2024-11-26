@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vl18SA09Ows=",
+  "dgSpecHash": "xxCY2qcRS1I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\salak301\\source\\repos\\Inventario\\lib_comunicaciones\\lib_comunicaciones.csproj",
+  "projectFilePath": "C:\\Users\\salak401\\Source\\Repos\\Inventario\\lib_comunicaciones\\lib_comunicaciones.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\salak301\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\salak401\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
