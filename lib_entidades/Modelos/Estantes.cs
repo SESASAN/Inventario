@@ -20,7 +20,8 @@ namespace lib_entidades.Modelos
         public bool Validar()
         {
             if (Cantidad_producto <= 0 ||
-                Valor <= 0)
+                Valor <= (decimal)0.009 ||
+                string.IsNullOrEmpty(Nombre))
                 return false;
             return true;
         }

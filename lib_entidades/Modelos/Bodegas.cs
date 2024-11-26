@@ -16,15 +16,16 @@ namespace lib_entidades.Modelos
         [NotMapped] public virtual ICollection<Estantes>? Estantes { get; set; }
 
 
-        public decimal CalcularValorBodega()
-        {
-            return Estantes.Sum(e => e.Valor);
-        }
+        //public decimal CalcularValorBodega()
+        //{
+        //    return Estantes.Sum(e => e.Valor);
+        //}
 
         public bool Validar()
         {
             if (Cantidad_estante <= 0 ||
-                Valor_bodega <= 0)
+                Valor_bodega <= (decimal)0.009 ||
+                string.IsNullOrEmpty(Nombre))
                 return false;
             return true;
         }

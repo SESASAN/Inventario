@@ -94,3 +94,15 @@ C:\Users\salak401\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_ent
 C:\Users\salak401\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
 C:\Users\salak401\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
 C:\Users\salak401\Source\Repos\Inventario\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll
+C:\Users\campe\source\repos\Inmedi\lib_entidades\bin\Debug\net8.0\lib_entidades.deps.json
+C:\Users\campe\source\repos\Inmedi\lib_entidades\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\campe\source\repos\Inmedi\lib_entidades\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\campe\source\repos\Inmedi\lib_entidades\obj\Debug\net8.0\lib_entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\campe\source\repos\Inmedi\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfoInputs.cache
+C:\Users\campe\source\repos\Inmedi\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfo.cs
+C:\Users\campe\source\repos\Inmedi\lib_entidades\obj\Debug\net8.0\lib_entidades.csproj.CoreCompileInputs.cache
+C:\Users\campe\source\repos\Inmedi\lib_entidades\obj\Debug\net8.0\lib_entidades.sourcelink.json
+C:\Users\campe\source\repos\Inmedi\lib_entidades\obj\Debug\net8.0\lib_entidades.dll
+C:\Users\campe\source\repos\Inmedi\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
+C:\Users\campe\source\repos\Inmedi\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
+C:\Users\campe\source\repos\Inmedi\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll

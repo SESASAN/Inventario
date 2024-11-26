@@ -232,7 +232,7 @@
                                         @elemento.Id
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento.Producto
+                                        @elemento._Producto!.Nombre
                                     </td>
                                     <td>
                                         @elemento.Fecha_llegada
@@ -247,10 +247,10 @@
                                         @elemento.Precio_unitario
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento.Estado
+                                        @elemento._Estado!.Nombre
                                     </td>
                                     <td>
-                                        @elemento.Proveedor
+                                        @elemento._Proveedor!.Nombre
                                     </td>
                                     <td>
                                         <input type="submit"

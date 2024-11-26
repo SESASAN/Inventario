@@ -104,6 +104,8 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
+                CargarComboxBod();
+                CargarComboxCat();
                 Accion = Enumerables.Ventanas.Editar;
                 Task<Estantes>? task = null;
                 if (Actual!.Id == 0)
@@ -118,7 +120,7 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
-                OnPostBtRefrescar();
+                
             }
         }
 
@@ -167,6 +169,8 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
+                CargarComboxBod();
+                CargarComboxCat();
                 if (Accion == Enumerables.Ventanas.Listas)
                     OnPostBtRefrescar();
             }

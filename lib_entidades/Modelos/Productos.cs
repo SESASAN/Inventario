@@ -50,8 +50,8 @@ namespace lib_entidades.Modelos
             if (string.IsNullOrEmpty(Nombre) ||
                 string.IsNullOrEmpty(Descripcion) ||
                 Stock <= 0 ||
-                Precio_venta <= 0 ||
-                Iva <= 0)
+                Precio_venta <= (decimal)0.009 ||
+                Iva <= (decimal)0.009)
                 return false;
             return true;
         }

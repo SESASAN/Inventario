@@ -45,6 +45,8 @@
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
                 <input type="hidden"
+                       asp-for="@Model.Actual!.Nombre" />
+                <input type="hidden"
                        asp-for="@Model.Actual!.Cantidad_producto" />
                 <input type="hidden"
                        asp-for="@Model.Actual!.Bodega" />
@@ -62,48 +64,60 @@
                     <div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Cantidad de Productos
+                                Nombre
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmNombre"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Cantidad_producto" />
+                                       asp-for="@Model.Actual!.Nombre" />
                             </div>
-                            <div class="form-group">
-                                <label class="col-lg-4 control-label">
-                                    Bodega
-                                </label>
-                                <div class="col-lg-6">
-                                    <select id="nmBodega"
-                                            class="form-control"
-                                            asp-for="@Model.Actual!.Bodega"
-                                            asp-items="@(new SelectList(Model.Bodegas, "Id","Nombre"))">
-                                    </select>
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                 Cantidad de Productos
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmCantidadProductos"
+                                class="cts_forms form-control"
+                                asp-for="@Model.Actual!.Cantidad_producto" />
                             </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Bodega
+                            </label>
+                            <div class="col-lg-6">
+                                <select id="nmBodega"
+                                class="form-control"
+                                asp-for="@Model.Actual!.Bodega"
+                                asp-items="@(new SelectList(Model.Bodegas, "Id","Nombre"))">
+                                </select>
                             </div>
-                            <div class="form-group">
-                                <label class="col-lg-4 control-label">
-                                    Categoria
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Categoria
                                 </label>
                                 <div class="col-lg-6">
                                     <select id="nmCategoria"
-                                            class="form-control"
-                                            asp-for="@Model.Actual!.Categoria"
-                                            asp-items="@(new SelectList(Model.Categorias, "Id", "Nombre"))">
+                                        class="form-control"
+                                        asp-for="@Model.Actual!.Categoria"
+                                        asp-items="@(new SelectList(Model.Categorias, "Id", "Nombre"))">
                                     </select>
                                 </div>
-                            </div>
+                        </div>
+                        <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Valor
+                                    Valor
                             </label>
-                            <div class="col-lg-6">
-                                <input id="nmPrecio de Venta"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Valor" />
-                            </div>
+                                <div class="col-lg-6">
+                                    <input id="nmPrecio de Venta"
+                                    class="cts_forms form-control"
+                                    asp-for="@Model.Actual!.Valor" />
+                                </div>
                         </div>
                     </div>
+                </div>
             }
 
             @if (ViewData.ContainsKey("Mensaje"))
@@ -161,6 +175,8 @@
                                 Id
                             </th>
                             <th>
+                                Nombre
+                            <th>
                                 Cantidad de Productos
                             </th>
                             <th>
@@ -184,14 +200,17 @@
                                     <td>
                                         @elemento.Id
                                     </td>
+                                    <td>
+                                        @elemento.Nombre
+                                    </td>
                                     <td class="cl_hidden">
                                         @elemento.Cantidad_producto
                                     </td>
                                     <td>
-                                        @elemento._Bodega.Nombre
+                                        @elemento._Bodega!.Nombre
                                     </td>
                                     <td>
-                                        @elemento._Categoria.Nombre
+                                        @elemento._Categoria!.Nombre
                                     </td>
                                     <td>
                                         @elemento.Valor

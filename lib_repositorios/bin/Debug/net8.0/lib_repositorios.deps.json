@@ -561,7 +561,10 @@
       },
       "lib_entidades/1.0.0": {
         "runtime": {
-          "lib_entidades.dll": {}
+          "lib_entidades.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

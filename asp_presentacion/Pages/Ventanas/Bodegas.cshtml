@@ -45,6 +45,12 @@
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
                 <input type="hidden"
+                       asp-for="@Model.Actual!.Nombre" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Cantidad_estante" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Valor_bodega" />
+                <input type="hidden"
                        asp-for="@Model.Actual!.Sucursal" />
             }
 
@@ -53,6 +59,36 @@
                 <div class="containers_vn panel panel-default">
                     <h3>Bodega</h3>
                     <div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Nombre
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmNombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Nombre" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Cantidad de Estantes
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmCantidad de estantes"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Cantidad_estante" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Valor de bodega
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmValor de bodega"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Valor_bodega" />
+                            </div>
+                        </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
                                 Sucursal
@@ -121,7 +157,7 @@
                     <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
                             <th>
-                                Id
+                                Nombre
                             </th>
                             <th class="cl_hidden">
                                 Cantidad de Estantes
@@ -142,7 +178,7 @@
                             {
                                 <tr>
                                     <td>
-                                        @elemento.Id
+                                        @elemento.Nombre
                                     </td>
                                     <td class="cl_hidden">
                                         @elemento.Cantidad_estante
@@ -151,11 +187,11 @@
                                         @elemento.Valor_bodega
                                     </td>
                                     <td>
-                                        @elemento.Sucursal
+                                        @elemento._Sucursal!.Nombre
                                     </td>
-                                    <td class="cl_hidden">
+                                    @* <td class="cl_hidden">
                                         @Model.ConvertirTipo(@elemento.Sucursal)
-                                    </td>
+                                    </td> *@
                                     <td>
                                         <input type="submit"
                                                value="Modicar"

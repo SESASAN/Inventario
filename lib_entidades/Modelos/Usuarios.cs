@@ -17,7 +17,9 @@ namespace lib_entidades.Modelos
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Nombre) || 
-                string.IsNullOrEmpty(Clave)
+                string.IsNullOrEmpty(Clave) ||
+                string.IsNullOrEmpty(Nombre_Usuario) ||
+                string.IsNullOrEmpty(Apellidos)
                 )
                 return false;
             return true;

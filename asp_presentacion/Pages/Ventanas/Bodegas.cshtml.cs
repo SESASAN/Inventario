@@ -115,7 +115,6 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
-                OnPostBtRefrescar();
             }
         }
 
@@ -164,6 +163,7 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
+                CargarCombox();
                 if (Accion == Enumerables.Ventanas.Listas)
                     OnPostBtRefrescar();
             }

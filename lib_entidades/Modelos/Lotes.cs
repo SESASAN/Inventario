@@ -25,7 +25,8 @@ namespace lib_entidades.Modelos
             if (Fecha_llegada == null ||
                 Fecha_vencimiento == null ||
                 Cantidad <= 0 ||
-                Precio_unitario <= 0)
+                Precio_unitario <= (decimal)0.009 ||
+                string.IsNullOrEmpty(Nombre))
                 return false;
             return true;
         }
