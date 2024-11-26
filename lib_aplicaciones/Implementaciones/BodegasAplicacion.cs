@@ -31,6 +31,9 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0)
                 throw new Exception("lbNoSeGuardo");
+
+            entidad.Valor_bodega = entidad.CalcularValorBodega();
+
             entidad = iRepositorio!.Guardar(entidad);
             return entidad;
         }

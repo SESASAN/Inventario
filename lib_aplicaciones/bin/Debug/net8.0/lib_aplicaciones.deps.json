@@ -570,10 +570,7 @@
       },
       "lib_entidades/1.0.0": {
         "runtime": {
-          "lib_entidades.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "lib_entidades.dll": {}
         }
       },
       "lib_repositorios/1.0.0": {
@@ -582,10 +579,7 @@
           "lib_entidades": "1.0.0"
         },
         "runtime": {
-          "lib_repositorios.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "lib_repositorios.dll": {}
         }
       },
       "lib_utilidades/1.0.0": {
@@ -593,10 +587,7 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "lib_utilidades.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "lib_utilidades.dll": {}
         }
       }
     }

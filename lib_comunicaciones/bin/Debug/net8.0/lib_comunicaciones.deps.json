@@ -27,10 +27,7 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "lib_utilidades.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "lib_utilidades.dll": {}
         }
       }
     }

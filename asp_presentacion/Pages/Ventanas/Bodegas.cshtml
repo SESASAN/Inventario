@@ -52,16 +52,17 @@
             {
                 <div class="containers_vn panel panel-default">
                     <h3>Bodega</h3>
-
                     <div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
                                 Sucursal
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmSucursal"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Sucursal" />
+                                <select id="nmSucursal"
+                                        class="form-control"
+                                        asp-for="@Model.Actual!.Sucursal"
+                                        asp-items="@(new SelectList(Model.Sucursales, "Id","Nombre"))">
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -111,10 +112,10 @@
             Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
                 @* <input id="flId"
-                       class="cts_forms form-control"
-                       asp-for="@Model.Filtro!.Id"
-                       placeholder="Nombre" />
-                <br /> *@
+            class="cts_forms form-control"
+            asp-for="@Model.Filtro!.Id"
+            placeholder="Nombre">
+            <br> *@
 
                 <div class="containers_vn panel panel-default">
                     <table class="tb_data table table-striped table-bordered table-hover">
@@ -150,7 +151,10 @@
                                         @elemento.Valor_bodega
                                     </td>
                                     <td>
-                                        @elemento._Sucursal.Nombre
+                                        @elemento.Sucursal
+                                    </td>
+                                    <td class="cl_hidden">
+                                        @Model.ConvertirTipo(@elemento.Sucursal)
                                     </td>
                                     <td>
                                         <input type="submit"

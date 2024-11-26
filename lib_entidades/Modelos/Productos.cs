@@ -20,16 +20,37 @@ namespace lib_entidades.Modelos
 
         [NotMapped] public virtual ICollection<Lotes>? _Lotes { get; set; }
 
-
-        public void CalcularPrecioVenta() { }
-        public void ActualizarStock() { }
+        public decimal CalcularPrecioVenta()
+        {
+            if (Precio_venta > 0 && Stock > 0)
+            {
+                Precio_venta = Precio_venta * (1 + Iva);
+                return Precio_venta;
+            }
+            else
+            {
+                throw new Exception("Precio ingresado o cantidad de Stock incorrectos");
+            }
+        }
+        public int ActualizarStock(int cantidadVendida)
+        {
+            if (cantidadVendida <= 0 && Stock >= cantidadVendida)
+            {
+                Stock -= cantidadVendida;
+                return Stock;
+            }
+            else
+            {
+                throw new Exception("Condiciones de Stock no cumplidas");
+            }
+        }
 
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Nombre) ||
                 string.IsNullOrEmpty(Descripcion) ||
                 Stock <= 0 ||
-                Precio_venta <= 0 || 
+                Precio_venta <= 0 ||
                 Iva <= 0)
                 return false;
             return true;

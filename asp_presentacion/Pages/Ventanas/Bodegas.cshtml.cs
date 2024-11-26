@@ -9,12 +9,14 @@ namespace asp_presentacion.Pages.Ventanas
     public class BodegasModel : PageModel
     {
         private IBodegasPresentacion? iPresentacion = null;
+        private ISucursalesPresentacion? iSucursalesPresentacion = null;
 
-        public BodegasModel(IBodegasPresentacion iPresentacion)
+        public BodegasModel(IBodegasPresentacion iPresentacion, ISucursalesPresentacion iSucursalesPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
+                this.iSucursalesPresentacion = iSucursalesPresentacion;
                 Filtro = new Bodegas();
             }
             catch (Exception ex)
@@ -27,6 +29,8 @@ namespace asp_presentacion.Pages.Ventanas
         [BindProperty] public Bodegas? Actual { get; set; }
         [BindProperty] public Bodegas? Filtro { get; set; }
         [BindProperty] public List<Bodegas>? Lista { get; set; }
+        [BindProperty] public List<Sucursales>? Sucursales { get; set; }
+
 
         public ActionResult OnGet()
         {
@@ -47,10 +51,12 @@ namespace asp_presentacion.Pages.Ventanas
             {
                 Filtro!.Nombre = Filtro!.Nombre ?? "";
 
+                
                 Accion = Enumerables.Ventanas.Listas;
                 var task = this.iPresentacion!.Buscar(Filtro!,"NOMBRE", HttpContext.Session.GetString("Token")!);
                 task.Wait();
                 Lista = task.Result;
+                CargarCombox();
                 Actual = null;
             }
             catch (Exception ex)
@@ -64,6 +70,7 @@ namespace asp_presentacion.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
+                CargarCombox();
                 Actual = new Bodegas()
                 {
                 
@@ -79,6 +86,7 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
+                CargarCombox();
                 OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
@@ -161,6 +169,37 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public void CargarCombox()
+        {
+            try
+            {
+                if (!(Sucursales == null || Sucursales!.Count <= 0))
+                    return;
+
+                var task = this.iSucursalesPresentacion!.Listar(HttpContext.Session.GetString("Token")!);
+                task.Wait();
+                Sucursales = JsonConversor.ConvertirAObjeto<List<Sucursales>>(JsonConversor.ConvertirAString(task.Result));
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public string ConvertirTipo(int id)
+        {
+            try
+            {
+                CargarCombox();
+                return Sucursales!.FirstOrDefault(x => x.Id == id)!.Nombre!;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+                return string.Empty;
             }
         }
     }

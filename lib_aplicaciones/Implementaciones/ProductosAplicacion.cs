@@ -31,6 +31,9 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0)
                 throw new Exception("lbNoSeGuardo");
+            entidad.Precio_venta = entidad.CalcularPrecioVenta();
+            int venta = 0; //actualizar el valor de venta para que se actualice el stock con ese valor correspondiente
+            entidad.ActualizarStock(venta);
             entidad = iRepositorio!.Guardar(entidad);
             return entidad;
         }

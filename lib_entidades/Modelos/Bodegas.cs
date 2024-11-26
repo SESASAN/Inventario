@@ -15,8 +15,12 @@ namespace lib_entidades.Modelos
         [ForeignKey("Sucursal")] public Sucursales? _Sucursal { get; set; }
         [NotMapped] public virtual ICollection<Estantes>? Estantes { get; set; }
 
-        public void CalcularValorBodega() { }
-        public void CalcularProcutoMayorCantidad() { }
+
+        public decimal CalcularValorBodega()
+        {
+            return Estantes.Sum(e => e.Valor);
+        }
+
         public bool Validar()
         {
             if (Cantidad_estante <= 0 ||
