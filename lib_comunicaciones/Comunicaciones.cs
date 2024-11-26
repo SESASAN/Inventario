@@ -21,11 +21,9 @@ namespace lib_comunicaciones
         {
         }
 
-        // CORREGIR EL "TOKEN/AUTENTICAR1" CUANDO YA ESTEN LAS COOKIES
         public Dictionary<string, object> BuildUrl(Dictionary<string, object> data, string Metodo)
         {
             data["Url"] = Protocolo + Host + "/" + Servicio + Nombre + "/" + Metodo + Final;
-            data["UrlToken"] = Protocolo + Host + "/" + Servicio + "Token/Autenticar1" + Final;
             return data;
         }
 
@@ -34,15 +32,12 @@ namespace lib_comunicaciones
             var respuesta = new Dictionary<string, object>();
             try
             {
-                respuesta = await Authenticate1(datos);
-                if (respuesta == null || respuesta.ContainsKey("Error"))
-                    return respuesta!;
-                respuesta.Clear();
 
                 var url = datos["Url"].ToString();
                 datos.Remove("Url");
-                datos.Remove("UrlToken");
-                datos["Bearer"] = token!;
+                this.token = datos["Token"].ToString();
+                datos.Remove("Token");
+                datos["Bearer"] = Replace(token!);
                 var stringData = JsonConversor.ConvertirAString(datos);//el json conversor convierte el diccionacrio a string y porque el diccionario solo lo entiende el C# o codigo
                 //NOTA: LOS SERVICIOS POR MADURES MANDA CODIGOS SI ES DE LA 200 a 299 es ok si es 300 a 399 es que falla algo para nosotros siempre va a ser 200 pq llegara el json con el error
                 var httpClient = new HttpClient();
@@ -119,48 +114,6 @@ namespace lib_comunicaciones
                 return respuesta;
             }
         }
-
-        // AUTENTICAR MOMENTANEO QUE SOLO FUNCIONA CON LAS ENTIDADES
-        private async Task<Dictionary<string, object>> Authenticate1(Dictionary<string, object> datos)
-        {
-            var respuesta = new Dictionary<string, object>();
-            try
-            {
-                var url = datos["UrlToken"].ToString();
-                var temp = new Dictionary<string, object>();
-                temp["Usuario"] = DatosGenerales.usuario_datos;
-                var stringData = JsonConversor.ConvertirAString(temp);
-
-                var httpClient = new HttpClient();
-                httpClient.Timeout = new TimeSpan(0, 1, 0);
-                var mensaje = await httpClient.PostAsync(url, new StringContent(stringData));
-
-                if (!mensaje.IsSuccessStatusCode)
-                {
-                    respuesta.Add("Error", "lbErrorComunicacion");
-                    return respuesta;
-                }
-
-                var resp = await mensaje.Content.ReadAsStringAsync();
-                httpClient.Dispose(); httpClient = null;
-                if (string.IsNullOrEmpty(resp))
-                {
-                    respuesta.Add("Error", "lbErrorAutenticacion");
-                    return respuesta;
-                }
-
-                resp = Replace(resp);
-                respuesta = JsonConversor.ConvertirAObjeto(resp);
-                token = respuesta["Token"].ToString();
-                return respuesta;
-            }
-            catch (Exception ex)
-            {
-                respuesta["Error"] = ex.ToString();
-                return respuesta;
-            }
-        }
-
         private string Replace(string resp)//remplaza cosas malas que puede traer el json como primero mandar un " y luego un ' este lo rempalaza para que no salga error
         {
             return resp.Replace("\\\\r\\\\n", "")

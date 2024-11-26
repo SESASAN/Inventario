@@ -28,23 +28,27 @@ namespace asp_presentacion.Pages.Ventanas
         [BindProperty] public Bodegas? Filtro { get; set; }
         [BindProperty] public List<Bodegas>? Lista { get; set; }
 
-        public virtual void OnGet() { OnPostBtRefrescar(); }
+        public ActionResult OnGet()
+        {
+            if (HttpContext.Session.Keys.Contains("Usuario"))
+            {
+                OnPostBtRefrescar();
+                return Page();
+            }
+            else
+            {
+                return Redirect("../");
+            }
+        }
 
         public void OnPostBtRefrescar()
         {
             try
             {
-                //if (Filtro!.Cantidad_estante != null && Filtro!.Valor_bodega != null)
-                //{
-                //    Filtro.Cantidad_estante = 0;
-                //}
-
-                //Andaba probando unas cositas
-
                 Filtro!.Nombre = Filtro!.Nombre ?? "";
 
                 Accion = Enumerables.Ventanas.Listas;
-                var task = this.iPresentacion!.Buscar(Filtro!,"NOMBRE");
+                var task = this.iPresentacion!.Buscar(Filtro!,"NOMBRE", HttpContext.Session.GetString("Token")!);
                 task.Wait();
                 Lista = task.Result;
                 Actual = null;
@@ -92,9 +96,9 @@ namespace asp_presentacion.Pages.Ventanas
                 Accion = Enumerables.Ventanas.Editar;
                 Task<Bodegas>? task = null;
                 if (Actual!.Id == 0)
-                    task = iPresentacion!.Guardar(Actual!);
+                    task = iPresentacion!.Guardar(Actual!, HttpContext.Session.GetString("Token")!);
                 else
-                    task = iPresentacion!.Modificar(Actual!);
+                    task = iPresentacion!.Modificar(Actual!, HttpContext.Session.GetString("Token")!);
                 task.Wait();
                 Actual = task.Result;
                 Accion = Enumerables.Ventanas.Listas;
@@ -124,7 +128,7 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
-                var task = iPresentacion!.Borrar(Actual!);
+                var task = iPresentacion!.Borrar(Actual!, HttpContext.Session.GetString("Token")!);
                 Actual = task.Result;
                 OnPostBtRefrescar();
             }

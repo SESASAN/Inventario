@@ -14,10 +14,11 @@ namespace lib_presentaciones.Implementaciones
             this.iComunicacion = iComunicacion;
         }
 
-        public async Task<List<Sucursales>> Listar()
+        public async Task<List<Sucursales>> Listar(string token)
         {
             var lista = new List<Sucursales>();
             var datos = new Dictionary<string, object>();
+            datos["Token"] = token;
 
             var respuesta = await iComunicacion!.Listar(datos);
             if (respuesta.ContainsKey("Error"))
@@ -29,12 +30,13 @@ namespace lib_presentaciones.Implementaciones
             return lista;
         }
 
-        public async Task<List<Sucursales>> Buscar(Sucursales entidad, string tipo)
+        public async Task<List<Sucursales>> Buscar(Sucursales entidad, string tipo, string token)
         {
             var lista = new List<Sucursales>();
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad;
             datos["Tipo"] = tipo;
+            datos["Token"] = token;
 
             var respuesta = await iComunicacion!.Buscar(datos);
             if (respuesta.ContainsKey("Error"))
@@ -46,7 +48,7 @@ namespace lib_presentaciones.Implementaciones
             return lista;
         }
 
-        public async Task<Sucursales> Guardar(Sucursales entidad)
+        public async Task<Sucursales> Guardar(Sucursales entidad, string token)
         {
             if (entidad.Id != 0 || !entidad.Validar())
             {
@@ -55,6 +57,7 @@ namespace lib_presentaciones.Implementaciones
 
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad;
+            datos["Token"] = token;
 
             var respuesta = await iComunicacion!.Guardar(datos);
             if (respuesta.ContainsKey("Error"))
@@ -66,7 +69,7 @@ namespace lib_presentaciones.Implementaciones
             return entidad;
         }
 
-        public async Task<Sucursales> Modificar(Sucursales entidad)
+        public async Task<Sucursales> Modificar(Sucursales entidad, string token)
         {
             if (entidad.Id == 0 || !entidad.Validar())
             {
@@ -75,6 +78,7 @@ namespace lib_presentaciones.Implementaciones
 
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad;
+            datos["Token"] = token;
 
             var respuesta = await iComunicacion!.Modificar(datos);
             if (respuesta.ContainsKey("Error"))
@@ -86,7 +90,7 @@ namespace lib_presentaciones.Implementaciones
             return entidad;
         }
 
-        public async Task<Sucursales> Borrar(Sucursales entidad)
+        public async Task<Sucursales> Borrar(Sucursales entidad, string token)
         {
             if (entidad.Id == 0 || !entidad.Validar())
             {
@@ -95,6 +99,7 @@ namespace lib_presentaciones.Implementaciones
 
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad;
+            datos["Token"] = token;
 
             var respuesta = await iComunicacion!.Borrar(datos);
             if (respuesta.ContainsKey("Error"))

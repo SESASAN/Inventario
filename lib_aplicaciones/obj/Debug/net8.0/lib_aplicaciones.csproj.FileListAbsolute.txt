@@ -106,3 +106,5 @@ C:\Users\USUARIO\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_a
 C:\Users\USUARIO\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\refint\lib_aplicaciones.dll
 C:\Users\USUARIO\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.pdb
 C:\Users\USUARIO\Source\Repos\Inventario\lib_aplicaciones\obj\Debug\net8.0\ref\lib_aplicaciones.dll
+C:\Users\campe\Source\Repos\Inventario\lib_aplicaciones\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\campe\Source\Repos\Inventario\lib_aplicaciones\bin\Debug\net8.0\lib_utilidades.pdb

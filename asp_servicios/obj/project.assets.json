@@ -1094,7 +1094,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "lib_entidades": "1.0.0",
-          "lib_repositorios": "1.0.0"
+          "lib_repositorios": "1.0.0",
+          "lib_utilidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/lib_aplicaciones.dll": {}
@@ -3257,23 +3258,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO\\.nuget\\packages\\": {},
+    "C:\\Users\\campe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\asp_servicios\\asp_servicios.csproj",
+      "projectUniqueName": "C:\\Users\\campe\\Source\\Repos\\Inventario\\asp_servicios\\asp_servicios.csproj",
       "projectName": "asp_servicios",
-      "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\asp_servicios\\asp_servicios.csproj",
-      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\asp_servicios\\obj\\",
+      "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\asp_servicios\\asp_servicios.csproj",
+      "packagesPath": "C:\\Users\\campe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\asp_servicios\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\campe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3289,17 +3290,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj"
+            "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj": {
+              "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_aplicaciones\\lib_aplicaciones.csproj"
             },
-            "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
+            "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+              "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
             },
-            "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
+            "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
+              "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
             },
-            "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
+            "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
+              "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
             }
           }
         }

@@ -14,7 +14,6 @@ namespace lib_presentaciones.Implementaciones
             this.iComunicacion = iComunicacion;
         }
 
-        //ESTO DEBERÍA DE RETORNAR OTRA COSA O MEJORAR EL RETORNO YA QUE SOLO ESTA RETORNANDO EL TOKEN
         public async Task<string> Autenticar(Usuarios entidad)
         {
             var datos = new Dictionary<string, object>();
@@ -26,8 +25,8 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            var lista = JsonConversor.ConvertirAString(respuesta["Token"]);
-            return lista;
+            var lista = respuesta["Token"].ToString();
+            return lista!;
         }
 
     }

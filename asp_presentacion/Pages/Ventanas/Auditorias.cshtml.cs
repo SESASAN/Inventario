@@ -28,23 +28,25 @@ namespace asp_presentacion.Pages.Ventanas
         [BindProperty] public Auditorias? Filtro { get; set; }
         [BindProperty] public List<Auditorias>? Lista { get; set; }
 
-        public virtual void OnGet() { OnPostBtRefrescar(); }
+        public ActionResult OnGet() 
+        {
+            if (HttpContext.Session.Keys.Contains("Usuario"))
+            {
+                OnPostBtRefrescar();
+                return Page();
+            }
+            else
+            {
+                return Redirect("../");
+            }
+        }
 
         public void OnPostBtRefrescar()
         {
             try
             {
-                //if (Filtro!.Cantidad_estante != null && Filtro!.Valor_bodega != null)
-                //{
-                //    Filtro.Cantidad_estante = 0;
-                //}
-
-                //Andaba probando unas cositas
-
-                //Filtro!.Cantidad_estante = Filtro!.Cantidad_estante ?? 0;
-
                 Accion = Enumerables.Ventanas.Listas;
-                var task = iPresentacion!.Listar();
+                var task = iPresentacion!.Listar( HttpContext.Session.GetString("Token")!);
                 task.Wait();
                 Lista = task.Result;
                 Actual = null;
@@ -92,7 +94,7 @@ namespace asp_presentacion.Pages.Ventanas
                 Accion = Enumerables.Ventanas.Editar;
                 Task<Auditorias>? task = null;
                 if (Actual!.Id == 0)
-                    task = iPresentacion!.Guardar(Actual!);
+                    task = iPresentacion!.Guardar(Actual!, HttpContext.Session.GetString("Token")!);
                 task.Wait();
                 Actual = task.Result;
                 Accion = Enumerables.Ventanas.Listas;

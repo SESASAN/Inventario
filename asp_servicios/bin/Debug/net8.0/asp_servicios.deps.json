@@ -563,7 +563,8 @@
       "lib_aplicaciones/1.0.0": {
         "dependencies": {
           "lib_entidades": "1.0.0",
-          "lib_repositorios": "1.0.0"
+          "lib_repositorios": "1.0.0",
+          "lib_utilidades": "1.0.0"
         },
         "runtime": {
           "lib_aplicaciones.dll": {

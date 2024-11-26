@@ -36,13 +36,14 @@ body {
     color: #FFFFFF; /* Texto blanco */
     min-height: 100vh;
     display: flex;
-    flex-direction: column; /* Para mantener el footer al final */
+    flex-direction: column; /* Mantiene el footer al final */
 }
 
 /* Contenedor principal */
 .wrapper {
     display: flex;
     flex-grow: 1;
+    flex-direction: column;
 }
 
 /* Barra lateral */
@@ -70,15 +71,6 @@ body {
         padding: 20px 0;
         border-bottom: 1px solid #5b0f99;
     }
-
-    .sidebar .navbar-brand {
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid #5b0f99;
-}
 
     .sidebar ul {
         list-style: none;
@@ -121,7 +113,6 @@ body {
 .sidebar.open + .sidebar-toggle {
     left: 270px; /* Mueve el botón junto con la barra lateral */
 }
-
 
 .sidebar-toggle:hover {
     background-color: #5b0f99; /* Morado más claro */
@@ -188,19 +179,24 @@ header {
         background-color: #5b0f99;
     }
 
+/* Footer */
 footer {
     background: linear-gradient(to right, #6a0dad, #800080); /* Gradiente púrpura */
-    color: #f5deb3; /* Color beige claro para todo el texto del footer */
+    color: #f5deb3; /* Color beige claro */
     padding: 15px 20px;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
     border-top: 2px solid #5b0f99;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    width: 100%; /* Se asegura de ocupar todo el ancho */
+    position: fixed; /* Fijo al final */
+    bottom: 0;
+    left: 0;
 }
 
     footer a {
-        color: #add8e6; /* Azul claro para el hipervínculo */
+        color: #add8e6; /* Azul claro */
         text-decoration: none;
         font-weight: normal;
     }
@@ -209,3 +205,82 @@ footer {
             text-decoration: underline;
             color: #ffffff; /* Blanco al pasar el mouse */
         }
+
+
+/* Screens --------------------- */
+.tb_data {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cts_forms {
+    width: 100%;
+}
+
+.cl_actions {
+    width: 170px;
+}
+
+.cl_hidden {
+    display: normal;
+}
+
+@media (max-width: 950px) {
+    .cl_hidden {
+        display: none;
+    }
+}
+
+.containers_vn {
+    height: 70vh;
+    width: 100%;
+    overflow: auto;
+    display: inline-block;
+}
+
+/* Popups --------------------- */
+.containers_em {
+    height: 250px;
+    width: 100%;
+    overflow: auto;
+    display: inline-block;
+}
+
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.pp_inner {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 50px;
+    bottom: 25%;
+    min-width: 300px;
+    max-width: 500px;
+    height: 440px;
+    margin: auto;
+    background: white;
+}
+
+.pp_del_inner, .pp_ms_inner {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 50px;
+    bottom: 25%;
+    min-width: 300px;
+    max-width: 500px;
+    height: 200px;
+    margin: auto;
+    background: white;
+}

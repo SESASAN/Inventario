@@ -12,8 +12,16 @@ namespace asp_presentacion.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public ActionResult OnGet()
         {
+            if (HttpContext.Session.Keys.Contains("Usuario"))
+            {
+                return Page();
+            }
+            else
+            {
+                return Redirect("../");
+            }
         }
     }
 
