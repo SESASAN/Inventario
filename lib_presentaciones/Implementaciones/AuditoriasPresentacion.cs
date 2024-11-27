@@ -2,6 +2,7 @@
 using lib_entidades.Modelos;
 using lib_presentaciones.Interfaces;
 using lib_utilidades;
+using System.Reflection;
 
 namespace lib_presentaciones.Implementaciones
 {
@@ -48,12 +49,24 @@ namespace lib_presentaciones.Implementaciones
             return lista;
         }
 
-        public async Task<Auditorias> Guardar(Auditorias entidad, string token)
+        public async Task<Auditorias> Guardar<T>(Auditorias entidad, string token, T enti)
         {
             if (entidad.Id != 0 || !entidad.Validar())
             {
                 throw new Exception("lbFaltaInformacion");
             }
+            List<string> lista = new List<string>();
+
+            PropertyInfo[] propiedades = typeof(T).GetProperties();
+
+            foreach (var propiedad in propiedades)
+            {
+                string nombre = propiedad.Name;
+                object valor = propiedad.GetValue(enti)!;
+
+                lista.Add($"{nombre}:{valor}");
+            }
+            entidad.Entidad = $"Entidad: {typeof(T).Name}, " + string.Join(", ", lista);
 
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad;

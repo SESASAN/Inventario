@@ -72,11 +72,10 @@
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmFecha"
-                                @* Tipo para que tome la fecha actual del servidor *@
                                        type="datetime-local"
                                        class="cts_forms form-control"
-                                @* Formato para que el input se formatee a la fecha actual del servidor *@
-                                       value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+                                       value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")"
+                                       asp-for="@Model.Actual!.Fecha" />
                             </div>
                             <label class="col-lg-4 control-label">
                                 Acción Realizada

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yYL3ySgb6js=",
+  "dgSpecHash": "qIQgGiAdI4g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\campe\\source\\repos\\Inmedi\\wpf_presentacion\\wpf_presentacion.csproj",
+  "projectFilePath": "C:\\Users\\campe\\source\\repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\campe\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\campe\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l3xNj2EcN6Q=",
+  "dgSpecHash": "PhTsslIj2Nk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\campe\\source\\repos\\Inmedi\\asp_servicios\\asp_servicios.csproj",
+  "projectFilePath": "C:\\Users\\campe\\source\\repos\\Inventario\\asp_servicios\\asp_servicios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\campe\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\campe\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

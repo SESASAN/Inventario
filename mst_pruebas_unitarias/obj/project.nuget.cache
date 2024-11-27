@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aAuq6RNbS/I=",
+  "dgSpecHash": "hcMoaP90Dig=",
   "success": true,
-  "projectFilePath": "C:\\Users\\campe\\source\\repos\\Inmedi\\mst_pruebas_unitarias\\mst_pruebas_unitarias.csproj",
+  "projectFilePath": "C:\\Users\\campe\\source\\repos\\Inventario\\mst_pruebas_unitarias\\mst_pruebas_unitarias.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\campe\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\campe\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

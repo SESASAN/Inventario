@@ -86,26 +86,25 @@ namespace asp_presentacion.Pages.Ventanas
                 LogConversor.Log(ex, ViewData!);
             }
         }
-
-        public virtual void OnPostBtGuardar()
-        {
-            try
-            {
-                Accion = Enumerables.Ventanas.Editar;
-                Task<Auditorias>? task = null;
-                if (Actual!.Id == 0)
-                    task = iPresentacion!.Guardar(Actual!, HttpContext.Session.GetString("Token")!);
-                task.Wait();
-                Actual = task.Result;
-                Accion = Enumerables.Ventanas.Listas;
-                OnPostBtRefrescar();
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-                OnPostBtRefrescar();
-            }
-        }
+        // CORREGIR EL BOTON QUE NO SE PUEDA GUARDAR AUDITORIAS DESDE LA PAGINA
+        //public virtual void OnPostBtGuardar()
+        //{
+        //    try
+        //    {
+        //        Accion = Enumerables.Ventanas.Editar;
+        //        Task<Auditorias>? task = null;
+        //        if (Actual!.Id == 0)
+        //            task = iPresentacion!.Guardar(Actual!, HttpContext.Session.GetString("Token")!);
+        //        task.Wait();
+        //        Actual = task.Result;
+        //        Accion = Enumerables.Ventanas.Listas;
+        //        OnPostBtRefrescar();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        LogConversor.Log(ex, ViewData!);
+        //    }
+        //}
 
         public virtual void OnPostBtBorrarVal(string data)
         {

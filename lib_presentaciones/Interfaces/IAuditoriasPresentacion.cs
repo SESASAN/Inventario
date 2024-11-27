@@ -6,7 +6,7 @@ namespace lib_presentaciones.Interfaces
     {
         Task<List<Auditorias>> Listar(string token);
         Task<List<Auditorias>> Buscar(Auditorias entidad, string tipo, string token);
-        Task<Auditorias> Guardar(Auditorias entidad, string token);
+        Task<Auditorias> Guardar<T>(Auditorias entidad, string token, T enti);
         
     }
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\campe\\source\\repos\\Inmedi\\lib_entidades\\lib_entidades.csproj",
+      "projectUniqueName": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj",
       "projectName": "lib_entidades",
-      "projectPath": "C:\\Users\\campe\\source\\repos\\Inmedi\\lib_entidades\\lib_entidades.csproj",
+      "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj",
       "packagesPath": "C:\\Users\\campe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\campe\\source\\repos\\Inmedi\\lib_entidades\\obj\\",
+      "outputPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_entidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

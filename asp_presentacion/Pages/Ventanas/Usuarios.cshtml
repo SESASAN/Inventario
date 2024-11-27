@@ -47,6 +47,10 @@
                 <input type="hidden"
                        asp-for="@Model.Actual!.Nombre" />
                 <input type="hidden"
+                       asp-for="@Model.Actual!.Apellidos" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Nombre_Usuario" />
+                <input type="hidden"
                        asp-for="@Model.Actual!.Clave" />
                 <input type="hidden"
                        asp-for="@Model.Actual!.Rol" />
@@ -66,6 +70,22 @@
                                 <input id="nmNombre"
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.Nombre" />
+                            </div>
+                            <label class="col-lg-4 control-label">
+                                Apellidos
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmApellidos"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Apellidos" />
+                            </div>
+                            <label class="col-lg-4 control-label">
+                                Nombre Usuario
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmNombre Usuario"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Nombre_Usuario" />
                             </div>
                             <label class="col-lg-4 control-label">
                                 Clave
@@ -147,7 +167,7 @@
                                 Nombre
                             </th>
                             <th>
-                                Clave
+                                Apellidos
                             </th>
                             <th>
                                Rol
@@ -165,10 +185,10 @@
                                         @elemento.Nombre
                                     </td>
                                     <td>
-                                        @elemento.Clave
+                                        @elemento.Apellidos
                                     </td>
                                     <td>
-                                        @elemento.Rol
+                                        @elemento._Rol!.Nombre
                                     </td>
                                     <td>
                                         <input type="submit"

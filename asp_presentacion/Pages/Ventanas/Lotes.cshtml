@@ -45,6 +45,8 @@
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
                 <input type="hidden"
+                       asp-for="@Model.Actual!.Nombre" />
+                <input type="hidden"
                        asp-for="@Model.Actual!.Producto" />
                 <input type="hidden"
                        asp-for="@Model.Actual!.Fecha_llegada" />
@@ -63,9 +65,19 @@
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar)
             {
                 <div class="containers_vn panel panel-default">
-                    <h3>Producto</h3>
+                    <h3>Lote</h3>
 
                     <div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Nombre
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmNombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Nombre" />
+                            </div>
+                        </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
                                 Producto
@@ -83,22 +95,20 @@
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmFecha_llegada"
-                                @* Tipo para que tome la fecha actual del servidor *@
                                        type="datetime-local"
                                        class="cts_forms form-control"
-                                       @* Formato para que el input se formatee a la fecha actual del servidor *@
-                                       value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+                                        value="@DateTime.Now.ToString(" yyyy-MM-ddTHH:mm")"
+                                        asp-for="@Model.Actual!.Fecha_llegada" />
                             </div>
                             <label class="col-lg-4 control-label">
                                 Fecha de Vencimiento
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmFecha_vencimiento"
-                                @* Tipo para que tome la fecha actual del servidor *@
                                        type="datetime-local"
                                        class="cts_forms form-control"
-                                @* Formato para que el input se formatee a la fecha actual del servidor *@
-                                       value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+                                       value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")"
+                                       asp-for="@Model.Actual!.Fecha_vencimiento" />
                             </div>
                             <label class="col-lg-4 control-label">
                                 Cantidad
@@ -196,7 +206,7 @@
                     <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
                             <th>
-                                Id
+                                Nombre
                             </th>
                             <th>
                                 Producto
@@ -229,7 +239,7 @@
                             {
                                 <tr>
                                     <td>
-                                        @elemento.Id
+                                        @elemento.Nombre
                                     </td>
                                     <td class="cl_hidden">
                                         @elemento._Producto!.Nombre

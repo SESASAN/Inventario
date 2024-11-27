@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u2uhSiTdsjU=",
+  "dgSpecHash": "9JD3j3YYQ5I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\campe\\source\\repos\\Inmedi\\lib_utilidades\\lib_utilidades.csproj",
+  "projectFilePath": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\campe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

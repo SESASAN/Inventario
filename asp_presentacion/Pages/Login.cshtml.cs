@@ -48,13 +48,14 @@ namespace asp_presentacion.Pages
                 {
                     var token = task.Result;
                     UsuarioActual!.Nombre = UsuarioActual!.Nombre ?? "";
-                    //var User = this.iUsuario!.Buscar(UsuarioActual!, "NOMBRE_USUARIO_ENCRIPTADO");
-                    //User.Wait();
-                    //var Lista = User.Result;
+                    var User = this.iUsuario!.Buscar(UsuarioActual!, "NOMBRE_USUARIO_ENCRIPTADO", token);
+                    User.Wait();
+                    var Lista = User.Result;
 
+                    HttpContext.Session.SetInt32("ID", Lista!.FirstOrDefault(x => x.Nombre_Usuario!.ToString() == EncriptarConversor.Encriptar(UsuarioActual.Nombre_Usuario!))!.Id);
                     HttpContext.Session.SetString("Usuario", UsuarioActual!.Nombre_Usuario!);
                     HttpContext.Session.SetString("Clave", UsuarioActual!.Clave!);
-                    //HttpContext.Session.SetString("Permisos", Lista!.FirstOrDefault(x => x.Nombre_Usuario!.ToString() == EncriptarConversor.Encriptar(UsuarioActual.Nombre_Usuario!))!._Rol!.Permiso!.ToString());
+                    HttpContext.Session.SetString("Permisos", Lista!.FirstOrDefault(x => x.Nombre_Usuario!.ToString() == EncriptarConversor.Encriptar(UsuarioActual.Nombre_Usuario!))!._Rol!.Permiso!.ToString());
                     HttpContext.Session.SetString("Token", token);
 
                     return Redirect("/Home");

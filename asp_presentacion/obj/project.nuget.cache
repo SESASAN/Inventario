@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6BgCec+SBwQ=",
+  "dgSpecHash": "CSWiGbE1GUw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\campe\\source\\repos\\Inmedi\\asp_presentacion\\asp_presentacion.csproj",
+  "projectFilePath": "C:\\Users\\campe\\source\\repos\\Inventario\\asp_presentacion\\asp_presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\campe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

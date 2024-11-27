@@ -10,14 +10,17 @@ namespace asp_presentacion.Pages.Ventanas
     {
         private IUsuariosPresentacion? iPresentacion = null;
         private IRolesPresentacion? iRolesPresentacion = null;
+        private IAuditoriasPresentacion? iAuditoria = null;
 
-        public UsuariosModel(IUsuariosPresentacion iPresentacion, IRolesPresentacion iRolesPresentacion)
+        public UsuariosModel(IUsuariosPresentacion iPresentacion, IRolesPresentacion iRolesPresentacion, IAuditoriasPresentacion iAuditoria)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
                 this.iRolesPresentacion = iRolesPresentacion; ;
                 Filtro = new Usuarios();
+                this.iAuditoria = iAuditoria;
+                Auditoria = new Auditorias();
             }
             catch (Exception ex)
             {
@@ -30,6 +33,7 @@ namespace asp_presentacion.Pages.Ventanas
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
         [BindProperty] public Usuarios? Actual { get; set; }
         [BindProperty] public Usuarios? Filtro { get; set; }
+        [BindProperty] public Auditorias? Auditoria { get; set; }
         [BindProperty] public List<Usuarios>? Lista { get; set; }
         [BindProperty] public List<Roles>? Roles { get; set; }
 
@@ -104,19 +108,33 @@ namespace asp_presentacion.Pages.Ventanas
             {
                 Accion = Enumerables.Ventanas.Editar;
                 Task<Usuarios>? task = null;
+                Task<Auditorias>? Auditoria = null;
+                Auditorias audi = new Auditorias();
                 if (Actual!.Id == 0)
+                {
                     task = iPresentacion!.Guardar(Actual!, HttpContext.Session.GetString("Token")!);
+                    audi.Usuario = (int)HttpContext.Session.GetInt32("ID")!;
+                    audi.Fecha = DateTime.Now;
+                    audi.Accion = 1;
+                }
                 else
+                {
                     task = iPresentacion!.Modificar(Actual!, HttpContext.Session.GetString("Token")!);
+                    audi.Usuario = (int)HttpContext.Session.GetInt32("ID")!;
+                    audi.Fecha = DateTime.Now;
+                    audi.Accion = 2;
+
+                }
                 task.Wait();
                 Actual = task.Result;
                 Accion = Enumerables.Ventanas.Listas;
+                Auditoria = iAuditoria!.Guardar(audi, HttpContext.Session.GetString("Token")!, Actual!);
+                Auditoria.Wait();
                 OnPostBtRefrescar();
             }
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
-                OnPostBtRefrescar();
             }
         }
 
@@ -138,8 +156,15 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
+                Task<Auditorias>? Auditoria = null;
+                Auditorias audi = new Auditorias();
+                audi.Usuario = (int)HttpContext.Session.GetInt32("ID")!;
+                audi.Fecha = DateTime.Now;
+                audi.Accion = 3;
                 var task = iPresentacion!.Borrar(Actual!, HttpContext.Session.GetString("Token")!);
                 Actual = task.Result;
+                Auditoria = iAuditoria!.Guardar(audi, HttpContext.Session.GetString("Token")!, Actual!);
+                Auditoria.Wait();
                 OnPostBtRefrescar();
             }
             catch (Exception ex)
@@ -152,6 +177,7 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
+                CargarCombox();
                 Accion = Enumerables.Ventanas.Listas;
                 OnPostBtRefrescar();
                 CargarCombox();
