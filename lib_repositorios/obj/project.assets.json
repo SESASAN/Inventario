@@ -2722,11 +2722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
+      "projectUniqueName": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
       "projectName": "lib_repositorios",
-      "projectPath": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
+      "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj",
       "packagesPath": "C:\\Users\\campe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_repositorios\\obj\\",
+      "outputPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_repositorios\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2748,8 +2748,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\campe\\source\\repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-              "projectPath": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
+            "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+              "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
             }
           }
         }

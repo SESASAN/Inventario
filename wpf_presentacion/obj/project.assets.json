@@ -2936,11 +2936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\campe\\source\\repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\campe\\Source\\Repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj",
       "projectName": "wpf_presentacion",
-      "projectPath": "C:\\Users\\campe\\source\\repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj",
+      "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\wpf_presentacion\\wpf_presentacion.csproj",
       "packagesPath": "C:\\Users\\campe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\campe\\source\\repos\\Inventario\\wpf_presentacion\\obj\\",
+      "outputPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\wpf_presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2962,14 +2962,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\campe\\source\\repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
-              "projectPath": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
+            "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj": {
+              "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_entidades\\lib_entidades.csproj"
             },
-            "C:\\Users\\campe\\source\\repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
-              "projectPath": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
+            "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj": {
+              "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_repositorios\\lib_repositorios.csproj"
             },
-            "C:\\Users\\campe\\source\\repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
-              "projectPath": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
+            "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
+              "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj"
             }
           }
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mst_comunicaciones")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01884614dd826b0c5538d970c285cfcc8120f610")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f988e61afdde21cc8af46b1254192b4a1267ba98")]
 [assembly: System.Reflection.AssemblyProductAttribute("mst_comunicaciones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mst_comunicaciones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

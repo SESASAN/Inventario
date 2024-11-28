@@ -17,7 +17,8 @@ namespace mst_pruebas_unitarias.Repositorios
         public ProveedoresUnitTest()
         {
             conexion = new Conexion();
-            conexion!.StringConnection = "server=Inventario_db.mssql.somee.com;packet size=4096;database=Inventario_db;user id=TequeñosItm_SQLLogin_1;pwd=e5cqe5m6zo;data source=Inventario_db.mssql.somee.com;persist security info=False; initial catalog=Inventario_db;TrustServerCertificate=True;";
+            conexion!.StringConnection = "server=LAPTOP-O5Q01CH6\\SQLEXPRESS;database=Inventario_db;Integrated Security=True;TrustServerCertificate=true;";
+            //conexion!.StringConnection = "server=Inventario_db.mssql.somee.com;packet size=4096;database=Inventario_db;user id=TequeñosItm_SQLLogin_1;pwd=e5cqe5m6zo;data source=Inventario_db.mssql.somee.com;persist security info=False; initial catalog=Inventario_db;TrustServerCertificate=True;";
             iRepositorio = new ProveedoresRepositorio(conexion);
         }
 

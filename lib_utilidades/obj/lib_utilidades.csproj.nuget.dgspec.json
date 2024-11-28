@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\campe\\source\\repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {}
+    "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\campe\\source\\repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
+    "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
+        "projectUniqueName": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
         "projectName": "lib_utilidades",
-        "projectPath": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
+        "projectPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_utilidades\\lib_utilidades.csproj",
         "packagesPath": "C:\\Users\\campe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\campe\\source\\repos\\Inventario\\lib_utilidades\\obj\\",
+        "outputPath": "C:\\Users\\campe\\Source\\Repos\\Inventario\\lib_utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
