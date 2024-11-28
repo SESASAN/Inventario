@@ -31,9 +31,9 @@ html {
 /* Fondo general */
 body {
     margin: 0;
-    font-family: "Poppins", sans-serif;
-    background-color: #5c3a72; /* Fondo morado oscuro */
-    color: #FFFFFF; /* Texto blanco */
+    font-family: "Poppins", "Palatino Linotype";
+    background-color: #d7bde2; /* Fondo morado claro */
+    color: #000000; /* Texto negro */
     min-height: 100vh;
     display: flex;
     flex-direction: column; /* Mantiene el footer al final */
@@ -49,7 +49,7 @@ body {
 /* Barra lateral */
 .sidebar {
     width: 250px;
-    background-color: #9c4d91; /* Morado medio */
+    background-color: #a569bd; /* Morado medio */
     height: 100vh;
     position: fixed;
     left: -250px; /* Oculto por defecto */
@@ -92,7 +92,7 @@ body {
             }
 
                 .sidebar ul li a:hover {
-                    background-color: #f267b2; /* Morado oscuro */
+                    background-color: #fdbaef; /* Morado oscuro */
                     border-radius: 5px;
                 }
 
@@ -101,7 +101,7 @@ body {
     position: absolute; /* Cambia de fixed a absolute para moverlo con la barra */
     top: 20px;
     left: 20px; /* Ajusta la posición inicial */
-    background-color: #2f2d58;
+    background-color: #601e6a;
     color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -115,7 +115,7 @@ body {
 }
 
 .sidebar-toggle:hover {
-    background-color: #5b0f99; /* Morado más claro */
+    background-color: #af1294; /* Rosa mas claro */
 }
 
 /* Contenido principal */
@@ -132,7 +132,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #2f2d58; /* Color 1 */
+    background-color: #792586; /* Color 1 */
     padding: 10px;
     color: #ffffff;
     border-radius: 5px;
@@ -155,17 +155,17 @@ header {
     }
 
     .table th {
-        background-color: #5b0f99; /* Morado medio */
+        background-color: #6841ca; /* Morado medio */
         color: #ffffff;
     }
 
     .table tr:nth-child(even) {
-        background-color: #6a0dad; /* Morado claro */
+        background-color: #876ec7; /* Morado claro */
     }
 
 /* Botones */
 .btn {
-    background-color: #2f2d58; /* Color 1 */
+    background-color: #792586; /* Color 1 */
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -173,10 +173,11 @@ header {
     cursor: pointer;
     font-size: 16px;
     transition: all 0.3s ease;
+    margin-block: 2px;
 }
 
     .btn:hover {
-        background-color: #5b0f99;
+        background-color: #792586;
     }
 
 /* Footer */
@@ -256,6 +257,7 @@ footer {
     right: 0;
     bottom: 0;
     margin: auto;
+    color: #000000;
     background-color: rgba(0,0,0, 0.5);
 }
 
@@ -269,6 +271,7 @@ footer {
     max-width: 500px;
     height: 440px;
     margin: auto;
+    color: #000000;
     background: white;
 }
 
@@ -282,5 +285,6 @@ footer {
     max-width: 500px;
     height: 200px;
     margin: auto;
+    color: #000000;
     background: white;
 }

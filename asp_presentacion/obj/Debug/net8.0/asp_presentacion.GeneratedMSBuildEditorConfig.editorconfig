@@ -9,95 +9,95 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = asp_presentacion
 build_property.RootNamespace = asp_presentacion
-build_property.ProjectDir = C:\Users\campe\source\repos\Inventario\asp_presentacion\
+build_property.ProjectDir = C:\Users\USUARIO\source\repos\Inventario\asp_presentacion\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\campe\source\repos\Inventario\asp_presentacion
+build_property.MSBuildProjectDirectory = C:\Users\USUARIO\source\repos\Inventario\asp_presentacion
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Emergentes/Mensajes.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Emergentes/Mensajes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1lcmdlbnRlc1xNZW5zYWplcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Error.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Home.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Login.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Privacy.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Acciones.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Acciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQWNjaW9uZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Auditorias.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Auditorias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQXVkaXRvcmlhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Bodegas.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Bodegas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQm9kZWdhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Categorias.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Categorias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQ2F0ZWdvcmlhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Estados.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Estados.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcRXN0YWRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Estantes.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Estantes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcRXN0YW50ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Lotes.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Lotes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcTG90ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Productos.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Productos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcUHJvZHVjdG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Proveedores.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Proveedores.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcUHJvdmVlZG9yZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Roles.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Roles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcUm9sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Sucursales.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Sucursales.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcU3VjdXJzYWxlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Usuarios.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Ventanas/Usuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/_ViewImports.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/_ViewStart.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/campe/source/repos/Inventario/asp_presentacion/Pages/Shared/_Layout.cshtml]
+[C:/Users/USUARIO/source/repos/Inventario/asp_presentacion/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-aeimnrexz7
