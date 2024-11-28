@@ -88,44 +88,6 @@ namespace asp_servicios.Controllers
             }
         }
 
-
-        // METODO AUTENTICAR MOMENTANEO PARA LAS ENTIDADES
-        [HttpPost]
-        [AllowAnonymous]
-        [Route("Token/Autenticar1")]
-        public string Autenticar1()
-        {
-            var respuesta = new Dictionary<string, object>();
-            try
-            {
-                var datos = ObtenerDatos();
-                if (!datos.ContainsKey("Usuario") ||
-                                   datos["Usuario"].ToString()! != DatosGenerales.usuario_datos)
-                {
-                    respuesta["Error"] = "lbNoAutenticacion";
-                    return JsonConversor.ConvertirAString(respuesta);
-                }
-                var tokenHandler = new JwtSecurityTokenHandler();
-                var tokenDescriptor = new SecurityTokenDescriptor
-                {
-                    Subject = new ClaimsIdentity(new Claim[] {
-                        new Claim(ClaimTypes.Name, datos["Usuario"].ToString()!)
-                    }),
-                    Expires = DateTime.UtcNow.AddHours(1),
-                    SigningCredentials = new SigningCredentials(
-                    new SymmetricSecurityKey(Encoding.UTF8.GetBytes(DatosGenerales.clave)), SecurityAlgorithms.HmacSha256Signature)
-                };
-                var token = tokenHandler.CreateToken(tokenDescriptor);
-                respuesta["Token"] = tokenHandler.WriteToken(token);
-                return JsonConversor.ConvertirAString(respuesta);
-            }
-            catch (Exception ex)
-            {
-                respuesta["Error"] = ex.ToString();
-                return JsonConversor.ConvertirAString(respuesta);
-            }
-        }
-
         public bool Validate(Dictionary<string, object> data)
         {
             try

@@ -34,10 +34,14 @@ namespace asp_presentacion.Pages.Ventanas
 
         public ActionResult OnGet() 
         {
-            if (HttpContext.Session.Keys.Contains("Usuario"))
+            if (HttpContext.Session.Keys.Contains("Usuario") && HttpContext.Session.GetString("Permisos")!.ToUpper().Equals("TRUE"))
             {
                 OnPostBtRefrescar();
                 return Page();
+            }
+            if (HttpContext.Session.GetString("Permisos")!.ToUpper().Equals("FALSE"))
+            {
+                return Redirect("../Home");
             }
             else
             {

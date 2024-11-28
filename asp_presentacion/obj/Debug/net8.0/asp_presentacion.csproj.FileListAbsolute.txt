@@ -346,3 +346,15 @@ C:\Users\Sebastián\Downloads\Samuel\asp_presentacion\obj\Debug\net8.0\refint\as
 C:\Users\Sebastián\Downloads\Samuel\asp_presentacion\obj\Debug\net8.0\asp_presentacion.pdb
 C:\Users\Sebastián\Downloads\Samuel\asp_presentacion\obj\Debug\net8.0\asp_presentacion.genruntimeconfig.cache
 C:\Users\Sebastián\Downloads\Samuel\asp_presentacion\obj\Debug\net8.0\ref\asp_presentacion.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\EPPlus.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\EPPlus.Interfaces.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\campe\source\repos\Inventario\asp_presentacion\obj\Debug\net8.0\scopedcss\Pages\Shared\_LayoutTRUE.cshtml.rz.scp.css
