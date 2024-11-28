@@ -2,6 +2,14 @@
 @model AuditoriasModel
 @{
     ViewData["Titulo"] = "Auditorias";
+    if (HttpContext.Session.GetString("Permisos")!.ToUpper().Equals("TRUE"))
+    {
+        Layout = "_LayoutTRUE";
+    }
+    else
+    {
+        Layout = "_Layout";
+    }
 }
 <center>
     <div>
@@ -19,21 +27,16 @@
                        asp-page-handler="BtRefrescar"
                        class="btn btn-secondary"
                        disabled="@(Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas)" />
-                <input type="submit"
-                       value="Nuevo"
-                       asp-page-handler="BtNuevo"
-                       class="btn btn-secondary"
-                       disabled="@(Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas)" />
-                <input type="submit"
-                       value="Guardar"
-                       asp-page-handler="BtGuardar"
-                       class="btn btn-secondary"
-                       disabled="@(Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas)" />
-                <input type="submit"
-                       value="Cancelar"
-                       asp-page-handler="BtCancelar"
-                       class="btn btn-secondary"
-                       disabled="@(Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas)" />
+
+                @if (HttpContext.Session.GetString("Permisos")!.ToUpper().Equals("TRUE"))
+                {
+                    
+                    <input type="submit"
+                           value="Descargar Excel"
+                           asp-page-handler="BtDescargarExcel"
+                           class="btn btn-secondary"
+                           disabled="@(Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar || Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)" />
+                }
             </div>
 
             @* @if (Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas ||
@@ -161,7 +164,7 @@
                             <th>
                                 Acción Realizada
                             </th>
-                            <th>
+                            <th class="cl_hidden">
                                 Entidad Afectada
                             </th>
                             @* <th class="cl_actions">
@@ -185,7 +188,7 @@
                                     <td>
                                         @elemento.Accion
                                     </td>
-                                    <td>
+                                    <td class="cl_hidden">
                                         @elemento.Entidad
                                     </td>
                                     @* <td>

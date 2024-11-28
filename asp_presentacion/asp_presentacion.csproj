@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\lib_comunicaciones\lib_comunicaciones.csproj" />
     <ProjectReference Include="..\lib_entidades\lib_entidades.csproj" />
     <ProjectReference Include="..\lib_presentaciones\lib_presentaciones.csproj" />

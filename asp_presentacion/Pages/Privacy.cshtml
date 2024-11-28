@@ -2,6 +2,14 @@
 @model PrivacyModel
 @{
     ViewData["Title"] = "Privacy Policy";
+    if (HttpContext.Session.GetString("Permisos")!.ToUpper().Equals("TRUE"))
+    {
+        Layout = "_LayoutTRUE";
+    }
+    else
+    {
+        Layout = "_Layout";
+    }
 }
 <h1>@ViewData["Title"]</h1>
 

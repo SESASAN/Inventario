@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Inventario</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Inventario.styles.css" asp-append-version="true" />
+
+</head>
+<body>
+    <!-- Botón para abrir/cerrar la barra lateral -->
+    <button id="sidebar-toggle" class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+    <!-- Barra lateral -->
+    <nav class="sidebar" id="sidebar">
+        <div class="navbar-brand">Inventario</div>
+        <ul>
+            <li><a class="nav-link" asp-area="" asp-page="/Home">Home</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Privacy">Privacy</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Bodegas">Bodegas</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Productos">Productos</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Estantes">Estantes</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Categorias">Categorías</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Estados">Estados</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Proveedores">Proveedores</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Sucursales">Sucursales</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Lotes">Lotes</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Roles">Roles</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Usuarios">Usuarios</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Acciones">Acciones</a></li>
+            <li><a class="nav-link" asp-area="" asp-page="/Ventanas/Auditorias">Auditorías</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <header>
+            <h1>Gestión de Inventario</h1>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Inventario - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('open');
+        }
+    </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

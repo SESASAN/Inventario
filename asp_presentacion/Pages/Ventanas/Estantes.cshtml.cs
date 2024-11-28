@@ -1,9 +1,12 @@
 using lib_entidades.Modelos;
 using lib_presentaciones.Interfaces;
 using lib_utilidades;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-
+using OfficeOpenXml;
+using OfficeOpenXml.Export.HtmlExport.StyleCollectors.StyleContracts;
+using System.Collections.Generic;
 namespace asp_presentacion.Pages.Ventanas
 {
     public class EstantesModel : PageModel
@@ -265,6 +268,66 @@ namespace asp_presentacion.Pages.Ventanas
             {
                 LogConversor.Log(ex, ViewData!);
                 return string.Empty;
+            }
+        }
+
+        public virtual IActionResult OnPostBtDescargarExcel()
+        {
+            try
+            {
+                // Establecer el contexto de licencia
+                ExcelPackage.LicenseContext = LicenseContext.NonCommercial; // o LicenseContext.Commercial según sea el caso
+                Filtro!.Nombre = Filtro!.Nombre ?? "";
+                // Obtener la lista de bodegas
+                var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE", HttpContext.Session.GetString("Token")!);
+                task.Wait();
+                Lista = task.Result;
+
+                // Verificar que la lista de estantess no esté vacía
+                if (Lista! == null || !Lista.Any())
+                {
+                    return NotFound("No hay estantes disponibles.");
+                }
+
+                // Crear un paquete Excel
+                using (var package = new ExcelPackage())
+                {
+                    var worksheet = package.Workbook.Worksheets.Add("Estantes");
+
+                    // Agregar encabezados
+                    worksheet.Cells[1, 1].Value = "Nombre";
+                    worksheet.Cells[1, 2].Value = "Cantidad de Productos";
+                    worksheet.Cells[1, 3].Value = "Bodega";
+                    worksheet.Cells[1, 4].Value = "Categoría";
+                    worksheet.Cells[1, 5].Value = "Valor";
+
+                    int row = 2;
+
+                    foreach (var estante in Lista!)
+                    {
+                        // Asignar valores a las celdas
+                        worksheet.Cells[row, 1].Value = estante.Nombre; // Nombre de la estante
+                        worksheet.Cells[row, 2].Value = estante.Cantidad_producto;
+                        worksheet.Cells[row, 3].Value = estante._Bodega?.Nombre;
+                        worksheet.Cells[row, 4].Value = estante._Categoria?.Nombre;
+                        worksheet.Cells[row, 5].Value = estante.Valor;
+
+                        row++; // Incrementar el contador de filas
+                    }
+
+                    // Configurar la respuesta para descargar el archivo
+                    var stream = new MemoryStream();
+                    package.SaveAs(stream);
+                    var fileName = "Estantes.xlsx";
+                    stream.Position = 0;
+
+                    return File(stream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+                return RedirectToPage(); // Redirigir en caso de error
             }
         }
     }

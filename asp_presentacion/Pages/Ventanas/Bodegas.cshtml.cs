@@ -1,8 +1,13 @@
 using lib_entidades.Modelos;
 using lib_presentaciones.Interfaces;
 using lib_utilidades;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using OfficeOpenXml;
+using OfficeOpenXml.Export.HtmlExport.StyleCollectors.StyleContracts;
+using System.Collections.Generic;
+
 
 namespace asp_presentacion.Pages.Ventanas
 {
@@ -227,6 +232,64 @@ namespace asp_presentacion.Pages.Ventanas
             {
                 LogConversor.Log(ex, ViewData!);
                 return string.Empty;
+            }
+        }
+
+        public virtual IActionResult OnPostBtDescargarExcel()
+        {
+            try
+            {
+                // Establecer el contexto de licencia
+                ExcelPackage.LicenseContext = LicenseContext.NonCommercial; // o LicenseContext.Commercial según sea el caso
+                Filtro!.Nombre = Filtro!.Nombre ?? "";
+                // Obtener la lista de bodegas
+                var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE", HttpContext.Session.GetString("Token")!);
+                task.Wait();
+                Lista = task.Result;
+
+                // Verificar que la lista de bodegas no esté vacía
+                if (Lista! == null || !Lista.Any())
+                {
+                    return NotFound("No hay bodegas disponibles.");
+                }
+
+                // Crear un paquete Excel
+                using (var package = new ExcelPackage())
+                {
+                    var worksheet = package.Workbook.Worksheets.Add("Bodegas");
+
+                    // Agregar encabezados
+                    worksheet.Cells[1, 1].Value = "Nombre";
+                    worksheet.Cells[1, 2].Value = "Cantidad de Estantes";
+                    worksheet.Cells[1, 3].Value = "Valor de Bodega";
+                    worksheet.Cells[1, 4].Value = "Sucursal";
+
+                    int row = 2;
+
+                    foreach (var bodega in Lista!)
+                    {
+                        // Asignar valores a las celdas
+                        worksheet.Cells[row, 1].Value = bodega.Nombre; // Nombre de la bodega
+                        worksheet.Cells[row, 2].Value = bodega.Cantidad_estante; // Cantidad de estantes
+                        worksheet.Cells[row, 3].Value = bodega.Valor_bodega; // Valor de la bodega
+                        worksheet.Cells[row, 4].Value = bodega._Sucursal?.Nombre; // Nombre de la sucursal
+
+                        row++; // Incrementar el contador de filas
+                    }
+
+                    // Configurar la respuesta para descargar el archivo
+                    var stream = new MemoryStream();
+                    package.SaveAs(stream);
+                    var fileName = "Bodegas.xlsx";
+                    stream.Position = 0;
+
+                    return File(stream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+                return RedirectToPage(); // Redirigir en caso de error
             }
         }
     }

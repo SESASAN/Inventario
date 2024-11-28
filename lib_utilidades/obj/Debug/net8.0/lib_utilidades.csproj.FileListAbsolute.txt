@@ -115,3 +115,16 @@ C:\Users\campe\source\repos\Inmedi\lib_utilidades\obj\Debug\net8.0\lib_utilidade
 C:\Users\campe\source\repos\Inmedi\lib_utilidades\obj\Debug\net8.0\refint\lib_utilidades.dll
 C:\Users\campe\source\repos\Inmedi\lib_utilidades\obj\Debug\net8.0\lib_utilidades.pdb
 C:\Users\campe\source\repos\Inmedi\lib_utilidades\obj\Debug\net8.0\ref\lib_utilidades.dll
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\bin\Debug\net8.0\lib_utilidades.deps.json
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\bin\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\obj\Debug\net8.0\lib_utilidades.csproj.AssemblyReference.cache
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\obj\Debug\net8.0\lib_utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\obj\Debug\net8.0\lib_utilidades.AssemblyInfoInputs.cache
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\obj\Debug\net8.0\lib_utilidades.AssemblyInfo.cs
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\obj\Debug\net8.0\lib_utilidades.csproj.CoreCompileInputs.cache
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\obj\Debug\net8.0\lib_utilidades.sourcelink.json
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\obj\Debug\net8.0\lib_utilidades.dll
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\obj\Debug\net8.0\refint\lib_utilidades.dll
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\obj\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Sebastián\Downloads\Samuel\lib_utilidades\obj\Debug\net8.0\ref\lib_utilidades.dll
