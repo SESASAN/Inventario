@@ -33,6 +33,7 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Bodegas()
             {
+                Nombre = "Bodega UnitTest",
                 Cantidad_estante = 1200,
                 Valor_bodega = 120000.45m,
                 Sucursal = 1,
@@ -49,6 +50,7 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Estantes()
             {
+                Nombre = "Estante UnitTest",
                 Cantidad_producto = 4,
                 Bodega = 1,
                 Categoria = 1,
@@ -72,6 +74,7 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Lotes()
             {
+                Nombre = "Lote UnitTest",
                 Producto = 1,
                 Fecha_llegada = DateTime.Today,
                 Fecha_vencimiento = DateTime.Now,                
@@ -94,7 +97,9 @@ namespace mst_pruebas_unitarias.Nucleo
         {
             return new Usuarios()
             {
+                Nombre_Usuario = "Usuario UnitTest",
                 Nombre = "UsuarioPrueba",
+                Apellidos = "Usuario UnitTest",
                 Clave = "f12321321",
                 Rol = 2,
             };

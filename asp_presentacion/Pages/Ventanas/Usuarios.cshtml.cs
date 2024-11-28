@@ -29,7 +29,7 @@ namespace asp_presentacion.Pages.Ventanas
 
             
         }
-
+        public IFormFile? FormFile { get; set; }
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
         [BindProperty] public Usuarios? Actual { get; set; }
         [BindProperty] public Usuarios? Filtro { get; set; }
@@ -107,6 +107,13 @@ namespace asp_presentacion.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
+                if (FormFile != null)
+                {
+                    var memoryStream = new MemoryStream();
+                    FormFile.CopyToAsync(memoryStream).Wait();
+                    Actual!.Imagen = EncodingHelper.ToString(memoryStream.ToArray());
+                    memoryStream.Dispose();
+                }
                 Task<Usuarios>? task = null;
                 Task<Auditorias>? Auditoria = null;
                 Auditorias audi = new Auditorias();

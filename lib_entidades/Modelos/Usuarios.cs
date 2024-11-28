@@ -10,6 +10,7 @@ namespace lib_entidades.Modelos
         public string? Apellidos { get; set; }
         public string? Nombre_Usuario { get; set; }
         public string? Clave { get; set; }
+        public string? Imagen { get; set; }
         public int Rol { get; set; }
 
         [ForeignKey("Rol")] public Roles? _Rol { get; set; }

@@ -107,6 +107,7 @@ CREATE TABLE [Usuarios] (
 	[Apellidos] NVARCHAR(40) NOT NULL,
 	[Nombre_Usuario] NVARCHAR(40) NOT NULL,
 	[Clave] NVARCHAR(35)NOT NULL,
+	[Imagen] NVARCHAR(MAX),
 	[Rol] INT NOT NULL,
 	CONSTRAINT [PK_Usuarios] PRIMARY KEY CLUSTERED ([Id]),
 	CONSTRAINT [FK_Usuarios_Roles] FOREIGN KEY ([Rol]) REFERENCES [Roles] ([Id]) ON DELETE NO ACTION ON UPDATE NO ACTION,
@@ -115,7 +116,7 @@ GO
 
 CREATE TABLE [Acciones] (
 	[Id] INT IDENTITY(1,1),
-	[Nombre] NVARCHAR(15) NOT NULL,
+	[Nombre] NVARCHAR(40) NOT NULL,
 	CONSTRAINT [PK_Acciones] PRIMARY KEY CLUSTERED ([Id]),
 );
 GO
@@ -163,9 +164,9 @@ VALUES ('Administrador',1),('Empleado',0)
 
 INSERT INTO [Usuarios] ([Nombre],[Apellidos],[Nombre_Usuario],[Clave],[Rol])
 VALUES ('Sebastián','Pérez Araujo','D0qT0HGnFTdXNevW22I2Ng==','xliSERfQYP4SvJ99Zb0P4w==',1),
-('Nathalie','Miranda Rejón','TmYn4VBsB1jABxuVnNA3GA==','JH/NLJunIt6h2dkgYJ6Qhw==',1),
+('Nathalie','Miranda Rejón','TmYn4VBsB1jABxuVnNA3GA==','J91K2USspwzjEg0xVe0NaA==',1),
 ('Juan','Medina Sepúlveda','kBcG/P/3lXZZvV9emVGqOg==','N7PsvbBBOvnoFf1JluX6EQ==',1),
-('Samuel','Quiroz Rincón','i3VKwxMYsMwK0jIfIp7D7g==','F2Yg/f6DMMp+6i/Zd3DJzg==',1)
+('Samuel','Quiroz Rincón','XIvA8/3UqhwpfohbtHHsKw==','F2Yg/f6DMMp+6i/Zd3DJzg==',1)
 
 INSERT INTO [Acciones] ([Nombre])
 VALUES ('CREAR'),('MODIFICAR'),('ELIMINAR')

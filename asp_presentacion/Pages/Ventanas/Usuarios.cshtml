@@ -53,6 +53,8 @@
                 <input type="hidden"
                        asp-for="@Model.Actual!.Clave" />
                 <input type="hidden"
+                       asp-for="@Model.Actual!.Imagen" />
+                <input type="hidden"
                        asp-for="@Model.Actual!.Rol" />
             }
 
@@ -94,6 +96,25 @@
                                 <input id="nmClave"
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.Clave" />
+                            </div>
+                            </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Imagen
+                            </label>
+                            <div class="col-lg-6">
+                                @if (Model.Actual!.Imagen != null)
+                                {
+                                    <img height="100"
+                                        width="100"
+                                        src="data:image;base64,
+                                            @System.Convert.ToBase64String(
+                                            lib_utilidades.EncodingHelper.ToBytes(
+                                            Model.Actual!.Imagen))" />
+                                }
+                                <input type="file"
+                                    class="form-control"
+                                    asp-for="FormFile" />
                             </div>
                             <div class="form-group">
                                 <label class="col-lg-4 control-label">
@@ -170,6 +191,9 @@
                                 Apellidos
                             </th>
                             <th>
+                               Imagen
+                            </th>
+                            <th>
                                Rol
                             </th>
                             <th class="cl_actions">
@@ -187,6 +211,17 @@
                                     <td>
                                         @elemento.Apellidos
                                     </td>
+                                                <td class="cl_hidden">
+                                        @if (elemento.Imagen != null)
+                                        {
+                                                            <img height="60"
+                                                                width="60"
+                                                                src="data:image;base64,
+                                                    @System.Convert.ToBase64String(
+                                                    lib_utilidades.EncodingHelper.ToBytes(
+                                                    elemento.Imagen))" />
+                                        }
+                                                </td>
                                     <td>
                                         @elemento._Rol!.Nombre
                                     </td>
